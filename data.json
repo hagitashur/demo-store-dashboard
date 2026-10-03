@@ -1,0 +1,6991 @@
+{
+ "meta": {
+  "generatedAt": "2026-10-03T10:30:31+03:00",
+  "source": "csv",
+  "currency": "₪",
+  "firstDate": "2026-04-03",
+  "lastDate": "2026-10-02"
+ },
+ "products": [
+  {
+   "id": "P-001",
+   "name": "הצפרדע והברווז בעיר",
+   "category": "ספרים",
+   "price": 69
+  },
+  {
+   "id": "P-002",
+   "name": "הפיל והעכבר בעיר",
+   "category": "ספרים",
+   "price": 29
+  },
+  {
+   "id": "P-003",
+   "name": "אגדות הכפר הנסתר",
+   "category": "ספרים",
+   "price": 79
+  },
+  {
+   "id": "P-004",
+   "name": "הדולפין והסרטן בעיר",
+   "category": "ספרים",
+   "price": 79
+  },
+  {
+   "id": "P-005",
+   "name": "מדריך לילדים: הדינוזאורים",
+   "category": "ספרים",
+   "price": 99
+  },
+  {
+   "id": "P-006",
+   "name": "הסוד של תמר",
+   "category": "ספרים",
+   "price": 89
+  },
+  {
+   "id": "P-007",
+   "name": "מסע אל הר הסודות",
+   "category": "ספרים",
+   "price": 39
+  },
+  {
+   "id": "P-008",
+   "name": "האריה והגמד בעיר",
+   "category": "ספרים",
+   "price": 89
+  },
+  {
+   "id": "P-009",
+   "name": "מסע אל ממלכת הענן",
+   "category": "ספרים",
+   "price": 99
+  },
+  {
+   "id": "P-010",
+   "name": "מסע אל עמק הכוכבים",
+   "category": "ספרים",
+   "price": 39
+  },
+  {
+   "id": "P-011",
+   "name": "אגדות המגדלור הישן",
+   "category": "ספרים",
+   "price": 89
+  },
+  {
+   "id": "P-012",
+   "name": "הסוד של רוני",
+   "category": "ספרים",
+   "price": 99
+  },
+  {
+   "id": "P-013",
+   "name": "הינשוף והחתולה בעיר",
+   "category": "ספרים",
+   "price": 89
+  },
+  {
+   "id": "P-014",
+   "name": "מדריך לילדים: הבישול",
+   "category": "ספרים",
+   "price": 69
+  },
+  {
+   "id": "P-015",
+   "name": "הסוד של ליאור",
+   "category": "ספרים",
+   "price": 89
+  },
+  {
+   "id": "P-016",
+   "name": "הסוד של דניאל",
+   "category": "ספרים",
+   "price": 99
+  },
+  {
+   "id": "P-017",
+   "name": "הסוד של מאיה",
+   "category": "ספרים",
+   "price": 29
+  },
+  {
+   "id": "P-018",
+   "name": "מסע אל המגדלור הישן",
+   "category": "ספרים",
+   "price": 59
+  },
+  {
+   "id": "P-019",
+   "name": "הסוד של אורי",
+   "category": "ספרים",
+   "price": 49
+  },
+  {
+   "id": "P-020",
+   "name": "אגדות הר הסודות",
+   "category": "ספרים",
+   "price": 29
+  },
+  {
+   "id": "P-021",
+   "name": "הסוד של נועם",
+   "category": "ספרים",
+   "price": 39
+  },
+  {
+   "id": "P-022",
+   "name": "אגדות הים הכחול",
+   "category": "ספרים",
+   "price": 89
+  },
+  {
+   "id": "P-023",
+   "name": "השועל והצב בעיר",
+   "category": "ספרים",
+   "price": 99
+  },
+  {
+   "id": "P-024",
+   "name": "מדריך לילדים: הצבעים",
+   "category": "ספרים",
+   "price": 49
+  },
+  {
+   "id": "P-025",
+   "name": "אגדות העיר הצפה",
+   "category": "ספרים",
+   "price": 99
+  },
+  {
+   "id": "P-026",
+   "name": "מדריך לילדים: המדע בכיף",
+   "category": "ספרים",
+   "price": 59
+  },
+  {
+   "id": "P-027",
+   "name": "אגדות האי הנעלם",
+   "category": "ספרים",
+   "price": 39
+  },
+  {
+   "id": "P-028",
+   "name": "מסע אל הכפר הנסתר",
+   "category": "ספרים",
+   "price": 99
+  },
+  {
+   "id": "P-029",
+   "name": "מסע אל העיר הצפה",
+   "category": "ספרים",
+   "price": 99
+  },
+  {
+   "id": "P-030",
+   "name": "מסע אל יער הערפל",
+   "category": "ספרים",
+   "price": 69
+  },
+  {
+   "id": "P-031",
+   "name": "הסוד של גל",
+   "category": "ספרים",
+   "price": 89
+  },
+  {
+   "id": "P-032",
+   "name": "מסע אל האי הנעלם",
+   "category": "ספרים",
+   "price": 69
+  },
+  {
+   "id": "P-033",
+   "name": "הסוד של שירה",
+   "category": "ספרים",
+   "price": 99
+  },
+  {
+   "id": "P-034",
+   "name": "מדריך לילדים: החלל",
+   "category": "ספרים",
+   "price": 89
+  },
+  {
+   "id": "P-035",
+   "name": "מדריך לילדים: הציפורים",
+   "category": "ספרים",
+   "price": 89
+  },
+  {
+   "id": "P-036",
+   "name": "אגדות עמק הכוכבים",
+   "category": "ספרים",
+   "price": 59
+  },
+  {
+   "id": "P-037",
+   "name": "הכלב והציפור בעיר",
+   "category": "ספרים",
+   "price": 69
+  },
+  {
+   "id": "P-038",
+   "name": "מדריך לילדים: הים",
+   "category": "ספרים",
+   "price": 69
+  },
+  {
+   "id": "P-039",
+   "name": "אגדות יער הערפל",
+   "category": "ספרים",
+   "price": 29
+  },
+  {
+   "id": "P-040",
+   "name": "הסוד של יובל",
+   "category": "ספרים",
+   "price": 29
+  },
+  {
+   "id": "P-041",
+   "name": "משחק קופסה: החווה",
+   "category": "משחקים",
+   "price": 39
+  },
+  {
+   "id": "P-042",
+   "name": "משחק קופסה: המדע",
+   "category": "משחקים",
+   "price": 59
+  },
+  {
+   "id": "P-043",
+   "name": "משחק קלפים: הדינוזאורים",
+   "category": "משחקים",
+   "price": 39
+  },
+  {
+   "id": "P-044",
+   "name": "פאזל המדע 100 חלקים",
+   "category": "משחקים",
+   "price": 179
+  },
+  {
+   "id": "P-045",
+   "name": "משחק קופסה: הבלשים",
+   "category": "משחקים",
+   "price": 219
+  },
+  {
+   "id": "P-046",
+   "name": "משחק קלפים: החלל",
+   "category": "משחקים",
+   "price": 209
+  },
+  {
+   "id": "P-047",
+   "name": "משחק קופסה: הצבעים",
+   "category": "משחקים",
+   "price": 59
+  },
+  {
+   "id": "P-048",
+   "name": "פאזל הצבעים 100 חלקים",
+   "category": "משחקים",
+   "price": 229
+  },
+  {
+   "id": "P-049",
+   "name": "משחק קלפים: הצבעים",
+   "category": "משחקים",
+   "price": 99
+  },
+  {
+   "id": "P-050",
+   "name": "פאזל הדינוזאורים 100 חלקים",
+   "category": "משחקים",
+   "price": 109
+  },
+  {
+   "id": "P-051",
+   "name": "משחק קופסה: הממלכה",
+   "category": "משחקים",
+   "price": 69
+  },
+  {
+   "id": "P-052",
+   "name": "משחק קלפים: הבלשים",
+   "category": "משחקים",
+   "price": 229
+  },
+  {
+   "id": "P-053",
+   "name": "משחק קלפים: האותיות",
+   "category": "משחקים",
+   "price": 49
+  },
+  {
+   "id": "P-054",
+   "name": "משחק קלפים: הים העמוק",
+   "category": "משחקים",
+   "price": 209
+  },
+  {
+   "id": "P-055",
+   "name": "משחק קלפים: המספרים",
+   "category": "משחקים",
+   "price": 119
+  },
+  {
+   "id": "P-056",
+   "name": "משחק קלפים: הממלכה",
+   "category": "משחקים",
+   "price": 249
+  },
+  {
+   "id": "P-057",
+   "name": "משחק קופסה: האותיות",
+   "category": "משחקים",
+   "price": 239
+  },
+  {
+   "id": "P-058",
+   "name": "פאזל המדע 500 חלקים",
+   "category": "משחקים",
+   "price": 149
+  },
+  {
+   "id": "P-059",
+   "name": "משחק קלפים: המדע",
+   "category": "משחקים",
+   "price": 79
+  },
+  {
+   "id": "P-060",
+   "name": "פאזל הג'ונגל 100 חלקים",
+   "category": "משחקים",
+   "price": 39
+  },
+  {
+   "id": "P-061",
+   "name": "משחק קלפים: החווה",
+   "category": "משחקים",
+   "price": 139
+  },
+  {
+   "id": "P-062",
+   "name": "לוטו הצבעים",
+   "category": "משחקים",
+   "price": 249
+  },
+  {
+   "id": "P-063",
+   "name": "משחק קלפים: הג'ונגל",
+   "category": "משחקים",
+   "price": 219
+  },
+  {
+   "id": "P-064",
+   "name": "פאזל הצבעים 500 חלקים",
+   "category": "משחקים",
+   "price": 219
+  },
+  {
+   "id": "P-065",
+   "name": "פאזל הים העמוק 500 חלקים",
+   "category": "משחקים",
+   "price": 189
+  },
+  {
+   "id": "P-066",
+   "name": "פאזל החלל 500 חלקים",
+   "category": "משחקים",
+   "price": 79
+  },
+  {
+   "id": "P-067",
+   "name": "משחק קופסה: הג'ונגל",
+   "category": "משחקים",
+   "price": 209
+  },
+  {
+   "id": "P-068",
+   "name": "פאזל הג'ונגל 500 חלקים",
+   "category": "משחקים",
+   "price": 109
+  },
+  {
+   "id": "P-069",
+   "name": "משחק קופסה: הים העמוק",
+   "category": "משחקים",
+   "price": 189
+  },
+  {
+   "id": "P-070",
+   "name": "משחק קופסה: החלל",
+   "category": "משחקים",
+   "price": 219
+  },
+  {
+   "id": "P-071",
+   "name": "צבעי עץ 24 צבעים",
+   "category": "ציוד לבית ספר",
+   "price": 43
+  },
+  {
+   "id": "P-072",
+   "name": "מספריים לילדים",
+   "category": "ציוד לבית ספר",
+   "price": 20
+  },
+  {
+   "id": "P-073",
+   "name": "מחברת A4 חלקה",
+   "category": "ציוד לבית ספר",
+   "price": 25
+  },
+  {
+   "id": "P-074",
+   "name": "תיק גב גדול",
+   "category": "ציוד לבית ספר",
+   "price": 194
+  },
+  {
+   "id": "P-075",
+   "name": "תיק גב עם גלגלים",
+   "category": "ציוד לבית ספר",
+   "price": 188
+  },
+  {
+   "id": "P-076",
+   "name": "קלמר ירוק",
+   "category": "ציוד לבית ספר",
+   "price": 56
+  },
+  {
+   "id": "P-077",
+   "name": "מחברת A4 משבצות",
+   "category": "ציוד לבית ספר",
+   "price": 13
+  },
+  {
+   "id": "P-078",
+   "name": "מחשבון מדעי",
+   "category": "ציוד לבית ספר",
+   "price": 78
+  },
+  {
+   "id": "P-079",
+   "name": "מחברת A5 שורות",
+   "category": "ציוד לבית ספר",
+   "price": 28
+  },
+  {
+   "id": "P-080",
+   "name": "סרגל 15 ס״מ",
+   "category": "ציוד לבית ספר",
+   "price": 5
+  },
+  {
+   "id": "P-081",
+   "name": "עפרונות סט 12",
+   "category": "ציוד לבית ספר",
+   "price": 19
+  },
+  {
+   "id": "P-082",
+   "name": "קלמר ורוד",
+   "category": "ציוד לבית ספר",
+   "price": 27
+  },
+  {
+   "id": "P-083",
+   "name": "צבעי עץ 36 צבעים",
+   "category": "ציוד לבית ספר",
+   "price": 19
+  },
+  {
+   "id": "P-084",
+   "name": "סרגל 30 ס״מ",
+   "category": "ציוד לבית ספר",
+   "price": 10
+  },
+  {
+   "id": "P-085",
+   "name": "דבק סטיק קטן",
+   "category": "ציוד לבית ספר",
+   "price": 6
+  },
+  {
+   "id": "P-086",
+   "name": "קלמר כחול",
+   "category": "ציוד לבית ספר",
+   "price": 29
+  },
+  {
+   "id": "P-087",
+   "name": "עט שחור",
+   "category": "ציוד לבית ספר",
+   "price": 6
+  },
+  {
+   "id": "P-088",
+   "name": "עט ג'ל",
+   "category": "ציוד לבית ספר",
+   "price": 11
+  },
+  {
+   "id": "P-089",
+   "name": "מחשבון בסיסי",
+   "category": "ציוד לבית ספר",
+   "price": 42
+  },
+  {
+   "id": "P-090",
+   "name": "מספריים למבוגרים",
+   "category": "ציוד לבית ספר",
+   "price": 29
+  },
+  {
+   "id": "P-091",
+   "name": "טוש סט 20",
+   "category": "ציוד לבית ספר",
+   "price": 35
+  },
+  {
+   "id": "P-092",
+   "name": "עט כחול",
+   "category": "ציוד לבית ספר",
+   "price": 9
+  },
+  {
+   "id": "P-093",
+   "name": "טוש סט 10",
+   "category": "ציוד לבית ספר",
+   "price": 19
+  },
+  {
+   "id": "P-094",
+   "name": "עפרונות סט 24",
+   "category": "ציוד לבית ספר",
+   "price": 31
+  },
+  {
+   "id": "P-095",
+   "name": "קלמר אפור",
+   "category": "ציוד לבית ספר",
+   "price": 38
+  },
+  {
+   "id": "P-096",
+   "name": "דבק סטיק גדול",
+   "category": "ציוד לבית ספר",
+   "price": 5
+  },
+  {
+   "id": "P-097",
+   "name": "תיק גב קטן",
+   "category": "ציוד לבית ספר",
+   "price": 218
+  },
+  {
+   "id": "P-098",
+   "name": "צבעי עץ 12 צבעים",
+   "category": "ציוד לבית ספר",
+   "price": 31
+  }
+ ],
+ "sales": [
+  {
+   "lineId": "S-0001",
+   "orderId": "O-0001",
+   "date": "2026-04-03",
+   "productId": "P-008",
+   "quantity": 3,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-085"
+  },
+  {
+   "lineId": "S-0002",
+   "orderId": "O-0001",
+   "date": "2026-04-03",
+   "productId": "P-076",
+   "quantity": 3,
+   "unitPrice": 56,
+   "status": "נמסר",
+   "customer": "לקוחה-085"
+  },
+  {
+   "lineId": "S-0003",
+   "orderId": "O-0002",
+   "date": "2026-04-03",
+   "productId": "P-003",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-034"
+  },
+  {
+   "lineId": "S-0004",
+   "orderId": "O-0003",
+   "date": "2026-04-04",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-040"
+  },
+  {
+   "lineId": "S-0005",
+   "orderId": "O-0004",
+   "date": "2026-04-04",
+   "productId": "P-035",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-110"
+  },
+  {
+   "lineId": "S-0006",
+   "orderId": "O-0004",
+   "date": "2026-04-04",
+   "productId": "P-080",
+   "quantity": 3,
+   "unitPrice": 5,
+   "status": "נמסר",
+   "customer": "לקוחה-110"
+  },
+  {
+   "lineId": "S-0007",
+   "orderId": "O-0005",
+   "date": "2026-04-05",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-055"
+  },
+  {
+   "lineId": "S-0008",
+   "orderId": "O-0006",
+   "date": "2026-04-05",
+   "productId": "P-003",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-056"
+  },
+  {
+   "lineId": "S-0009",
+   "orderId": "O-0007",
+   "date": "2026-04-06",
+   "productId": "P-042",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-079"
+  },
+  {
+   "lineId": "S-0010",
+   "orderId": "O-0007",
+   "date": "2026-04-06",
+   "productId": "P-046",
+   "quantity": 1,
+   "unitPrice": 209,
+   "status": "נמסר",
+   "customer": "לקוחה-079"
+  },
+  {
+   "lineId": "S-0011",
+   "orderId": "O-0008",
+   "date": "2026-04-06",
+   "productId": "P-030",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-015"
+  },
+  {
+   "lineId": "S-0012",
+   "orderId": "O-0009",
+   "date": "2026-04-11",
+   "productId": "P-049",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-101"
+  },
+  {
+   "lineId": "S-0013",
+   "orderId": "O-0009",
+   "date": "2026-04-11",
+   "productId": "P-073",
+   "quantity": 4,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-101"
+  },
+  {
+   "lineId": "S-0014",
+   "orderId": "O-0010",
+   "date": "2026-04-11",
+   "productId": "P-065",
+   "quantity": 1,
+   "unitPrice": 189,
+   "status": "נמסר",
+   "customer": "לקוחה-080"
+  },
+  {
+   "lineId": "S-0015",
+   "orderId": "O-0010",
+   "date": "2026-04-11",
+   "productId": "P-035",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "הוחזר",
+   "customer": "לקוחה-080"
+  },
+  {
+   "lineId": "S-0016",
+   "orderId": "O-0011",
+   "date": "2026-04-11",
+   "productId": "P-086",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-082"
+  },
+  {
+   "lineId": "S-0017",
+   "orderId": "O-0012",
+   "date": "2026-04-12",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-023"
+  },
+  {
+   "lineId": "S-0018",
+   "orderId": "O-0013",
+   "date": "2026-04-12",
+   "productId": "P-051",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-005"
+  },
+  {
+   "lineId": "S-0019",
+   "orderId": "O-0014",
+   "date": "2026-04-13",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-013"
+  },
+  {
+   "lineId": "S-0020",
+   "orderId": "O-0015",
+   "date": "2026-04-14",
+   "productId": "P-007",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-006"
+  },
+  {
+   "lineId": "S-0021",
+   "orderId": "O-0016",
+   "date": "2026-04-14",
+   "productId": "P-077",
+   "quantity": 2,
+   "unitPrice": 13,
+   "status": "נמסר",
+   "customer": "לקוחה-144"
+  },
+  {
+   "lineId": "S-0022",
+   "orderId": "O-0017",
+   "date": "2026-04-14",
+   "productId": "P-055",
+   "quantity": 1,
+   "unitPrice": 119,
+   "status": "נמסר",
+   "customer": "לקוחה-047"
+  },
+  {
+   "lineId": "S-0023",
+   "orderId": "O-0018",
+   "date": "2026-04-16",
+   "productId": "P-072",
+   "quantity": 2,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-030"
+  },
+  {
+   "lineId": "S-0024",
+   "orderId": "O-0018",
+   "date": "2026-04-16",
+   "productId": "P-073",
+   "quantity": 1,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-030"
+  },
+  {
+   "lineId": "S-0025",
+   "orderId": "O-0018",
+   "date": "2026-04-16",
+   "productId": "P-004",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-030"
+  },
+  {
+   "lineId": "S-0026",
+   "orderId": "O-0019",
+   "date": "2026-04-16",
+   "productId": "P-095",
+   "quantity": 3,
+   "unitPrice": 38,
+   "status": "נמסר",
+   "customer": "לקוחה-068"
+  },
+  {
+   "lineId": "S-0027",
+   "orderId": "O-0020",
+   "date": "2026-04-16",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-083"
+  },
+  {
+   "lineId": "S-0028",
+   "orderId": "O-0020",
+   "date": "2026-04-16",
+   "productId": "P-017",
+   "quantity": 3,
+   "unitPrice": 29,
+   "status": "הוחזר",
+   "customer": "לקוחה-083"
+  },
+  {
+   "lineId": "S-0029",
+   "orderId": "O-0021",
+   "date": "2026-04-16",
+   "productId": "P-048",
+   "quantity": 3,
+   "unitPrice": 229,
+   "status": "נמסר",
+   "customer": "לקוחה-011"
+  },
+  {
+   "lineId": "S-0030",
+   "orderId": "O-0021",
+   "date": "2026-04-16",
+   "productId": "P-074",
+   "quantity": 2,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-011"
+  },
+  {
+   "lineId": "S-0031",
+   "orderId": "O-0022",
+   "date": "2026-04-16",
+   "productId": "P-043",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "הוחזר",
+   "customer": "לקוחה-046"
+  },
+  {
+   "lineId": "S-0032",
+   "orderId": "O-0023",
+   "date": "2026-04-16",
+   "productId": "P-003",
+   "quantity": 3,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-061"
+  },
+  {
+   "lineId": "S-0033",
+   "orderId": "O-0023",
+   "date": "2026-04-16",
+   "productId": "P-043",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "הוחזר",
+   "customer": "לקוחה-061"
+  },
+  {
+   "lineId": "S-0034",
+   "orderId": "O-0024",
+   "date": "2026-04-17",
+   "productId": "P-098",
+   "quantity": 1,
+   "unitPrice": 31,
+   "status": "נמסר",
+   "customer": "לקוחה-109"
+  },
+  {
+   "lineId": "S-0035",
+   "orderId": "O-0024",
+   "date": "2026-04-17",
+   "productId": "P-008",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-109"
+  },
+  {
+   "lineId": "S-0036",
+   "orderId": "O-0024",
+   "date": "2026-04-17",
+   "productId": "P-009",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "הוחזר",
+   "customer": "לקוחה-109"
+  },
+  {
+   "lineId": "S-0037",
+   "orderId": "O-0025",
+   "date": "2026-04-17",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-027"
+  },
+  {
+   "lineId": "S-0038",
+   "orderId": "O-0026",
+   "date": "2026-04-18",
+   "productId": "P-031",
+   "quantity": 2,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-066"
+  },
+  {
+   "lineId": "S-0039",
+   "orderId": "O-0026",
+   "date": "2026-04-18",
+   "productId": "P-008",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-066"
+  },
+  {
+   "lineId": "S-0040",
+   "orderId": "O-0027",
+   "date": "2026-04-18",
+   "productId": "P-007",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-003"
+  },
+  {
+   "lineId": "S-0041",
+   "orderId": "O-0027",
+   "date": "2026-04-18",
+   "productId": "P-019",
+   "quantity": 1,
+   "unitPrice": 49,
+   "status": "נמסר",
+   "customer": "לקוחה-003"
+  },
+  {
+   "lineId": "S-0042",
+   "orderId": "O-0028",
+   "date": "2026-04-18",
+   "productId": "P-074",
+   "quantity": 1,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-134"
+  },
+  {
+   "lineId": "S-0043",
+   "orderId": "O-0028",
+   "date": "2026-04-18",
+   "productId": "P-022",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-134"
+  },
+  {
+   "lineId": "S-0044",
+   "orderId": "O-0029",
+   "date": "2026-04-18",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-032"
+  },
+  {
+   "lineId": "S-0045",
+   "orderId": "O-0029",
+   "date": "2026-04-18",
+   "productId": "P-051",
+   "quantity": 2,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-032"
+  },
+  {
+   "lineId": "S-0046",
+   "orderId": "O-0030",
+   "date": "2026-04-19",
+   "productId": "P-077",
+   "quantity": 1,
+   "unitPrice": 13,
+   "status": "נמסר",
+   "customer": "לקוחה-067"
+  },
+  {
+   "lineId": "S-0047",
+   "orderId": "O-0031",
+   "date": "2026-04-19",
+   "productId": "P-017",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-038"
+  },
+  {
+   "lineId": "S-0048",
+   "orderId": "O-0032",
+   "date": "2026-04-20",
+   "productId": "P-032",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "הוחזר",
+   "customer": "לקוחה-010"
+  },
+  {
+   "lineId": "S-0049",
+   "orderId": "O-0033",
+   "date": "2026-04-20",
+   "productId": "P-013",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-055"
+  },
+  {
+   "lineId": "S-0050",
+   "orderId": "O-0034",
+   "date": "2026-04-20",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-041"
+  },
+  {
+   "lineId": "S-0051",
+   "orderId": "O-0034",
+   "date": "2026-04-20",
+   "productId": "P-072",
+   "quantity": 2,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-041"
+  },
+  {
+   "lineId": "S-0052",
+   "orderId": "O-0034",
+   "date": "2026-04-20",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-041"
+  },
+  {
+   "lineId": "S-0053",
+   "orderId": "O-0035",
+   "date": "2026-04-20",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0054",
+   "orderId": "O-0036",
+   "date": "2026-04-20",
+   "productId": "P-053",
+   "quantity": 1,
+   "unitPrice": 49,
+   "status": "נמסר",
+   "customer": "לקוחה-008"
+  },
+  {
+   "lineId": "S-0055",
+   "orderId": "O-0037",
+   "date": "2026-04-20",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0056",
+   "orderId": "O-0038",
+   "date": "2026-04-21",
+   "productId": "P-029",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "הוחזר",
+   "customer": "לקוחה-024"
+  },
+  {
+   "lineId": "S-0057",
+   "orderId": "O-0038",
+   "date": "2026-04-21",
+   "productId": "P-071",
+   "quantity": 3,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-024"
+  },
+  {
+   "lineId": "S-0058",
+   "orderId": "O-0039",
+   "date": "2026-04-21",
+   "productId": "P-025",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-095"
+  },
+  {
+   "lineId": "S-0059",
+   "orderId": "O-0040",
+   "date": "2026-04-21",
+   "productId": "P-017",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0060",
+   "orderId": "O-0041",
+   "date": "2026-04-22",
+   "productId": "P-043",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-003"
+  },
+  {
+   "lineId": "S-0061",
+   "orderId": "O-0042",
+   "date": "2026-04-22",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-008"
+  },
+  {
+   "lineId": "S-0062",
+   "orderId": "O-0042",
+   "date": "2026-04-22",
+   "productId": "P-035",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-008"
+  },
+  {
+   "lineId": "S-0063",
+   "orderId": "O-0042",
+   "date": "2026-04-22",
+   "productId": "P-076",
+   "quantity": 1,
+   "unitPrice": 56,
+   "status": "נמסר",
+   "customer": "לקוחה-008"
+  },
+  {
+   "lineId": "S-0064",
+   "orderId": "O-0043",
+   "date": "2026-04-23",
+   "productId": "P-076",
+   "quantity": 2,
+   "unitPrice": 56,
+   "status": "נמסר",
+   "customer": "לקוחה-104"
+  },
+  {
+   "lineId": "S-0065",
+   "orderId": "O-0044",
+   "date": "2026-04-23",
+   "productId": "P-012",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-021"
+  },
+  {
+   "lineId": "S-0066",
+   "orderId": "O-0044",
+   "date": "2026-04-23",
+   "productId": "P-041",
+   "quantity": 2,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-021"
+  },
+  {
+   "lineId": "S-0067",
+   "orderId": "O-0044",
+   "date": "2026-04-23",
+   "productId": "P-069",
+   "quantity": 1,
+   "unitPrice": 189,
+   "status": "נמסר",
+   "customer": "לקוחה-021"
+  },
+  {
+   "lineId": "S-0068",
+   "orderId": "O-0045",
+   "date": "2026-04-25",
+   "productId": "P-006",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-015"
+  },
+  {
+   "lineId": "S-0069",
+   "orderId": "O-0046",
+   "date": "2026-04-25",
+   "productId": "P-046",
+   "quantity": 1,
+   "unitPrice": 209,
+   "status": "הוחזר",
+   "customer": "לקוחה-009"
+  },
+  {
+   "lineId": "S-0070",
+   "orderId": "O-0047",
+   "date": "2026-04-27",
+   "productId": "P-003",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-040"
+  },
+  {
+   "lineId": "S-0071",
+   "orderId": "O-0047",
+   "date": "2026-04-27",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-040"
+  },
+  {
+   "lineId": "S-0072",
+   "orderId": "O-0048",
+   "date": "2026-04-28",
+   "productId": "P-023",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-095"
+  },
+  {
+   "lineId": "S-0073",
+   "orderId": "O-0049",
+   "date": "2026-04-29",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-012"
+  },
+  {
+   "lineId": "S-0074",
+   "orderId": "O-0049",
+   "date": "2026-04-29",
+   "productId": "P-074",
+   "quantity": 2,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-012"
+  },
+  {
+   "lineId": "S-0075",
+   "orderId": "O-0049",
+   "date": "2026-04-29",
+   "productId": "P-026",
+   "quantity": 2,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-012"
+  },
+  {
+   "lineId": "S-0076",
+   "orderId": "O-0050",
+   "date": "2026-05-01",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-003"
+  },
+  {
+   "lineId": "S-0077",
+   "orderId": "O-0050",
+   "date": "2026-05-01",
+   "productId": "P-013",
+   "quantity": 3,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-003"
+  },
+  {
+   "lineId": "S-0078",
+   "orderId": "O-0051",
+   "date": "2026-05-01",
+   "productId": "P-085",
+   "quantity": 1,
+   "unitPrice": 6,
+   "status": "נמסר",
+   "customer": "לקוחה-152"
+  },
+  {
+   "lineId": "S-0079",
+   "orderId": "O-0051",
+   "date": "2026-05-01",
+   "productId": "P-004",
+   "quantity": 2,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-152"
+  },
+  {
+   "lineId": "S-0080",
+   "orderId": "O-0052",
+   "date": "2026-05-02",
+   "productId": "P-075",
+   "quantity": 2,
+   "unitPrice": 188,
+   "status": "נמסר",
+   "customer": "לקוחה-104"
+  },
+  {
+   "lineId": "S-0081",
+   "orderId": "O-0053",
+   "date": "2026-05-03",
+   "productId": "P-043",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-014"
+  },
+  {
+   "lineId": "S-0082",
+   "orderId": "O-0053",
+   "date": "2026-05-03",
+   "productId": "P-076",
+   "quantity": 1,
+   "unitPrice": 56,
+   "status": "הוחזר",
+   "customer": "לקוחה-014"
+  },
+  {
+   "lineId": "S-0083",
+   "orderId": "O-0054",
+   "date": "2026-05-03",
+   "productId": "P-077",
+   "quantity": 1,
+   "unitPrice": 13,
+   "status": "נמסר",
+   "customer": "לקוחה-060"
+  },
+  {
+   "lineId": "S-0084",
+   "orderId": "O-0055",
+   "date": "2026-05-04",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0085",
+   "orderId": "O-0055",
+   "date": "2026-05-04",
+   "productId": "P-008",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0086",
+   "orderId": "O-0055",
+   "date": "2026-05-04",
+   "productId": "P-037",
+   "quantity": 3,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0087",
+   "orderId": "O-0056",
+   "date": "2026-05-04",
+   "productId": "P-043",
+   "quantity": 2,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-086"
+  },
+  {
+   "lineId": "S-0088",
+   "orderId": "O-0057",
+   "date": "2026-05-05",
+   "productId": "P-049",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-118"
+  },
+  {
+   "lineId": "S-0089",
+   "orderId": "O-0058",
+   "date": "2026-05-06",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0090",
+   "orderId": "O-0058",
+   "date": "2026-05-06",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "הוחזר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0091",
+   "orderId": "O-0058",
+   "date": "2026-05-06",
+   "productId": "P-008",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0092",
+   "orderId": "O-0059",
+   "date": "2026-05-06",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-147"
+  },
+  {
+   "lineId": "S-0093",
+   "orderId": "O-0060",
+   "date": "2026-05-07",
+   "productId": "P-001",
+   "quantity": 2,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0094",
+   "orderId": "O-0060",
+   "date": "2026-05-07",
+   "productId": "P-003",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0095",
+   "orderId": "O-0060",
+   "date": "2026-05-07",
+   "productId": "P-076",
+   "quantity": 1,
+   "unitPrice": 56,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0096",
+   "orderId": "O-0061",
+   "date": "2026-05-08",
+   "productId": "P-059",
+   "quantity": 3,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-149"
+  },
+  {
+   "lineId": "S-0097",
+   "orderId": "O-0061",
+   "date": "2026-05-08",
+   "productId": "P-065",
+   "quantity": 3,
+   "unitPrice": 189,
+   "status": "הוחזר",
+   "customer": "לקוחה-149"
+  },
+  {
+   "lineId": "S-0098",
+   "orderId": "O-0061",
+   "date": "2026-05-08",
+   "productId": "P-092",
+   "quantity": 1,
+   "unitPrice": 9,
+   "status": "נמסר",
+   "customer": "לקוחה-149"
+  },
+  {
+   "lineId": "S-0099",
+   "orderId": "O-0062",
+   "date": "2026-05-08",
+   "productId": "P-041",
+   "quantity": 2,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-017"
+  },
+  {
+   "lineId": "S-0100",
+   "orderId": "O-0063",
+   "date": "2026-05-08",
+   "productId": "P-046",
+   "quantity": 1,
+   "unitPrice": 209,
+   "status": "נמסר",
+   "customer": "לקוחה-083"
+  },
+  {
+   "lineId": "S-0101",
+   "orderId": "O-0064",
+   "date": "2026-05-08",
+   "productId": "P-045",
+   "quantity": 1,
+   "unitPrice": 219,
+   "status": "הוחזר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0102",
+   "orderId": "O-0065",
+   "date": "2026-05-09",
+   "productId": "P-009",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-077"
+  },
+  {
+   "lineId": "S-0103",
+   "orderId": "O-0066",
+   "date": "2026-05-10",
+   "productId": "P-018",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-008"
+  },
+  {
+   "lineId": "S-0104",
+   "orderId": "O-0067",
+   "date": "2026-05-11",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-080"
+  },
+  {
+   "lineId": "S-0105",
+   "orderId": "O-0068",
+   "date": "2026-05-11",
+   "productId": "P-010",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-150"
+  },
+  {
+   "lineId": "S-0106",
+   "orderId": "O-0069",
+   "date": "2026-05-11",
+   "productId": "P-042",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-092"
+  },
+  {
+   "lineId": "S-0107",
+   "orderId": "O-0070",
+   "date": "2026-05-11",
+   "productId": "P-048",
+   "quantity": 3,
+   "unitPrice": 229,
+   "status": "נמסר",
+   "customer": "לקוחה-019"
+  },
+  {
+   "lineId": "S-0108",
+   "orderId": "O-0070",
+   "date": "2026-05-11",
+   "productId": "P-008",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-019"
+  },
+  {
+   "lineId": "S-0109",
+   "orderId": "O-0071",
+   "date": "2026-05-12",
+   "productId": "P-046",
+   "quantity": 1,
+   "unitPrice": 209,
+   "status": "נמסר",
+   "customer": "לקוחה-040"
+  },
+  {
+   "lineId": "S-0110",
+   "orderId": "O-0071",
+   "date": "2026-05-12",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-040"
+  },
+  {
+   "lineId": "S-0111",
+   "orderId": "O-0071",
+   "date": "2026-05-12",
+   "productId": "P-011",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-040"
+  },
+  {
+   "lineId": "S-0112",
+   "orderId": "O-0072",
+   "date": "2026-05-13",
+   "productId": "P-075",
+   "quantity": 1,
+   "unitPrice": 188,
+   "status": "נמסר",
+   "customer": "לקוחה-060"
+  },
+  {
+   "lineId": "S-0113",
+   "orderId": "O-0073",
+   "date": "2026-05-14",
+   "productId": "P-018",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-089"
+  },
+  {
+   "lineId": "S-0114",
+   "orderId": "O-0073",
+   "date": "2026-05-14",
+   "productId": "P-003",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-089"
+  },
+  {
+   "lineId": "S-0115",
+   "orderId": "O-0074",
+   "date": "2026-05-16",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-123"
+  },
+  {
+   "lineId": "S-0116",
+   "orderId": "O-0074",
+   "date": "2026-05-16",
+   "productId": "P-011",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-123"
+  },
+  {
+   "lineId": "S-0117",
+   "orderId": "O-0075",
+   "date": "2026-05-16",
+   "productId": "P-043",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-052"
+  },
+  {
+   "lineId": "S-0118",
+   "orderId": "O-0075",
+   "date": "2026-05-16",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-052"
+  },
+  {
+   "lineId": "S-0119",
+   "orderId": "O-0075",
+   "date": "2026-05-16",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-052"
+  },
+  {
+   "lineId": "S-0120",
+   "orderId": "O-0076",
+   "date": "2026-05-16",
+   "productId": "P-003",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-027"
+  },
+  {
+   "lineId": "S-0121",
+   "orderId": "O-0077",
+   "date": "2026-05-17",
+   "productId": "P-047",
+   "quantity": 3,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-032"
+  },
+  {
+   "lineId": "S-0122",
+   "orderId": "O-0077",
+   "date": "2026-05-17",
+   "productId": "P-095",
+   "quantity": 3,
+   "unitPrice": 38,
+   "status": "נמסר",
+   "customer": "לקוחה-032"
+  },
+  {
+   "lineId": "S-0123",
+   "orderId": "O-0077",
+   "date": "2026-05-17",
+   "productId": "P-014",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-032"
+  },
+  {
+   "lineId": "S-0124",
+   "orderId": "O-0078",
+   "date": "2026-05-18",
+   "productId": "P-086",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-067"
+  },
+  {
+   "lineId": "S-0125",
+   "orderId": "O-0078",
+   "date": "2026-05-18",
+   "productId": "P-044",
+   "quantity": 1,
+   "unitPrice": 179,
+   "status": "נמסר",
+   "customer": "לקוחה-067"
+  },
+  {
+   "lineId": "S-0126",
+   "orderId": "O-0078",
+   "date": "2026-05-18",
+   "productId": "P-089",
+   "quantity": 1,
+   "unitPrice": 42,
+   "status": "נמסר",
+   "customer": "לקוחה-067"
+  },
+  {
+   "lineId": "S-0127",
+   "orderId": "O-0079",
+   "date": "2026-05-19",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0128",
+   "orderId": "O-0080",
+   "date": "2026-05-20",
+   "productId": "P-001",
+   "quantity": 2,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-021"
+  },
+  {
+   "lineId": "S-0129",
+   "orderId": "O-0080",
+   "date": "2026-05-20",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-021"
+  },
+  {
+   "lineId": "S-0130",
+   "orderId": "O-0080",
+   "date": "2026-05-20",
+   "productId": "P-023",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-021"
+  },
+  {
+   "lineId": "S-0131",
+   "orderId": "O-0081",
+   "date": "2026-05-20",
+   "productId": "P-071",
+   "quantity": 4,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-006"
+  },
+  {
+   "lineId": "S-0132",
+   "orderId": "O-0082",
+   "date": "2026-05-20",
+   "productId": "P-015",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-033"
+  },
+  {
+   "lineId": "S-0133",
+   "orderId": "O-0082",
+   "date": "2026-05-20",
+   "productId": "P-040",
+   "quantity": 3,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-033"
+  },
+  {
+   "lineId": "S-0134",
+   "orderId": "O-0082",
+   "date": "2026-05-20",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-033"
+  },
+  {
+   "lineId": "S-0135",
+   "orderId": "O-0083",
+   "date": "2026-05-21",
+   "productId": "P-078",
+   "quantity": 3,
+   "unitPrice": 78,
+   "status": "נמסר",
+   "customer": "לקוחה-024"
+  },
+  {
+   "lineId": "S-0136",
+   "orderId": "O-0084",
+   "date": "2026-05-21",
+   "productId": "P-044",
+   "quantity": 1,
+   "unitPrice": 179,
+   "status": "נמסר",
+   "customer": "לקוחה-106"
+  },
+  {
+   "lineId": "S-0137",
+   "orderId": "O-0084",
+   "date": "2026-05-21",
+   "productId": "P-074",
+   "quantity": 2,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-106"
+  },
+  {
+   "lineId": "S-0138",
+   "orderId": "O-0085",
+   "date": "2026-05-22",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-063"
+  },
+  {
+   "lineId": "S-0139",
+   "orderId": "O-0086",
+   "date": "2026-05-22",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-018"
+  },
+  {
+   "lineId": "S-0140",
+   "orderId": "O-0086",
+   "date": "2026-05-22",
+   "productId": "P-083",
+   "quantity": 2,
+   "unitPrice": 19,
+   "status": "נמסר",
+   "customer": "לקוחה-018"
+  },
+  {
+   "lineId": "S-0141",
+   "orderId": "O-0087",
+   "date": "2026-05-22",
+   "productId": "P-032",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-020"
+  },
+  {
+   "lineId": "S-0142",
+   "orderId": "O-0087",
+   "date": "2026-05-22",
+   "productId": "P-043",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-020"
+  },
+  {
+   "lineId": "S-0143",
+   "orderId": "O-0088",
+   "date": "2026-05-23",
+   "productId": "P-004",
+   "quantity": 2,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-039"
+  },
+  {
+   "lineId": "S-0144",
+   "orderId": "O-0089",
+   "date": "2026-05-24",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-096"
+  },
+  {
+   "lineId": "S-0145",
+   "orderId": "O-0090",
+   "date": "2026-05-24",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-040"
+  },
+  {
+   "lineId": "S-0146",
+   "orderId": "O-0090",
+   "date": "2026-05-24",
+   "productId": "P-086",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-040"
+  },
+  {
+   "lineId": "S-0147",
+   "orderId": "O-0091",
+   "date": "2026-05-24",
+   "productId": "P-002",
+   "quantity": 3,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-122"
+  },
+  {
+   "lineId": "S-0148",
+   "orderId": "O-0091",
+   "date": "2026-05-24",
+   "productId": "P-065",
+   "quantity": 1,
+   "unitPrice": 189,
+   "status": "נמסר",
+   "customer": "לקוחה-122"
+  },
+  {
+   "lineId": "S-0149",
+   "orderId": "O-0092",
+   "date": "2026-05-25",
+   "productId": "P-040",
+   "quantity": 2,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0150",
+   "orderId": "O-0093",
+   "date": "2026-05-25",
+   "productId": "P-044",
+   "quantity": 1,
+   "unitPrice": 179,
+   "status": "נמסר",
+   "customer": "לקוחה-003"
+  },
+  {
+   "lineId": "S-0151",
+   "orderId": "O-0094",
+   "date": "2026-05-26",
+   "productId": "P-077",
+   "quantity": 3,
+   "unitPrice": 13,
+   "status": "נמסר",
+   "customer": "לקוחה-099"
+  },
+  {
+   "lineId": "S-0152",
+   "orderId": "O-0095",
+   "date": "2026-05-27",
+   "productId": "P-005",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-070"
+  },
+  {
+   "lineId": "S-0153",
+   "orderId": "O-0095",
+   "date": "2026-05-27",
+   "productId": "P-006",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-070"
+  },
+  {
+   "lineId": "S-0154",
+   "orderId": "O-0095",
+   "date": "2026-05-27",
+   "productId": "P-058",
+   "quantity": 1,
+   "unitPrice": 149,
+   "status": "נמסר",
+   "customer": "לקוחה-070"
+  },
+  {
+   "lineId": "S-0155",
+   "orderId": "O-0096",
+   "date": "2026-05-27",
+   "productId": "P-047",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-034"
+  },
+  {
+   "lineId": "S-0156",
+   "orderId": "O-0097",
+   "date": "2026-05-28",
+   "productId": "P-005",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0157",
+   "orderId": "O-0098",
+   "date": "2026-05-28",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-026"
+  },
+  {
+   "lineId": "S-0158",
+   "orderId": "O-0098",
+   "date": "2026-05-28",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-026"
+  },
+  {
+   "lineId": "S-0159",
+   "orderId": "O-0099",
+   "date": "2026-05-29",
+   "productId": "P-009",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-102"
+  },
+  {
+   "lineId": "S-0160",
+   "orderId": "O-0100",
+   "date": "2026-05-30",
+   "productId": "P-064",
+   "quantity": 1,
+   "unitPrice": 219,
+   "status": "נמסר",
+   "customer": "לקוחה-096"
+  },
+  {
+   "lineId": "S-0161",
+   "orderId": "O-0100",
+   "date": "2026-05-30",
+   "productId": "P-050",
+   "quantity": 1,
+   "unitPrice": 109,
+   "status": "נמסר",
+   "customer": "לקוחה-096"
+  },
+  {
+   "lineId": "S-0162",
+   "orderId": "O-0100",
+   "date": "2026-05-30",
+   "productId": "P-038",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-096"
+  },
+  {
+   "lineId": "S-0163",
+   "orderId": "O-0101",
+   "date": "2026-05-30",
+   "productId": "P-006",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-138"
+  },
+  {
+   "lineId": "S-0164",
+   "orderId": "O-0101",
+   "date": "2026-05-30",
+   "productId": "P-095",
+   "quantity": 3,
+   "unitPrice": 38,
+   "status": "נמסר",
+   "customer": "לקוחה-138"
+  },
+  {
+   "lineId": "S-0165",
+   "orderId": "O-0101",
+   "date": "2026-05-30",
+   "productId": "P-042",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-138"
+  },
+  {
+   "lineId": "S-0166",
+   "orderId": "O-0102",
+   "date": "2026-05-31",
+   "productId": "P-066",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-035"
+  },
+  {
+   "lineId": "S-0167",
+   "orderId": "O-0102",
+   "date": "2026-05-31",
+   "productId": "P-039",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-035"
+  },
+  {
+   "lineId": "S-0168",
+   "orderId": "O-0103",
+   "date": "2026-05-31",
+   "productId": "P-047",
+   "quantity": 2,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-154"
+  },
+  {
+   "lineId": "S-0169",
+   "orderId": "O-0103",
+   "date": "2026-05-31",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-154"
+  },
+  {
+   "lineId": "S-0170",
+   "orderId": "O-0104",
+   "date": "2026-05-31",
+   "productId": "P-061",
+   "quantity": 1,
+   "unitPrice": 139,
+   "status": "נמסר",
+   "customer": "לקוחה-080"
+  },
+  {
+   "lineId": "S-0171",
+   "orderId": "O-0105",
+   "date": "2026-05-31",
+   "productId": "P-077",
+   "quantity": 3,
+   "unitPrice": 13,
+   "status": "נמסר",
+   "customer": "לקוחה-054"
+  },
+  {
+   "lineId": "S-0172",
+   "orderId": "O-0106",
+   "date": "2026-06-01",
+   "productId": "P-075",
+   "quantity": 1,
+   "unitPrice": 188,
+   "status": "נמסר",
+   "customer": "לקוחה-062"
+  },
+  {
+   "lineId": "S-0173",
+   "orderId": "O-0107",
+   "date": "2026-06-01",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-121"
+  },
+  {
+   "lineId": "S-0174",
+   "orderId": "O-0107",
+   "date": "2026-06-01",
+   "productId": "P-075",
+   "quantity": 1,
+   "unitPrice": 188,
+   "status": "נמסר",
+   "customer": "לקוחה-121"
+  },
+  {
+   "lineId": "S-0175",
+   "orderId": "O-0107",
+   "date": "2026-06-01",
+   "productId": "P-041",
+   "quantity": 2,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-121"
+  },
+  {
+   "lineId": "S-0176",
+   "orderId": "O-0108",
+   "date": "2026-06-01",
+   "productId": "P-003",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-109"
+  },
+  {
+   "lineId": "S-0177",
+   "orderId": "O-0108",
+   "date": "2026-06-01",
+   "productId": "P-005",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-109"
+  },
+  {
+   "lineId": "S-0178",
+   "orderId": "O-0109",
+   "date": "2026-06-01",
+   "productId": "P-049",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-026"
+  },
+  {
+   "lineId": "S-0179",
+   "orderId": "O-0110",
+   "date": "2026-06-02",
+   "productId": "P-089",
+   "quantity": 1,
+   "unitPrice": 42,
+   "status": "נמסר",
+   "customer": "לקוחה-086"
+  },
+  {
+   "lineId": "S-0180",
+   "orderId": "O-0110",
+   "date": "2026-06-02",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-086"
+  },
+  {
+   "lineId": "S-0181",
+   "orderId": "O-0111",
+   "date": "2026-06-03",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-020"
+  },
+  {
+   "lineId": "S-0182",
+   "orderId": "O-0112",
+   "date": "2026-06-04",
+   "productId": "P-073",
+   "quantity": 3,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0183",
+   "orderId": "O-0112",
+   "date": "2026-06-04",
+   "productId": "P-084",
+   "quantity": 2,
+   "unitPrice": 10,
+   "status": "נמסר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0184",
+   "orderId": "O-0113",
+   "date": "2026-06-04",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-005"
+  },
+  {
+   "lineId": "S-0185",
+   "orderId": "O-0113",
+   "date": "2026-06-04",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-005"
+  },
+  {
+   "lineId": "S-0186",
+   "orderId": "O-0114",
+   "date": "2026-06-05",
+   "productId": "P-042",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-078"
+  },
+  {
+   "lineId": "S-0187",
+   "orderId": "O-0114",
+   "date": "2026-06-05",
+   "productId": "P-045",
+   "quantity": 1,
+   "unitPrice": 219,
+   "status": "נמסר",
+   "customer": "לקוחה-078"
+  },
+  {
+   "lineId": "S-0188",
+   "orderId": "O-0114",
+   "date": "2026-06-05",
+   "productId": "P-053",
+   "quantity": 1,
+   "unitPrice": 49,
+   "status": "נמסר",
+   "customer": "לקוחה-078"
+  },
+  {
+   "lineId": "S-0189",
+   "orderId": "O-0115",
+   "date": "2026-06-06",
+   "productId": "P-029",
+   "quantity": 3,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0190",
+   "orderId": "O-0116",
+   "date": "2026-06-06",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-020"
+  },
+  {
+   "lineId": "S-0191",
+   "orderId": "O-0117",
+   "date": "2026-06-06",
+   "productId": "P-078",
+   "quantity": 1,
+   "unitPrice": 78,
+   "status": "נמסר",
+   "customer": "לקוחה-036"
+  },
+  {
+   "lineId": "S-0192",
+   "orderId": "O-0118",
+   "date": "2026-06-08",
+   "productId": "P-052",
+   "quantity": 2,
+   "unitPrice": 229,
+   "status": "נמסר",
+   "customer": "לקוחה-020"
+  },
+  {
+   "lineId": "S-0193",
+   "orderId": "O-0118",
+   "date": "2026-06-08",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-020"
+  },
+  {
+   "lineId": "S-0194",
+   "orderId": "O-0118",
+   "date": "2026-06-08",
+   "productId": "P-016",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "הוחזר",
+   "customer": "לקוחה-020"
+  },
+  {
+   "lineId": "S-0195",
+   "orderId": "O-0119",
+   "date": "2026-06-10",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-019"
+  },
+  {
+   "lineId": "S-0196",
+   "orderId": "O-0119",
+   "date": "2026-06-10",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-019"
+  },
+  {
+   "lineId": "S-0197",
+   "orderId": "O-0120",
+   "date": "2026-06-10",
+   "productId": "P-064",
+   "quantity": 1,
+   "unitPrice": 219,
+   "status": "נמסר",
+   "customer": "לקוחה-134"
+  },
+  {
+   "lineId": "S-0198",
+   "orderId": "O-0121",
+   "date": "2026-06-11",
+   "productId": "P-089",
+   "quantity": 1,
+   "unitPrice": 42,
+   "status": "נמסר",
+   "customer": "לקוחה-084"
+  },
+  {
+   "lineId": "S-0199",
+   "orderId": "O-0121",
+   "date": "2026-06-11",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-084"
+  },
+  {
+   "lineId": "S-0200",
+   "orderId": "O-0122",
+   "date": "2026-06-12",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-118"
+  },
+  {
+   "lineId": "S-0201",
+   "orderId": "O-0123",
+   "date": "2026-06-13",
+   "productId": "P-071",
+   "quantity": 2,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-033"
+  },
+  {
+   "lineId": "S-0202",
+   "orderId": "O-0124",
+   "date": "2026-06-13",
+   "productId": "P-093",
+   "quantity": 4,
+   "unitPrice": 19,
+   "status": "נמסר",
+   "customer": "לקוחה-062"
+  },
+  {
+   "lineId": "S-0203",
+   "orderId": "O-0124",
+   "date": "2026-06-13",
+   "productId": "P-045",
+   "quantity": 1,
+   "unitPrice": 219,
+   "status": "נמסר",
+   "customer": "לקוחה-062"
+  },
+  {
+   "lineId": "S-0204",
+   "orderId": "O-0124",
+   "date": "2026-06-13",
+   "productId": "P-002",
+   "quantity": 2,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-062"
+  },
+  {
+   "lineId": "S-0205",
+   "orderId": "O-0125",
+   "date": "2026-06-14",
+   "productId": "P-042",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-157"
+  },
+  {
+   "lineId": "S-0206",
+   "orderId": "O-0125",
+   "date": "2026-06-14",
+   "productId": "P-041",
+   "quantity": 3,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-157"
+  },
+  {
+   "lineId": "S-0207",
+   "orderId": "O-0126",
+   "date": "2026-06-14",
+   "productId": "P-023",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-079"
+  },
+  {
+   "lineId": "S-0208",
+   "orderId": "O-0127",
+   "date": "2026-06-15",
+   "productId": "P-069",
+   "quantity": 1,
+   "unitPrice": 189,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0209",
+   "orderId": "O-0127",
+   "date": "2026-06-15",
+   "productId": "P-017",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0210",
+   "orderId": "O-0128",
+   "date": "2026-06-15",
+   "productId": "P-001",
+   "quantity": 3,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-007"
+  },
+  {
+   "lineId": "S-0211",
+   "orderId": "O-0128",
+   "date": "2026-06-15",
+   "productId": "P-006",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-007"
+  },
+  {
+   "lineId": "S-0212",
+   "orderId": "O-0129",
+   "date": "2026-06-16",
+   "productId": "P-039",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0213",
+   "orderId": "O-0129",
+   "date": "2026-06-16",
+   "productId": "P-047",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0214",
+   "orderId": "O-0129",
+   "date": "2026-06-16",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0215",
+   "orderId": "O-0130",
+   "date": "2026-06-17",
+   "productId": "P-035",
+   "quantity": 2,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-061"
+  },
+  {
+   "lineId": "S-0216",
+   "orderId": "O-0130",
+   "date": "2026-06-17",
+   "productId": "P-075",
+   "quantity": 1,
+   "unitPrice": 188,
+   "status": "נמסר",
+   "customer": "לקוחה-061"
+  },
+  {
+   "lineId": "S-0217",
+   "orderId": "O-0130",
+   "date": "2026-06-17",
+   "productId": "P-086",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-061"
+  },
+  {
+   "lineId": "S-0218",
+   "orderId": "O-0131",
+   "date": "2026-06-18",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-003"
+  },
+  {
+   "lineId": "S-0219",
+   "orderId": "O-0132",
+   "date": "2026-06-20",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-063"
+  },
+  {
+   "lineId": "S-0220",
+   "orderId": "O-0133",
+   "date": "2026-06-20",
+   "productId": "P-027",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-021"
+  },
+  {
+   "lineId": "S-0221",
+   "orderId": "O-0134",
+   "date": "2026-06-21",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-009"
+  },
+  {
+   "lineId": "S-0222",
+   "orderId": "O-0134",
+   "date": "2026-06-21",
+   "productId": "P-061",
+   "quantity": 2,
+   "unitPrice": 139,
+   "status": "נמסר",
+   "customer": "לקוחה-009"
+  },
+  {
+   "lineId": "S-0223",
+   "orderId": "O-0134",
+   "date": "2026-06-21",
+   "productId": "P-067",
+   "quantity": 1,
+   "unitPrice": 209,
+   "status": "נמסר",
+   "customer": "לקוחה-009"
+  },
+  {
+   "lineId": "S-0224",
+   "orderId": "O-0135",
+   "date": "2026-06-21",
+   "productId": "P-047",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-023"
+  },
+  {
+   "lineId": "S-0225",
+   "orderId": "O-0136",
+   "date": "2026-06-22",
+   "productId": "P-094",
+   "quantity": 1,
+   "unitPrice": 31,
+   "status": "נמסר",
+   "customer": "לקוחה-029"
+  },
+  {
+   "lineId": "S-0226",
+   "orderId": "O-0137",
+   "date": "2026-06-22",
+   "productId": "P-004",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-007"
+  },
+  {
+   "lineId": "S-0227",
+   "orderId": "O-0138",
+   "date": "2026-06-23",
+   "productId": "P-097",
+   "quantity": 3,
+   "unitPrice": 218,
+   "status": "נמסר",
+   "customer": "לקוחה-072"
+  },
+  {
+   "lineId": "S-0228",
+   "orderId": "O-0138",
+   "date": "2026-06-23",
+   "productId": "P-010",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-072"
+  },
+  {
+   "lineId": "S-0229",
+   "orderId": "O-0139",
+   "date": "2026-06-24",
+   "productId": "P-063",
+   "quantity": 1,
+   "unitPrice": 219,
+   "status": "נמסר",
+   "customer": "לקוחה-012"
+  },
+  {
+   "lineId": "S-0230",
+   "orderId": "O-0139",
+   "date": "2026-06-24",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-012"
+  },
+  {
+   "lineId": "S-0231",
+   "orderId": "O-0140",
+   "date": "2026-06-25",
+   "productId": "P-044",
+   "quantity": 1,
+   "unitPrice": 179,
+   "status": "נמסר",
+   "customer": "לקוחה-132"
+  },
+  {
+   "lineId": "S-0232",
+   "orderId": "O-0140",
+   "date": "2026-06-25",
+   "productId": "P-001",
+   "quantity": 2,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-132"
+  },
+  {
+   "lineId": "S-0233",
+   "orderId": "O-0141",
+   "date": "2026-06-26",
+   "productId": "P-025",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-014"
+  },
+  {
+   "lineId": "S-0234",
+   "orderId": "O-0141",
+   "date": "2026-06-26",
+   "productId": "P-016",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-014"
+  },
+  {
+   "lineId": "S-0235",
+   "orderId": "O-0142",
+   "date": "2026-06-27",
+   "productId": "P-093",
+   "quantity": 1,
+   "unitPrice": 19,
+   "status": "נמסר",
+   "customer": "לקוחה-031"
+  },
+  {
+   "lineId": "S-0236",
+   "orderId": "O-0143",
+   "date": "2026-06-28",
+   "productId": "P-005",
+   "quantity": 2,
+   "unitPrice": 99,
+   "status": "הוחזר",
+   "customer": "לקוחה-074"
+  },
+  {
+   "lineId": "S-0237",
+   "orderId": "O-0144",
+   "date": "2026-06-29",
+   "productId": "P-006",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-015"
+  },
+  {
+   "lineId": "S-0238",
+   "orderId": "O-0145",
+   "date": "2026-07-01",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-067"
+  },
+  {
+   "lineId": "S-0239",
+   "orderId": "O-0145",
+   "date": "2026-07-01",
+   "productId": "P-011",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-067"
+  },
+  {
+   "lineId": "S-0240",
+   "orderId": "O-0145",
+   "date": "2026-07-01",
+   "productId": "P-071",
+   "quantity": 3,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-067"
+  },
+  {
+   "lineId": "S-0241",
+   "orderId": "O-0146",
+   "date": "2026-07-01",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-112"
+  },
+  {
+   "lineId": "S-0242",
+   "orderId": "O-0147",
+   "date": "2026-07-02",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-019"
+  },
+  {
+   "lineId": "S-0243",
+   "orderId": "O-0148",
+   "date": "2026-07-02",
+   "productId": "P-010",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-057"
+  },
+  {
+   "lineId": "S-0244",
+   "orderId": "O-0149",
+   "date": "2026-07-03",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-135"
+  },
+  {
+   "lineId": "S-0245",
+   "orderId": "O-0149",
+   "date": "2026-07-03",
+   "productId": "P-010",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "הוחזר",
+   "customer": "לקוחה-135"
+  },
+  {
+   "lineId": "S-0246",
+   "orderId": "O-0150",
+   "date": "2026-07-04",
+   "productId": "P-079",
+   "quantity": 3,
+   "unitPrice": 28,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0247",
+   "orderId": "O-0151",
+   "date": "2026-07-04",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-006"
+  },
+  {
+   "lineId": "S-0248",
+   "orderId": "O-0151",
+   "date": "2026-07-04",
+   "productId": "P-041",
+   "quantity": 2,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-006"
+  },
+  {
+   "lineId": "S-0249",
+   "orderId": "O-0152",
+   "date": "2026-07-05",
+   "productId": "P-022",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-040"
+  },
+  {
+   "lineId": "S-0250",
+   "orderId": "O-0153",
+   "date": "2026-07-07",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-036"
+  },
+  {
+   "lineId": "S-0251",
+   "orderId": "O-0154",
+   "date": "2026-07-08",
+   "productId": "P-074",
+   "quantity": 1,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-036"
+  },
+  {
+   "lineId": "S-0252",
+   "orderId": "O-0154",
+   "date": "2026-07-08",
+   "productId": "P-004",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-036"
+  },
+  {
+   "lineId": "S-0253",
+   "orderId": "O-0155",
+   "date": "2026-07-08",
+   "productId": "P-006",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-010"
+  },
+  {
+   "lineId": "S-0254",
+   "orderId": "O-0156",
+   "date": "2026-07-09",
+   "productId": "P-020",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-115"
+  },
+  {
+   "lineId": "S-0255",
+   "orderId": "O-0157",
+   "date": "2026-07-09",
+   "productId": "P-001",
+   "quantity": 3,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-092"
+  },
+  {
+   "lineId": "S-0256",
+   "orderId": "O-0158",
+   "date": "2026-07-10",
+   "productId": "P-005",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-008"
+  },
+  {
+   "lineId": "S-0257",
+   "orderId": "O-0159",
+   "date": "2026-07-10",
+   "productId": "P-042",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-009"
+  },
+  {
+   "lineId": "S-0258",
+   "orderId": "O-0160",
+   "date": "2026-07-11",
+   "productId": "P-004",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0259",
+   "orderId": "O-0160",
+   "date": "2026-07-11",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0260",
+   "orderId": "O-0161",
+   "date": "2026-07-11",
+   "productId": "P-064",
+   "quantity": 1,
+   "unitPrice": 219,
+   "status": "נמסר",
+   "customer": "לקוחה-069"
+  },
+  {
+   "lineId": "S-0261",
+   "orderId": "O-0162",
+   "date": "2026-07-11",
+   "productId": "P-077",
+   "quantity": 4,
+   "unitPrice": 13,
+   "status": "נמסר",
+   "customer": "לקוחה-085"
+  },
+  {
+   "lineId": "S-0262",
+   "orderId": "O-0163",
+   "date": "2026-07-12",
+   "productId": "P-015",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-101"
+  },
+  {
+   "lineId": "S-0263",
+   "orderId": "O-0164",
+   "date": "2026-07-13",
+   "productId": "P-032",
+   "quantity": 2,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-100"
+  },
+  {
+   "lineId": "S-0264",
+   "orderId": "O-0164",
+   "date": "2026-07-13",
+   "productId": "P-001",
+   "quantity": 2,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-100"
+  },
+  {
+   "lineId": "S-0265",
+   "orderId": "O-0164",
+   "date": "2026-07-13",
+   "productId": "P-067",
+   "quantity": 1,
+   "unitPrice": 209,
+   "status": "הוחזר",
+   "customer": "לקוחה-100"
+  },
+  {
+   "lineId": "S-0266",
+   "orderId": "O-0165",
+   "date": "2026-07-13",
+   "productId": "P-054",
+   "quantity": 1,
+   "unitPrice": 209,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0267",
+   "orderId": "O-0166",
+   "date": "2026-07-13",
+   "productId": "P-043",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-005"
+  },
+  {
+   "lineId": "S-0268",
+   "orderId": "O-0167",
+   "date": "2026-07-13",
+   "productId": "P-095",
+   "quantity": 2,
+   "unitPrice": 38,
+   "status": "נמסר",
+   "customer": "לקוחה-119"
+  },
+  {
+   "lineId": "S-0269",
+   "orderId": "O-0167",
+   "date": "2026-07-13",
+   "productId": "P-077",
+   "quantity": 2,
+   "unitPrice": 13,
+   "status": "נמסר",
+   "customer": "לקוחה-119"
+  },
+  {
+   "lineId": "S-0270",
+   "orderId": "O-0168",
+   "date": "2026-07-14",
+   "productId": "P-012",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-003"
+  },
+  {
+   "lineId": "S-0271",
+   "orderId": "O-0169",
+   "date": "2026-07-15",
+   "productId": "P-035",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-159"
+  },
+  {
+   "lineId": "S-0272",
+   "orderId": "O-0170",
+   "date": "2026-07-15",
+   "productId": "P-010",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-015"
+  },
+  {
+   "lineId": "S-0273",
+   "orderId": "O-0170",
+   "date": "2026-07-15",
+   "productId": "P-076",
+   "quantity": 2,
+   "unitPrice": 56,
+   "status": "נמסר",
+   "customer": "לקוחה-015"
+  },
+  {
+   "lineId": "S-0274",
+   "orderId": "O-0171",
+   "date": "2026-07-16",
+   "productId": "P-020",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-022"
+  },
+  {
+   "lineId": "S-0275",
+   "orderId": "O-0172",
+   "date": "2026-07-16",
+   "productId": "P-013",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-153"
+  },
+  {
+   "lineId": "S-0276",
+   "orderId": "O-0172",
+   "date": "2026-07-16",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-153"
+  },
+  {
+   "lineId": "S-0277",
+   "orderId": "O-0173",
+   "date": "2026-07-18",
+   "productId": "P-011",
+   "quantity": 2,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-019"
+  },
+  {
+   "lineId": "S-0278",
+   "orderId": "O-0174",
+   "date": "2026-07-18",
+   "productId": "P-006",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-011"
+  },
+  {
+   "lineId": "S-0279",
+   "orderId": "O-0175",
+   "date": "2026-07-18",
+   "productId": "P-010",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-101"
+  },
+  {
+   "lineId": "S-0280",
+   "orderId": "O-0176",
+   "date": "2026-07-19",
+   "productId": "P-080",
+   "quantity": 2,
+   "unitPrice": 5,
+   "status": "נמסר",
+   "customer": "לקוחה-035"
+  },
+  {
+   "lineId": "S-0281",
+   "orderId": "O-0177",
+   "date": "2026-07-19",
+   "productId": "P-044",
+   "quantity": 1,
+   "unitPrice": 179,
+   "status": "נמסר",
+   "customer": "לקוחה-135"
+  },
+  {
+   "lineId": "S-0282",
+   "orderId": "O-0178",
+   "date": "2026-07-20",
+   "productId": "P-005",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-120"
+  },
+  {
+   "lineId": "S-0283",
+   "orderId": "O-0179",
+   "date": "2026-07-21",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0284",
+   "orderId": "O-0180",
+   "date": "2026-07-21",
+   "productId": "P-094",
+   "quantity": 1,
+   "unitPrice": 31,
+   "status": "נמסר",
+   "customer": "לקוחה-008"
+  },
+  {
+   "lineId": "S-0285",
+   "orderId": "O-0181",
+   "date": "2026-07-21",
+   "productId": "P-087",
+   "quantity": 1,
+   "unitPrice": 6,
+   "status": "נמסר",
+   "customer": "לקוחה-053"
+  },
+  {
+   "lineId": "S-0286",
+   "orderId": "O-0182",
+   "date": "2026-07-22",
+   "productId": "P-046",
+   "quantity": 1,
+   "unitPrice": 209,
+   "status": "נמסר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0287",
+   "orderId": "O-0183",
+   "date": "2026-07-22",
+   "productId": "P-011",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-149"
+  },
+  {
+   "lineId": "S-0288",
+   "orderId": "O-0183",
+   "date": "2026-07-22",
+   "productId": "P-063",
+   "quantity": 1,
+   "unitPrice": 219,
+   "status": "הוחזר",
+   "customer": "לקוחה-149"
+  },
+  {
+   "lineId": "S-0289",
+   "orderId": "O-0184",
+   "date": "2026-07-22",
+   "productId": "P-008",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-027"
+  },
+  {
+   "lineId": "S-0290",
+   "orderId": "O-0184",
+   "date": "2026-07-22",
+   "productId": "P-083",
+   "quantity": 1,
+   "unitPrice": 19,
+   "status": "נמסר",
+   "customer": "לקוחה-027"
+  },
+  {
+   "lineId": "S-0291",
+   "orderId": "O-0184",
+   "date": "2026-07-22",
+   "productId": "P-081",
+   "quantity": 2,
+   "unitPrice": 19,
+   "status": "נמסר",
+   "customer": "לקוחה-027"
+  },
+  {
+   "lineId": "S-0292",
+   "orderId": "O-0185",
+   "date": "2026-07-22",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-023"
+  },
+  {
+   "lineId": "S-0293",
+   "orderId": "O-0186",
+   "date": "2026-07-24",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-016"
+  },
+  {
+   "lineId": "S-0294",
+   "orderId": "O-0186",
+   "date": "2026-07-24",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-016"
+  },
+  {
+   "lineId": "S-0295",
+   "orderId": "O-0187",
+   "date": "2026-07-24",
+   "productId": "P-046",
+   "quantity": 1,
+   "unitPrice": 209,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0296",
+   "orderId": "O-0188",
+   "date": "2026-07-24",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-023"
+  },
+  {
+   "lineId": "S-0297",
+   "orderId": "O-0189",
+   "date": "2026-07-25",
+   "productId": "P-072",
+   "quantity": 3,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-064"
+  },
+  {
+   "lineId": "S-0298",
+   "orderId": "O-0189",
+   "date": "2026-07-25",
+   "productId": "P-067",
+   "quantity": 1,
+   "unitPrice": 209,
+   "status": "נמסר",
+   "customer": "לקוחה-064"
+  },
+  {
+   "lineId": "S-0299",
+   "orderId": "O-0190",
+   "date": "2026-07-25",
+   "productId": "P-003",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-016"
+  },
+  {
+   "lineId": "S-0300",
+   "orderId": "O-0191",
+   "date": "2026-07-26",
+   "productId": "P-037",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-082"
+  },
+  {
+   "lineId": "S-0301",
+   "orderId": "O-0192",
+   "date": "2026-07-26",
+   "productId": "P-069",
+   "quantity": 2,
+   "unitPrice": 189,
+   "status": "נמסר",
+   "customer": "לקוחה-007"
+  },
+  {
+   "lineId": "S-0302",
+   "orderId": "O-0192",
+   "date": "2026-07-26",
+   "productId": "P-091",
+   "quantity": 1,
+   "unitPrice": 35,
+   "status": "נמסר",
+   "customer": "לקוחה-007"
+  },
+  {
+   "lineId": "S-0303",
+   "orderId": "O-0193",
+   "date": "2026-07-26",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "הוחזר",
+   "customer": "לקוחה-037"
+  },
+  {
+   "lineId": "S-0304",
+   "orderId": "O-0194",
+   "date": "2026-07-27",
+   "productId": "P-095",
+   "quantity": 2,
+   "unitPrice": 38,
+   "status": "נמסר",
+   "customer": "לקוחה-140"
+  },
+  {
+   "lineId": "S-0305",
+   "orderId": "O-0194",
+   "date": "2026-07-27",
+   "productId": "P-072",
+   "quantity": 2,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-140"
+  },
+  {
+   "lineId": "S-0306",
+   "orderId": "O-0195",
+   "date": "2026-07-27",
+   "productId": "P-012",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-137"
+  },
+  {
+   "lineId": "S-0307",
+   "orderId": "O-0196",
+   "date": "2026-07-27",
+   "productId": "P-021",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-124"
+  },
+  {
+   "lineId": "S-0308",
+   "orderId": "O-0196",
+   "date": "2026-07-27",
+   "productId": "P-074",
+   "quantity": 2,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-124"
+  },
+  {
+   "lineId": "S-0309",
+   "orderId": "O-0196",
+   "date": "2026-07-27",
+   "productId": "P-013",
+   "quantity": 2,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-124"
+  },
+  {
+   "lineId": "S-0310",
+   "orderId": "O-0197",
+   "date": "2026-07-28",
+   "productId": "P-071",
+   "quantity": 4,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-078"
+  },
+  {
+   "lineId": "S-0311",
+   "orderId": "O-0197",
+   "date": "2026-07-28",
+   "productId": "P-079",
+   "quantity": 1,
+   "unitPrice": 28,
+   "status": "נמסר",
+   "customer": "לקוחה-078"
+  },
+  {
+   "lineId": "S-0312",
+   "orderId": "O-0198",
+   "date": "2026-07-28",
+   "productId": "P-041",
+   "quantity": 3,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-065"
+  },
+  {
+   "lineId": "S-0313",
+   "orderId": "O-0199",
+   "date": "2026-07-28",
+   "productId": "P-048",
+   "quantity": 1,
+   "unitPrice": 229,
+   "status": "נמסר",
+   "customer": "לקוחה-051"
+  },
+  {
+   "lineId": "S-0314",
+   "orderId": "O-0199",
+   "date": "2026-07-28",
+   "productId": "P-043",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "הוחזר",
+   "customer": "לקוחה-051"
+  },
+  {
+   "lineId": "S-0315",
+   "orderId": "O-0200",
+   "date": "2026-07-29",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-123"
+  },
+  {
+   "lineId": "S-0316",
+   "orderId": "O-0200",
+   "date": "2026-07-29",
+   "productId": "P-026",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-123"
+  },
+  {
+   "lineId": "S-0317",
+   "orderId": "O-0200",
+   "date": "2026-07-29",
+   "productId": "P-047",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-123"
+  },
+  {
+   "lineId": "S-0318",
+   "orderId": "O-0201",
+   "date": "2026-07-29",
+   "productId": "P-002",
+   "quantity": 2,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0319",
+   "orderId": "O-0202",
+   "date": "2026-07-29",
+   "productId": "P-082",
+   "quantity": 1,
+   "unitPrice": 27,
+   "status": "נמסר",
+   "customer": "לקוחה-104"
+  },
+  {
+   "lineId": "S-0320",
+   "orderId": "O-0203",
+   "date": "2026-07-29",
+   "productId": "P-073",
+   "quantity": 1,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-134"
+  },
+  {
+   "lineId": "S-0321",
+   "orderId": "O-0204",
+   "date": "2026-07-30",
+   "productId": "P-049",
+   "quantity": 2,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-045"
+  },
+  {
+   "lineId": "S-0322",
+   "orderId": "O-0205",
+   "date": "2026-07-30",
+   "productId": "P-050",
+   "quantity": 1,
+   "unitPrice": 109,
+   "status": "נמסר",
+   "customer": "לקוחה-142"
+  },
+  {
+   "lineId": "S-0323",
+   "orderId": "O-0205",
+   "date": "2026-07-30",
+   "productId": "P-089",
+   "quantity": 2,
+   "unitPrice": 42,
+   "status": "נמסר",
+   "customer": "לקוחה-142"
+  },
+  {
+   "lineId": "S-0324",
+   "orderId": "O-0206",
+   "date": "2026-07-31",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-081"
+  },
+  {
+   "lineId": "S-0325",
+   "orderId": "O-0207",
+   "date": "2026-07-31",
+   "productId": "P-055",
+   "quantity": 1,
+   "unitPrice": 119,
+   "status": "נמסר",
+   "customer": "לקוחה-032"
+  },
+  {
+   "lineId": "S-0326",
+   "orderId": "O-0208",
+   "date": "2026-07-31",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0327",
+   "orderId": "O-0208",
+   "date": "2026-07-31",
+   "productId": "P-080",
+   "quantity": 1,
+   "unitPrice": 5,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0328",
+   "orderId": "O-0209",
+   "date": "2026-08-01",
+   "productId": "P-005",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0329",
+   "orderId": "O-0210",
+   "date": "2026-08-01",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-005"
+  },
+  {
+   "lineId": "S-0330",
+   "orderId": "O-0211",
+   "date": "2026-08-01",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-069"
+  },
+  {
+   "lineId": "S-0331",
+   "orderId": "O-0211",
+   "date": "2026-08-01",
+   "productId": "P-015",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-069"
+  },
+  {
+   "lineId": "S-0332",
+   "orderId": "O-0212",
+   "date": "2026-08-01",
+   "productId": "P-003",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-007"
+  },
+  {
+   "lineId": "S-0333",
+   "orderId": "O-0212",
+   "date": "2026-08-01",
+   "productId": "P-074",
+   "quantity": 2,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-007"
+  },
+  {
+   "lineId": "S-0334",
+   "orderId": "O-0212",
+   "date": "2026-08-01",
+   "productId": "P-075",
+   "quantity": 4,
+   "unitPrice": 188,
+   "status": "הוחזר",
+   "customer": "לקוחה-007"
+  },
+  {
+   "lineId": "S-0335",
+   "orderId": "O-0213",
+   "date": "2026-08-01",
+   "productId": "P-033",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-055"
+  },
+  {
+   "lineId": "S-0336",
+   "orderId": "O-0213",
+   "date": "2026-08-01",
+   "productId": "P-077",
+   "quantity": 2,
+   "unitPrice": 13,
+   "status": "הוחזר",
+   "customer": "לקוחה-055"
+  },
+  {
+   "lineId": "S-0337",
+   "orderId": "O-0213",
+   "date": "2026-08-01",
+   "productId": "P-072",
+   "quantity": 4,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-055"
+  },
+  {
+   "lineId": "S-0338",
+   "orderId": "O-0214",
+   "date": "2026-08-01",
+   "productId": "P-004",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-063"
+  },
+  {
+   "lineId": "S-0339",
+   "orderId": "O-0215",
+   "date": "2026-08-01",
+   "productId": "P-090",
+   "quantity": 4,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-029"
+  },
+  {
+   "lineId": "S-0340",
+   "orderId": "O-0216",
+   "date": "2026-08-02",
+   "productId": "P-093",
+   "quantity": 1,
+   "unitPrice": 19,
+   "status": "נמסר",
+   "customer": "לקוחה-045"
+  },
+  {
+   "lineId": "S-0341",
+   "orderId": "O-0217",
+   "date": "2026-08-02",
+   "productId": "P-090",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-035"
+  },
+  {
+   "lineId": "S-0342",
+   "orderId": "O-0218",
+   "date": "2026-08-02",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-084"
+  },
+  {
+   "lineId": "S-0343",
+   "orderId": "O-0219",
+   "date": "2026-08-03",
+   "productId": "P-012",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-017"
+  },
+  {
+   "lineId": "S-0344",
+   "orderId": "O-0220",
+   "date": "2026-08-03",
+   "productId": "P-081",
+   "quantity": 1,
+   "unitPrice": 19,
+   "status": "נמסר",
+   "customer": "לקוחה-096"
+  },
+  {
+   "lineId": "S-0345",
+   "orderId": "O-0221",
+   "date": "2026-08-03",
+   "productId": "P-033",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-101"
+  },
+  {
+   "lineId": "S-0346",
+   "orderId": "O-0222",
+   "date": "2026-08-03",
+   "productId": "P-042",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-112"
+  },
+  {
+   "lineId": "S-0347",
+   "orderId": "O-0223",
+   "date": "2026-08-04",
+   "productId": "P-075",
+   "quantity": 1,
+   "unitPrice": 188,
+   "status": "נמסר",
+   "customer": "לקוחה-011"
+  },
+  {
+   "lineId": "S-0348",
+   "orderId": "O-0224",
+   "date": "2026-08-04",
+   "productId": "P-097",
+   "quantity": 1,
+   "unitPrice": 218,
+   "status": "נמסר",
+   "customer": "לקוחה-017"
+  },
+  {
+   "lineId": "S-0349",
+   "orderId": "O-0224",
+   "date": "2026-08-04",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-017"
+  },
+  {
+   "lineId": "S-0350",
+   "orderId": "O-0225",
+   "date": "2026-08-04",
+   "productId": "P-074",
+   "quantity": 1,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-128"
+  },
+  {
+   "lineId": "S-0351",
+   "orderId": "O-0225",
+   "date": "2026-08-04",
+   "productId": "P-083",
+   "quantity": 1,
+   "unitPrice": 19,
+   "status": "נמסר",
+   "customer": "לקוחה-128"
+  },
+  {
+   "lineId": "S-0352",
+   "orderId": "O-0225",
+   "date": "2026-08-04",
+   "productId": "P-073",
+   "quantity": 1,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-128"
+  },
+  {
+   "lineId": "S-0353",
+   "orderId": "O-0226",
+   "date": "2026-08-05",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-029"
+  },
+  {
+   "lineId": "S-0354",
+   "orderId": "O-0227",
+   "date": "2026-08-05",
+   "productId": "P-004",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-132"
+  },
+  {
+   "lineId": "S-0355",
+   "orderId": "O-0227",
+   "date": "2026-08-05",
+   "productId": "P-084",
+   "quantity": 2,
+   "unitPrice": 10,
+   "status": "נמסר",
+   "customer": "לקוחה-132"
+  },
+  {
+   "lineId": "S-0356",
+   "orderId": "O-0228",
+   "date": "2026-08-06",
+   "productId": "P-079",
+   "quantity": 1,
+   "unitPrice": 28,
+   "status": "נמסר",
+   "customer": "לקוחה-081"
+  },
+  {
+   "lineId": "S-0357",
+   "orderId": "O-0228",
+   "date": "2026-08-06",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-081"
+  },
+  {
+   "lineId": "S-0358",
+   "orderId": "O-0228",
+   "date": "2026-08-06",
+   "productId": "P-050",
+   "quantity": 1,
+   "unitPrice": 109,
+   "status": "נמסר",
+   "customer": "לקוחה-081"
+  },
+  {
+   "lineId": "S-0359",
+   "orderId": "O-0229",
+   "date": "2026-08-06",
+   "productId": "P-071",
+   "quantity": 3,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-141"
+  },
+  {
+   "lineId": "S-0360",
+   "orderId": "O-0230",
+   "date": "2026-08-06",
+   "productId": "P-049",
+   "quantity": 3,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-144"
+  },
+  {
+   "lineId": "S-0361",
+   "orderId": "O-0230",
+   "date": "2026-08-06",
+   "productId": "P-098",
+   "quantity": 1,
+   "unitPrice": 31,
+   "status": "נמסר",
+   "customer": "לקוחה-144"
+  },
+  {
+   "lineId": "S-0362",
+   "orderId": "O-0230",
+   "date": "2026-08-06",
+   "productId": "P-073",
+   "quantity": 1,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-144"
+  },
+  {
+   "lineId": "S-0363",
+   "orderId": "O-0231",
+   "date": "2026-08-06",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-051"
+  },
+  {
+   "lineId": "S-0364",
+   "orderId": "O-0232",
+   "date": "2026-08-06",
+   "productId": "P-097",
+   "quantity": 3,
+   "unitPrice": 218,
+   "status": "נמסר",
+   "customer": "לקוחה-040"
+  },
+  {
+   "lineId": "S-0365",
+   "orderId": "O-0233",
+   "date": "2026-08-06",
+   "productId": "P-078",
+   "quantity": 2,
+   "unitPrice": 78,
+   "status": "נמסר",
+   "customer": "לקוחה-042"
+  },
+  {
+   "lineId": "S-0366",
+   "orderId": "O-0234",
+   "date": "2026-08-06",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-061"
+  },
+  {
+   "lineId": "S-0367",
+   "orderId": "O-0235",
+   "date": "2026-08-07",
+   "productId": "P-073",
+   "quantity": 2,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-038"
+  },
+  {
+   "lineId": "S-0368",
+   "orderId": "O-0235",
+   "date": "2026-08-07",
+   "productId": "P-078",
+   "quantity": 4,
+   "unitPrice": 78,
+   "status": "נמסר",
+   "customer": "לקוחה-038"
+  },
+  {
+   "lineId": "S-0369",
+   "orderId": "O-0235",
+   "date": "2026-08-07",
+   "productId": "P-077",
+   "quantity": 1,
+   "unitPrice": 13,
+   "status": "נמסר",
+   "customer": "לקוחה-038"
+  },
+  {
+   "lineId": "S-0370",
+   "orderId": "O-0236",
+   "date": "2026-08-07",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-155"
+  },
+  {
+   "lineId": "S-0371",
+   "orderId": "O-0237",
+   "date": "2026-08-07",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-135"
+  },
+  {
+   "lineId": "S-0372",
+   "orderId": "O-0238",
+   "date": "2026-08-08",
+   "productId": "P-074",
+   "quantity": 4,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-052"
+  },
+  {
+   "lineId": "S-0373",
+   "orderId": "O-0239",
+   "date": "2026-08-08",
+   "productId": "P-031",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-084"
+  },
+  {
+   "lineId": "S-0374",
+   "orderId": "O-0240",
+   "date": "2026-08-08",
+   "productId": "P-007",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-013"
+  },
+  {
+   "lineId": "S-0375",
+   "orderId": "O-0241",
+   "date": "2026-08-09",
+   "productId": "P-097",
+   "quantity": 1,
+   "unitPrice": 218,
+   "status": "נמסר",
+   "customer": "לקוחה-123"
+  },
+  {
+   "lineId": "S-0376",
+   "orderId": "O-0241",
+   "date": "2026-08-09",
+   "productId": "P-093",
+   "quantity": 2,
+   "unitPrice": 19,
+   "status": "נמסר",
+   "customer": "לקוחה-123"
+  },
+  {
+   "lineId": "S-0377",
+   "orderId": "O-0242",
+   "date": "2026-08-10",
+   "productId": "P-071",
+   "quantity": 2,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-046"
+  },
+  {
+   "lineId": "S-0378",
+   "orderId": "O-0243",
+   "date": "2026-08-11",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-140"
+  },
+  {
+   "lineId": "S-0379",
+   "orderId": "O-0243",
+   "date": "2026-08-11",
+   "productId": "P-021",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-140"
+  },
+  {
+   "lineId": "S-0380",
+   "orderId": "O-0244",
+   "date": "2026-08-11",
+   "productId": "P-003",
+   "quantity": 2,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-071"
+  },
+  {
+   "lineId": "S-0381",
+   "orderId": "O-0244",
+   "date": "2026-08-11",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-071"
+  },
+  {
+   "lineId": "S-0382",
+   "orderId": "O-0245",
+   "date": "2026-08-12",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-120"
+  },
+  {
+   "lineId": "S-0383",
+   "orderId": "O-0246",
+   "date": "2026-08-12",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-082"
+  },
+  {
+   "lineId": "S-0384",
+   "orderId": "O-0247",
+   "date": "2026-08-12",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-022"
+  },
+  {
+   "lineId": "S-0385",
+   "orderId": "O-0248",
+   "date": "2026-08-12",
+   "productId": "P-085",
+   "quantity": 1,
+   "unitPrice": 6,
+   "status": "נמסר",
+   "customer": "לקוחה-156"
+  },
+  {
+   "lineId": "S-0386",
+   "orderId": "O-0249",
+   "date": "2026-08-13",
+   "productId": "P-014",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-082"
+  },
+  {
+   "lineId": "S-0387",
+   "orderId": "O-0250",
+   "date": "2026-08-13",
+   "productId": "P-089",
+   "quantity": 3,
+   "unitPrice": 42,
+   "status": "נמסר",
+   "customer": "לקוחה-087"
+  },
+  {
+   "lineId": "S-0388",
+   "orderId": "O-0250",
+   "date": "2026-08-13",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-087"
+  },
+  {
+   "lineId": "S-0389",
+   "orderId": "O-0251",
+   "date": "2026-08-13",
+   "productId": "P-074",
+   "quantity": 1,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-052"
+  },
+  {
+   "lineId": "S-0390",
+   "orderId": "O-0251",
+   "date": "2026-08-13",
+   "productId": "P-087",
+   "quantity": 2,
+   "unitPrice": 6,
+   "status": "נמסר",
+   "customer": "לקוחה-052"
+  },
+  {
+   "lineId": "S-0391",
+   "orderId": "O-0252",
+   "date": "2026-08-14",
+   "productId": "P-057",
+   "quantity": 1,
+   "unitPrice": 239,
+   "status": "נמסר",
+   "customer": "לקוחה-158"
+  },
+  {
+   "lineId": "S-0392",
+   "orderId": "O-0252",
+   "date": "2026-08-14",
+   "productId": "P-045",
+   "quantity": 2,
+   "unitPrice": 219,
+   "status": "נמסר",
+   "customer": "לקוחה-158"
+  },
+  {
+   "lineId": "S-0393",
+   "orderId": "O-0253",
+   "date": "2026-08-14",
+   "productId": "P-075",
+   "quantity": 1,
+   "unitPrice": 188,
+   "status": "נמסר",
+   "customer": "לקוחה-110"
+  },
+  {
+   "lineId": "S-0394",
+   "orderId": "O-0253",
+   "date": "2026-08-14",
+   "productId": "P-084",
+   "quantity": 2,
+   "unitPrice": 10,
+   "status": "נמסר",
+   "customer": "לקוחה-110"
+  },
+  {
+   "lineId": "S-0395",
+   "orderId": "O-0253",
+   "date": "2026-08-14",
+   "productId": "P-089",
+   "quantity": 2,
+   "unitPrice": 42,
+   "status": "נמסר",
+   "customer": "לקוחה-110"
+  },
+  {
+   "lineId": "S-0396",
+   "orderId": "O-0254",
+   "date": "2026-08-14",
+   "productId": "P-085",
+   "quantity": 3,
+   "unitPrice": 6,
+   "status": "נמסר",
+   "customer": "לקוחה-006"
+  },
+  {
+   "lineId": "S-0397",
+   "orderId": "O-0255",
+   "date": "2026-08-14",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-043"
+  },
+  {
+   "lineId": "S-0398",
+   "orderId": "O-0256",
+   "date": "2026-08-14",
+   "productId": "P-089",
+   "quantity": 1,
+   "unitPrice": 42,
+   "status": "נמסר",
+   "customer": "לקוחה-032"
+  },
+  {
+   "lineId": "S-0399",
+   "orderId": "O-0257",
+   "date": "2026-08-15",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-067"
+  },
+  {
+   "lineId": "S-0400",
+   "orderId": "O-0257",
+   "date": "2026-08-15",
+   "productId": "P-072",
+   "quantity": 2,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-067"
+  },
+  {
+   "lineId": "S-0401",
+   "orderId": "O-0258",
+   "date": "2026-08-15",
+   "productId": "P-078",
+   "quantity": 4,
+   "unitPrice": 78,
+   "status": "נמסר",
+   "customer": "לקוחה-150"
+  },
+  {
+   "lineId": "S-0402",
+   "orderId": "O-0259",
+   "date": "2026-08-15",
+   "productId": "P-001",
+   "quantity": 2,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-069"
+  },
+  {
+   "lineId": "S-0403",
+   "orderId": "O-0260",
+   "date": "2026-08-15",
+   "productId": "P-071",
+   "quantity": 3,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-015"
+  },
+  {
+   "lineId": "S-0404",
+   "orderId": "O-0260",
+   "date": "2026-08-15",
+   "productId": "P-089",
+   "quantity": 2,
+   "unitPrice": 42,
+   "status": "נמסר",
+   "customer": "לקוחה-015"
+  },
+  {
+   "lineId": "S-0405",
+   "orderId": "O-0261",
+   "date": "2026-08-15",
+   "productId": "P-073",
+   "quantity": 2,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-049"
+  },
+  {
+   "lineId": "S-0406",
+   "orderId": "O-0262",
+   "date": "2026-08-15",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0407",
+   "orderId": "O-0263",
+   "date": "2026-08-15",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-030"
+  },
+  {
+   "lineId": "S-0408",
+   "orderId": "O-0264",
+   "date": "2026-08-16",
+   "productId": "P-004",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-038"
+  },
+  {
+   "lineId": "S-0409",
+   "orderId": "O-0265",
+   "date": "2026-08-16",
+   "productId": "P-071",
+   "quantity": 3,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-084"
+  },
+  {
+   "lineId": "S-0410",
+   "orderId": "O-0266",
+   "date": "2026-08-16",
+   "productId": "P-015",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-012"
+  },
+  {
+   "lineId": "S-0411",
+   "orderId": "O-0267",
+   "date": "2026-08-17",
+   "productId": "P-006",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-038"
+  },
+  {
+   "lineId": "S-0412",
+   "orderId": "O-0267",
+   "date": "2026-08-17",
+   "productId": "P-018",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-038"
+  },
+  {
+   "lineId": "S-0413",
+   "orderId": "O-0267",
+   "date": "2026-08-17",
+   "productId": "P-086",
+   "quantity": 2,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-038"
+  },
+  {
+   "lineId": "S-0414",
+   "orderId": "O-0268",
+   "date": "2026-08-17",
+   "productId": "P-037",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-003"
+  },
+  {
+   "lineId": "S-0415",
+   "orderId": "O-0269",
+   "date": "2026-08-17",
+   "productId": "P-050",
+   "quantity": 1,
+   "unitPrice": 109,
+   "status": "נמסר",
+   "customer": "לקוחה-007"
+  },
+  {
+   "lineId": "S-0416",
+   "orderId": "O-0270",
+   "date": "2026-08-17",
+   "productId": "P-004",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-022"
+  },
+  {
+   "lineId": "S-0417",
+   "orderId": "O-0271",
+   "date": "2026-08-17",
+   "productId": "P-094",
+   "quantity": 2,
+   "unitPrice": 31,
+   "status": "נמסר",
+   "customer": "לקוחה-011"
+  },
+  {
+   "lineId": "S-0418",
+   "orderId": "O-0271",
+   "date": "2026-08-17",
+   "productId": "P-043",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-011"
+  },
+  {
+   "lineId": "S-0419",
+   "orderId": "O-0272",
+   "date": "2026-08-18",
+   "productId": "P-023",
+   "quantity": 3,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-138"
+  },
+  {
+   "lineId": "S-0420",
+   "orderId": "O-0273",
+   "date": "2026-08-18",
+   "productId": "P-044",
+   "quantity": 1,
+   "unitPrice": 179,
+   "status": "נמסר",
+   "customer": "לקוחה-114"
+  },
+  {
+   "lineId": "S-0421",
+   "orderId": "O-0273",
+   "date": "2026-08-18",
+   "productId": "P-078",
+   "quantity": 1,
+   "unitPrice": 78,
+   "status": "נמסר",
+   "customer": "לקוחה-114"
+  },
+  {
+   "lineId": "S-0422",
+   "orderId": "O-0274",
+   "date": "2026-08-18",
+   "productId": "P-001",
+   "quantity": 2,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-018"
+  },
+  {
+   "lineId": "S-0423",
+   "orderId": "O-0275",
+   "date": "2026-08-18",
+   "productId": "P-095",
+   "quantity": 1,
+   "unitPrice": 38,
+   "status": "נמסר",
+   "customer": "לקוחה-023"
+  },
+  {
+   "lineId": "S-0424",
+   "orderId": "O-0276",
+   "date": "2026-08-19",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-058"
+  },
+  {
+   "lineId": "S-0425",
+   "orderId": "O-0277",
+   "date": "2026-08-19",
+   "productId": "P-001",
+   "quantity": 2,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-089"
+  },
+  {
+   "lineId": "S-0426",
+   "orderId": "O-0278",
+   "date": "2026-08-19",
+   "productId": "P-079",
+   "quantity": 2,
+   "unitPrice": 28,
+   "status": "נמסר",
+   "customer": "לקוחה-050"
+  },
+  {
+   "lineId": "S-0427",
+   "orderId": "O-0279",
+   "date": "2026-08-20",
+   "productId": "P-068",
+   "quantity": 1,
+   "unitPrice": 109,
+   "status": "נמסר",
+   "customer": "לקוחה-032"
+  },
+  {
+   "lineId": "S-0428",
+   "orderId": "O-0279",
+   "date": "2026-08-20",
+   "productId": "P-071",
+   "quantity": 3,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-032"
+  },
+  {
+   "lineId": "S-0429",
+   "orderId": "O-0279",
+   "date": "2026-08-20",
+   "productId": "P-004",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-032"
+  },
+  {
+   "lineId": "S-0430",
+   "orderId": "O-0280",
+   "date": "2026-08-20",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-023"
+  },
+  {
+   "lineId": "S-0431",
+   "orderId": "O-0281",
+   "date": "2026-08-20",
+   "productId": "P-080",
+   "quantity": 1,
+   "unitPrice": 5,
+   "status": "נמסר",
+   "customer": "לקוחה-072"
+  },
+  {
+   "lineId": "S-0432",
+   "orderId": "O-0282",
+   "date": "2026-08-20",
+   "productId": "P-074",
+   "quantity": 1,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-020"
+  },
+  {
+   "lineId": "S-0433",
+   "orderId": "O-0283",
+   "date": "2026-08-20",
+   "productId": "P-007",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-125"
+  },
+  {
+   "lineId": "S-0434",
+   "orderId": "O-0284",
+   "date": "2026-08-21",
+   "productId": "P-034",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-032"
+  },
+  {
+   "lineId": "S-0435",
+   "orderId": "O-0284",
+   "date": "2026-08-21",
+   "productId": "P-028",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-032"
+  },
+  {
+   "lineId": "S-0436",
+   "orderId": "O-0285",
+   "date": "2026-08-21",
+   "productId": "P-046",
+   "quantity": 2,
+   "unitPrice": 209,
+   "status": "נמסר",
+   "customer": "לקוחה-013"
+  },
+  {
+   "lineId": "S-0437",
+   "orderId": "O-0286",
+   "date": "2026-08-21",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-007"
+  },
+  {
+   "lineId": "S-0438",
+   "orderId": "O-0286",
+   "date": "2026-08-21",
+   "productId": "P-073",
+   "quantity": 3,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-007"
+  },
+  {
+   "lineId": "S-0439",
+   "orderId": "O-0287",
+   "date": "2026-08-22",
+   "productId": "P-028",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-066"
+  },
+  {
+   "lineId": "S-0440",
+   "orderId": "O-0287",
+   "date": "2026-08-22",
+   "productId": "P-072",
+   "quantity": 4,
+   "unitPrice": 20,
+   "status": "הוחזר",
+   "customer": "לקוחה-066"
+  },
+  {
+   "lineId": "S-0441",
+   "orderId": "O-0287",
+   "date": "2026-08-22",
+   "productId": "P-004",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-066"
+  },
+  {
+   "lineId": "S-0442",
+   "orderId": "O-0288",
+   "date": "2026-08-22",
+   "productId": "P-005",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-024"
+  },
+  {
+   "lineId": "S-0443",
+   "orderId": "O-0288",
+   "date": "2026-08-22",
+   "productId": "P-003",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-024"
+  },
+  {
+   "lineId": "S-0444",
+   "orderId": "O-0289",
+   "date": "2026-08-22",
+   "productId": "P-087",
+   "quantity": 2,
+   "unitPrice": 6,
+   "status": "נמסר",
+   "customer": "לקוחה-011"
+  },
+  {
+   "lineId": "S-0445",
+   "orderId": "O-0289",
+   "date": "2026-08-22",
+   "productId": "P-078",
+   "quantity": 2,
+   "unitPrice": 78,
+   "status": "נמסר",
+   "customer": "לקוחה-011"
+  },
+  {
+   "lineId": "S-0446",
+   "orderId": "O-0290",
+   "date": "2026-08-22",
+   "productId": "P-093",
+   "quantity": 1,
+   "unitPrice": 19,
+   "status": "נמסר",
+   "customer": "לקוחה-154"
+  },
+  {
+   "lineId": "S-0447",
+   "orderId": "O-0290",
+   "date": "2026-08-22",
+   "productId": "P-003",
+   "quantity": 2,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-154"
+  },
+  {
+   "lineId": "S-0448",
+   "orderId": "O-0291",
+   "date": "2026-08-22",
+   "productId": "P-018",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-015"
+  },
+  {
+   "lineId": "S-0449",
+   "orderId": "O-0292",
+   "date": "2026-08-23",
+   "productId": "P-072",
+   "quantity": 2,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-013"
+  },
+  {
+   "lineId": "S-0450",
+   "orderId": "O-0292",
+   "date": "2026-08-23",
+   "productId": "P-074",
+   "quantity": 1,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-013"
+  },
+  {
+   "lineId": "S-0451",
+   "orderId": "O-0292",
+   "date": "2026-08-23",
+   "productId": "P-083",
+   "quantity": 1,
+   "unitPrice": 19,
+   "status": "נמסר",
+   "customer": "לקוחה-013"
+  },
+  {
+   "lineId": "S-0452",
+   "orderId": "O-0293",
+   "date": "2026-08-23",
+   "productId": "P-043",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-143"
+  },
+  {
+   "lineId": "S-0453",
+   "orderId": "O-0294",
+   "date": "2026-08-23",
+   "productId": "P-071",
+   "quantity": 4,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-005"
+  },
+  {
+   "lineId": "S-0454",
+   "orderId": "O-0295",
+   "date": "2026-08-23",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-003"
+  },
+  {
+   "lineId": "S-0455",
+   "orderId": "O-0296",
+   "date": "2026-08-23",
+   "productId": "P-006",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-132"
+  },
+  {
+   "lineId": "S-0456",
+   "orderId": "O-0297",
+   "date": "2026-08-23",
+   "productId": "P-010",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-132"
+  },
+  {
+   "lineId": "S-0457",
+   "orderId": "O-0297",
+   "date": "2026-08-23",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-132"
+  },
+  {
+   "lineId": "S-0458",
+   "orderId": "O-0298",
+   "date": "2026-08-23",
+   "productId": "P-074",
+   "quantity": 2,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-018"
+  },
+  {
+   "lineId": "S-0459",
+   "orderId": "O-0298",
+   "date": "2026-08-23",
+   "productId": "P-091",
+   "quantity": 2,
+   "unitPrice": 35,
+   "status": "נמסר",
+   "customer": "לקוחה-018"
+  },
+  {
+   "lineId": "S-0460",
+   "orderId": "O-0298",
+   "date": "2026-08-23",
+   "productId": "P-058",
+   "quantity": 1,
+   "unitPrice": 149,
+   "status": "נמסר",
+   "customer": "לקוחה-018"
+  },
+  {
+   "lineId": "S-0461",
+   "orderId": "O-0299",
+   "date": "2026-08-23",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-081"
+  },
+  {
+   "lineId": "S-0462",
+   "orderId": "O-0300",
+   "date": "2026-08-23",
+   "productId": "P-012",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-068"
+  },
+  {
+   "lineId": "S-0463",
+   "orderId": "O-0301",
+   "date": "2026-08-23",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-016"
+  },
+  {
+   "lineId": "S-0464",
+   "orderId": "O-0302",
+   "date": "2026-08-23",
+   "productId": "P-071",
+   "quantity": 2,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-033"
+  },
+  {
+   "lineId": "S-0465",
+   "orderId": "O-0303",
+   "date": "2026-08-24",
+   "productId": "P-084",
+   "quantity": 1,
+   "unitPrice": 10,
+   "status": "נמסר",
+   "customer": "לקוחה-121"
+  },
+  {
+   "lineId": "S-0466",
+   "orderId": "O-0303",
+   "date": "2026-08-24",
+   "productId": "P-022",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-121"
+  },
+  {
+   "lineId": "S-0467",
+   "orderId": "O-0304",
+   "date": "2026-08-24",
+   "productId": "P-090",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-054"
+  },
+  {
+   "lineId": "S-0468",
+   "orderId": "O-0304",
+   "date": "2026-08-24",
+   "productId": "P-074",
+   "quantity": 1,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-054"
+  },
+  {
+   "lineId": "S-0469",
+   "orderId": "O-0304",
+   "date": "2026-08-24",
+   "productId": "P-083",
+   "quantity": 2,
+   "unitPrice": 19,
+   "status": "נמסר",
+   "customer": "לקוחה-054"
+  },
+  {
+   "lineId": "S-0470",
+   "orderId": "O-0305",
+   "date": "2026-08-24",
+   "productId": "P-004",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-060"
+  },
+  {
+   "lineId": "S-0471",
+   "orderId": "O-0306",
+   "date": "2026-08-24",
+   "productId": "P-047",
+   "quantity": 2,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-054"
+  },
+  {
+   "lineId": "S-0472",
+   "orderId": "O-0307",
+   "date": "2026-08-24",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-003"
+  },
+  {
+   "lineId": "S-0473",
+   "orderId": "O-0308",
+   "date": "2026-08-25",
+   "productId": "P-042",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-031"
+  },
+  {
+   "lineId": "S-0474",
+   "orderId": "O-0308",
+   "date": "2026-08-25",
+   "productId": "P-094",
+   "quantity": 1,
+   "unitPrice": 31,
+   "status": "נמסר",
+   "customer": "לקוחה-031"
+  },
+  {
+   "lineId": "S-0475",
+   "orderId": "O-0309",
+   "date": "2026-08-25",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-047"
+  },
+  {
+   "lineId": "S-0476",
+   "orderId": "O-0309",
+   "date": "2026-08-25",
+   "productId": "P-084",
+   "quantity": 1,
+   "unitPrice": 10,
+   "status": "נמסר",
+   "customer": "לקוחה-047"
+  },
+  {
+   "lineId": "S-0477",
+   "orderId": "O-0310",
+   "date": "2026-08-25",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-149"
+  },
+  {
+   "lineId": "S-0478",
+   "orderId": "O-0310",
+   "date": "2026-08-25",
+   "productId": "P-076",
+   "quantity": 1,
+   "unitPrice": 56,
+   "status": "נמסר",
+   "customer": "לקוחה-149"
+  },
+  {
+   "lineId": "S-0479",
+   "orderId": "O-0311",
+   "date": "2026-08-25",
+   "productId": "P-076",
+   "quantity": 1,
+   "unitPrice": 56,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0480",
+   "orderId": "O-0311",
+   "date": "2026-08-25",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0481",
+   "orderId": "O-0312",
+   "date": "2026-08-25",
+   "productId": "P-076",
+   "quantity": 3,
+   "unitPrice": 56,
+   "status": "נמסר",
+   "customer": "לקוחה-008"
+  },
+  {
+   "lineId": "S-0482",
+   "orderId": "O-0312",
+   "date": "2026-08-25",
+   "productId": "P-087",
+   "quantity": 2,
+   "unitPrice": 6,
+   "status": "הוחזר",
+   "customer": "לקוחה-008"
+  },
+  {
+   "lineId": "S-0483",
+   "orderId": "O-0312",
+   "date": "2026-08-25",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-008"
+  },
+  {
+   "lineId": "S-0484",
+   "orderId": "O-0313",
+   "date": "2026-08-25",
+   "productId": "P-079",
+   "quantity": 4,
+   "unitPrice": 28,
+   "status": "נמסר",
+   "customer": "לקוחה-016"
+  },
+  {
+   "lineId": "S-0485",
+   "orderId": "O-0314",
+   "date": "2026-08-26",
+   "productId": "P-076",
+   "quantity": 1,
+   "unitPrice": 56,
+   "status": "נמסר",
+   "customer": "לקוחה-058"
+  },
+  {
+   "lineId": "S-0486",
+   "orderId": "O-0315",
+   "date": "2026-08-26",
+   "productId": "P-095",
+   "quantity": 1,
+   "unitPrice": 38,
+   "status": "נמסר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0487",
+   "orderId": "O-0315",
+   "date": "2026-08-26",
+   "productId": "P-075",
+   "quantity": 1,
+   "unitPrice": 188,
+   "status": "נמסר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0488",
+   "orderId": "O-0316",
+   "date": "2026-08-26",
+   "productId": "P-071",
+   "quantity": 2,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-015"
+  },
+  {
+   "lineId": "S-0489",
+   "orderId": "O-0316",
+   "date": "2026-08-26",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "הוחזר",
+   "customer": "לקוחה-015"
+  },
+  {
+   "lineId": "S-0490",
+   "orderId": "O-0317",
+   "date": "2026-08-26",
+   "productId": "P-082",
+   "quantity": 1,
+   "unitPrice": 27,
+   "status": "נמסר",
+   "customer": "לקוחה-021"
+  },
+  {
+   "lineId": "S-0491",
+   "orderId": "O-0318",
+   "date": "2026-08-27",
+   "productId": "P-078",
+   "quantity": 1,
+   "unitPrice": 78,
+   "status": "נמסר",
+   "customer": "לקוחה-104"
+  },
+  {
+   "lineId": "S-0492",
+   "orderId": "O-0319",
+   "date": "2026-08-27",
+   "productId": "P-087",
+   "quantity": 3,
+   "unitPrice": 6,
+   "status": "נמסר",
+   "customer": "לקוחה-003"
+  },
+  {
+   "lineId": "S-0493",
+   "orderId": "O-0320",
+   "date": "2026-08-27",
+   "productId": "P-079",
+   "quantity": 1,
+   "unitPrice": 28,
+   "status": "נמסר",
+   "customer": "לקוחה-099"
+  },
+  {
+   "lineId": "S-0494",
+   "orderId": "O-0321",
+   "date": "2026-08-28",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-012"
+  },
+  {
+   "lineId": "S-0495",
+   "orderId": "O-0322",
+   "date": "2026-08-29",
+   "productId": "P-091",
+   "quantity": 1,
+   "unitPrice": 35,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0496",
+   "orderId": "O-0322",
+   "date": "2026-08-29",
+   "productId": "P-085",
+   "quantity": 1,
+   "unitPrice": 6,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0497",
+   "orderId": "O-0322",
+   "date": "2026-08-29",
+   "productId": "P-080",
+   "quantity": 1,
+   "unitPrice": 5,
+   "status": "הוחזר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0498",
+   "orderId": "O-0323",
+   "date": "2026-08-29",
+   "productId": "P-043",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-015"
+  },
+  {
+   "lineId": "S-0499",
+   "orderId": "O-0323",
+   "date": "2026-08-29",
+   "productId": "P-036",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-015"
+  },
+  {
+   "lineId": "S-0500",
+   "orderId": "O-0324",
+   "date": "2026-08-29",
+   "productId": "P-015",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0501",
+   "orderId": "O-0325",
+   "date": "2026-08-29",
+   "productId": "P-072",
+   "quantity": 2,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-102"
+  },
+  {
+   "lineId": "S-0502",
+   "orderId": "O-0326",
+   "date": "2026-08-29",
+   "productId": "P-034",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-010"
+  },
+  {
+   "lineId": "S-0503",
+   "orderId": "O-0326",
+   "date": "2026-08-29",
+   "productId": "P-076",
+   "quantity": 1,
+   "unitPrice": 56,
+   "status": "נמסר",
+   "customer": "לקוחה-010"
+  },
+  {
+   "lineId": "S-0504",
+   "orderId": "O-0327",
+   "date": "2026-08-29",
+   "productId": "P-027",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-008"
+  },
+  {
+   "lineId": "S-0505",
+   "orderId": "O-0328",
+   "date": "2026-08-30",
+   "productId": "P-042",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-126"
+  },
+  {
+   "lineId": "S-0506",
+   "orderId": "O-0328",
+   "date": "2026-08-30",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-126"
+  },
+  {
+   "lineId": "S-0507",
+   "orderId": "O-0329",
+   "date": "2026-08-30",
+   "productId": "P-073",
+   "quantity": 1,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-036"
+  },
+  {
+   "lineId": "S-0508",
+   "orderId": "O-0330",
+   "date": "2026-08-31",
+   "productId": "P-091",
+   "quantity": 4,
+   "unitPrice": 35,
+   "status": "נמסר",
+   "customer": "לקוחה-107"
+  },
+  {
+   "lineId": "S-0509",
+   "orderId": "O-0331",
+   "date": "2026-08-31",
+   "productId": "P-005",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-086"
+  },
+  {
+   "lineId": "S-0510",
+   "orderId": "O-0331",
+   "date": "2026-08-31",
+   "productId": "P-074",
+   "quantity": 3,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-086"
+  },
+  {
+   "lineId": "S-0511",
+   "orderId": "O-0331",
+   "date": "2026-08-31",
+   "productId": "P-043",
+   "quantity": 2,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-086"
+  },
+  {
+   "lineId": "S-0512",
+   "orderId": "O-0332",
+   "date": "2026-09-01",
+   "productId": "P-073",
+   "quantity": 1,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-158"
+  },
+  {
+   "lineId": "S-0513",
+   "orderId": "O-0333",
+   "date": "2026-09-01",
+   "productId": "P-056",
+   "quantity": 1,
+   "unitPrice": 249,
+   "status": "נמסר",
+   "customer": "לקוחה-084"
+  },
+  {
+   "lineId": "S-0514",
+   "orderId": "O-0334",
+   "date": "2026-09-02",
+   "productId": "P-029",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-070"
+  },
+  {
+   "lineId": "S-0515",
+   "orderId": "O-0335",
+   "date": "2026-09-02",
+   "productId": "P-073",
+   "quantity": 1,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-149"
+  },
+  {
+   "lineId": "S-0516",
+   "orderId": "O-0336",
+   "date": "2026-09-02",
+   "productId": "P-074",
+   "quantity": 1,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-062"
+  },
+  {
+   "lineId": "S-0517",
+   "orderId": "O-0337",
+   "date": "2026-09-02",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0518",
+   "orderId": "O-0338",
+   "date": "2026-09-03",
+   "productId": "P-071",
+   "quantity": 4,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-022"
+  },
+  {
+   "lineId": "S-0519",
+   "orderId": "O-0339",
+   "date": "2026-09-03",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-010"
+  },
+  {
+   "lineId": "S-0520",
+   "orderId": "O-0339",
+   "date": "2026-09-03",
+   "productId": "P-071",
+   "quantity": 2,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-010"
+  },
+  {
+   "lineId": "S-0521",
+   "orderId": "O-0340",
+   "date": "2026-09-03",
+   "productId": "P-092",
+   "quantity": 1,
+   "unitPrice": 9,
+   "status": "נמסר",
+   "customer": "לקוחה-040"
+  },
+  {
+   "lineId": "S-0522",
+   "orderId": "O-0341",
+   "date": "2026-09-03",
+   "productId": "P-083",
+   "quantity": 3,
+   "unitPrice": 19,
+   "status": "נמסר",
+   "customer": "לקוחה-149"
+  },
+  {
+   "lineId": "S-0523",
+   "orderId": "O-0341",
+   "date": "2026-09-03",
+   "productId": "P-075",
+   "quantity": 3,
+   "unitPrice": 188,
+   "status": "נמסר",
+   "customer": "לקוחה-149"
+  },
+  {
+   "lineId": "S-0524",
+   "orderId": "O-0341",
+   "date": "2026-09-03",
+   "productId": "P-084",
+   "quantity": 1,
+   "unitPrice": 10,
+   "status": "נמסר",
+   "customer": "לקוחה-149"
+  },
+  {
+   "lineId": "S-0525",
+   "orderId": "O-0342",
+   "date": "2026-09-04",
+   "productId": "P-087",
+   "quantity": 2,
+   "unitPrice": 6,
+   "status": "נמסר",
+   "customer": "לקוחה-045"
+  },
+  {
+   "lineId": "S-0526",
+   "orderId": "O-0343",
+   "date": "2026-09-04",
+   "productId": "P-004",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-027"
+  },
+  {
+   "lineId": "S-0527",
+   "orderId": "O-0344",
+   "date": "2026-09-05",
+   "productId": "P-021",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-005"
+  },
+  {
+   "lineId": "S-0528",
+   "orderId": "O-0345",
+   "date": "2026-09-05",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-003"
+  },
+  {
+   "lineId": "S-0529",
+   "orderId": "O-0346",
+   "date": "2026-09-05",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-033"
+  },
+  {
+   "lineId": "S-0530",
+   "orderId": "O-0347",
+   "date": "2026-09-05",
+   "productId": "P-010",
+   "quantity": 2,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-011"
+  },
+  {
+   "lineId": "S-0531",
+   "orderId": "O-0348",
+   "date": "2026-09-05",
+   "productId": "P-073",
+   "quantity": 1,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-114"
+  },
+  {
+   "lineId": "S-0532",
+   "orderId": "O-0349",
+   "date": "2026-09-05",
+   "productId": "P-001",
+   "quantity": 2,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-007"
+  },
+  {
+   "lineId": "S-0533",
+   "orderId": "O-0349",
+   "date": "2026-09-05",
+   "productId": "P-074",
+   "quantity": 2,
+   "unitPrice": 194,
+   "status": "נמסר",
+   "customer": "לקוחה-007"
+  },
+  {
+   "lineId": "S-0534",
+   "orderId": "O-0349",
+   "date": "2026-09-05",
+   "productId": "P-076",
+   "quantity": 3,
+   "unitPrice": 56,
+   "status": "נמסר",
+   "customer": "לקוחה-007"
+  },
+  {
+   "lineId": "S-0535",
+   "orderId": "O-0350",
+   "date": "2026-09-06",
+   "productId": "P-083",
+   "quantity": 3,
+   "unitPrice": 19,
+   "status": "נמסר",
+   "customer": "לקוחה-101"
+  },
+  {
+   "lineId": "S-0536",
+   "orderId": "O-0350",
+   "date": "2026-09-06",
+   "productId": "P-086",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-101"
+  },
+  {
+   "lineId": "S-0537",
+   "orderId": "O-0351",
+   "date": "2026-09-06",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-018"
+  },
+  {
+   "lineId": "S-0538",
+   "orderId": "O-0352",
+   "date": "2026-09-06",
+   "productId": "P-071",
+   "quantity": 3,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-104"
+  },
+  {
+   "lineId": "S-0539",
+   "orderId": "O-0353",
+   "date": "2026-09-06",
+   "productId": "P-071",
+   "quantity": 4,
+   "unitPrice": 43,
+   "status": "הוחזר",
+   "customer": "לקוחה-077"
+  },
+  {
+   "lineId": "S-0540",
+   "orderId": "O-0354",
+   "date": "2026-09-06",
+   "productId": "P-089",
+   "quantity": 4,
+   "unitPrice": 42,
+   "status": "נמסר",
+   "customer": "לקוחה-130"
+  },
+  {
+   "lineId": "S-0541",
+   "orderId": "O-0354",
+   "date": "2026-09-06",
+   "productId": "P-086",
+   "quantity": 3,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-130"
+  },
+  {
+   "lineId": "S-0542",
+   "orderId": "O-0355",
+   "date": "2026-09-07",
+   "productId": "P-089",
+   "quantity": 2,
+   "unitPrice": 42,
+   "status": "נמסר",
+   "customer": "לקוחה-141"
+  },
+  {
+   "lineId": "S-0543",
+   "orderId": "O-0355",
+   "date": "2026-09-07",
+   "productId": "P-079",
+   "quantity": 3,
+   "unitPrice": 28,
+   "status": "נמסר",
+   "customer": "לקוחה-141"
+  },
+  {
+   "lineId": "S-0544",
+   "orderId": "O-0356",
+   "date": "2026-09-07",
+   "productId": "P-043",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0545",
+   "orderId": "O-0357",
+   "date": "2026-09-08",
+   "productId": "P-011",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-077"
+  },
+  {
+   "lineId": "S-0546",
+   "orderId": "O-0358",
+   "date": "2026-09-08",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-140"
+  },
+  {
+   "lineId": "S-0547",
+   "orderId": "O-0358",
+   "date": "2026-09-08",
+   "productId": "P-072",
+   "quantity": 1,
+   "unitPrice": 20,
+   "status": "נמסר",
+   "customer": "לקוחה-140"
+  },
+  {
+   "lineId": "S-0548",
+   "orderId": "O-0359",
+   "date": "2026-09-08",
+   "productId": "P-044",
+   "quantity": 1,
+   "unitPrice": 179,
+   "status": "נמסר",
+   "customer": "לקוחה-067"
+  },
+  {
+   "lineId": "S-0549",
+   "orderId": "O-0359",
+   "date": "2026-09-08",
+   "productId": "P-092",
+   "quantity": 1,
+   "unitPrice": 9,
+   "status": "נמסר",
+   "customer": "לקוחה-067"
+  },
+  {
+   "lineId": "S-0550",
+   "orderId": "O-0360",
+   "date": "2026-09-08",
+   "productId": "P-094",
+   "quantity": 4,
+   "unitPrice": 31,
+   "status": "נמסר",
+   "customer": "לקוחה-122"
+  },
+  {
+   "lineId": "S-0551",
+   "orderId": "O-0361",
+   "date": "2026-09-08",
+   "productId": "P-049",
+   "quantity": 2,
+   "unitPrice": 99,
+   "status": "הוחזר",
+   "customer": "לקוחה-160"
+  },
+  {
+   "lineId": "S-0552",
+   "orderId": "O-0362",
+   "date": "2026-09-08",
+   "productId": "P-004",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-065"
+  },
+  {
+   "lineId": "S-0553",
+   "orderId": "O-0363",
+   "date": "2026-09-08",
+   "productId": "P-029",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0554",
+   "orderId": "O-0363",
+   "date": "2026-09-08",
+   "productId": "P-076",
+   "quantity": 3,
+   "unitPrice": 56,
+   "status": "נמסר",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0555",
+   "orderId": "O-0364",
+   "date": "2026-09-09",
+   "productId": "P-013",
+   "quantity": 2,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-055"
+  },
+  {
+   "lineId": "S-0556",
+   "orderId": "O-0365",
+   "date": "2026-09-09",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-006"
+  },
+  {
+   "lineId": "S-0557",
+   "orderId": "O-0366",
+   "date": "2026-09-09",
+   "productId": "P-047",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-055"
+  },
+  {
+   "lineId": "S-0558",
+   "orderId": "O-0367",
+   "date": "2026-09-09",
+   "productId": "P-075",
+   "quantity": 2,
+   "unitPrice": 188,
+   "status": "נמסר",
+   "customer": "לקוחה-003"
+  },
+  {
+   "lineId": "S-0559",
+   "orderId": "O-0368",
+   "date": "2026-09-09",
+   "productId": "P-027",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "הוחזר",
+   "customer": "לקוחה-041"
+  },
+  {
+   "lineId": "S-0560",
+   "orderId": "O-0369",
+   "date": "2026-09-09",
+   "productId": "P-080",
+   "quantity": 2,
+   "unitPrice": 5,
+   "status": "נמסר",
+   "customer": "לקוחה-140"
+  },
+  {
+   "lineId": "S-0561",
+   "orderId": "O-0369",
+   "date": "2026-09-09",
+   "productId": "P-004",
+   "quantity": 2,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-140"
+  },
+  {
+   "lineId": "S-0562",
+   "orderId": "O-0370",
+   "date": "2026-09-09",
+   "productId": "P-090",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-085"
+  },
+  {
+   "lineId": "S-0563",
+   "orderId": "O-0370",
+   "date": "2026-09-09",
+   "productId": "P-051",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-085"
+  },
+  {
+   "lineId": "S-0564",
+   "orderId": "O-0370",
+   "date": "2026-09-09",
+   "productId": "P-008",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-085"
+  },
+  {
+   "lineId": "S-0565",
+   "orderId": "O-0371",
+   "date": "2026-09-09",
+   "productId": "P-073",
+   "quantity": 2,
+   "unitPrice": 25,
+   "status": "הוחזר",
+   "customer": "לקוחה-012"
+  },
+  {
+   "lineId": "S-0566",
+   "orderId": "O-0372",
+   "date": "2026-09-10",
+   "productId": "P-026",
+   "quantity": 3,
+   "unitPrice": 59,
+   "status": "נמסר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0567",
+   "orderId": "O-0372",
+   "date": "2026-09-10",
+   "productId": "P-011",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0568",
+   "orderId": "O-0373",
+   "date": "2026-09-10",
+   "productId": "P-088",
+   "quantity": 1,
+   "unitPrice": 11,
+   "status": "נמסר",
+   "customer": "לקוחה-009"
+  },
+  {
+   "lineId": "S-0569",
+   "orderId": "O-0374",
+   "date": "2026-09-10",
+   "productId": "P-073",
+   "quantity": 1,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-105"
+  },
+  {
+   "lineId": "S-0570",
+   "orderId": "O-0375",
+   "date": "2026-09-11",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-020"
+  },
+  {
+   "lineId": "S-0571",
+   "orderId": "O-0375",
+   "date": "2026-09-11",
+   "productId": "P-033",
+   "quantity": 2,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-020"
+  },
+  {
+   "lineId": "S-0572",
+   "orderId": "O-0376",
+   "date": "2026-09-11",
+   "productId": "P-073",
+   "quantity": 3,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0573",
+   "orderId": "O-0377",
+   "date": "2026-09-12",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "הוחזר",
+   "customer": "לקוחה-047"
+  },
+  {
+   "lineId": "S-0574",
+   "orderId": "O-0378",
+   "date": "2026-09-13",
+   "productId": "P-014",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-119"
+  },
+  {
+   "lineId": "S-0575",
+   "orderId": "O-0378",
+   "date": "2026-09-13",
+   "productId": "P-001",
+   "quantity": 2,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-119"
+  },
+  {
+   "lineId": "S-0576",
+   "orderId": "O-0378",
+   "date": "2026-09-13",
+   "productId": "P-069",
+   "quantity": 1,
+   "unitPrice": 189,
+   "status": "נמסר",
+   "customer": "לקוחה-119"
+  },
+  {
+   "lineId": "S-0577",
+   "orderId": "O-0379",
+   "date": "2026-09-15",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-101"
+  },
+  {
+   "lineId": "S-0578",
+   "orderId": "O-0379",
+   "date": "2026-09-15",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-101"
+  },
+  {
+   "lineId": "S-0579",
+   "orderId": "O-0379",
+   "date": "2026-09-15",
+   "productId": "P-006",
+   "quantity": 2,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-101"
+  },
+  {
+   "lineId": "S-0580",
+   "orderId": "O-0380",
+   "date": "2026-09-15",
+   "productId": "P-014",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-057"
+  },
+  {
+   "lineId": "S-0581",
+   "orderId": "O-0381",
+   "date": "2026-09-16",
+   "productId": "P-055",
+   "quantity": 1,
+   "unitPrice": 119,
+   "status": "נמסר",
+   "customer": "לקוחה-052"
+  },
+  {
+   "lineId": "S-0582",
+   "orderId": "O-0382",
+   "date": "2026-09-17",
+   "productId": "P-016",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-127"
+  },
+  {
+   "lineId": "S-0583",
+   "orderId": "O-0383",
+   "date": "2026-09-17",
+   "productId": "P-008",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-008"
+  },
+  {
+   "lineId": "S-0584",
+   "orderId": "O-0383",
+   "date": "2026-09-17",
+   "productId": "P-086",
+   "quantity": 4,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-008"
+  },
+  {
+   "lineId": "S-0585",
+   "orderId": "O-0384",
+   "date": "2026-09-17",
+   "productId": "P-013",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-019"
+  },
+  {
+   "lineId": "S-0586",
+   "orderId": "O-0384",
+   "date": "2026-09-17",
+   "productId": "P-007",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-019"
+  },
+  {
+   "lineId": "S-0587",
+   "orderId": "O-0385",
+   "date": "2026-09-17",
+   "productId": "P-046",
+   "quantity": 1,
+   "unitPrice": 209,
+   "status": "נמסר",
+   "customer": "לקוחה-122"
+  },
+  {
+   "lineId": "S-0588",
+   "orderId": "O-0386",
+   "date": "2026-09-18",
+   "productId": "P-075",
+   "quantity": 1,
+   "unitPrice": 188,
+   "status": "נמסר",
+   "customer": "לקוחה-057"
+  },
+  {
+   "lineId": "S-0589",
+   "orderId": "O-0386",
+   "date": "2026-09-18",
+   "productId": "P-006",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-057"
+  },
+  {
+   "lineId": "S-0590",
+   "orderId": "O-0387",
+   "date": "2026-09-19",
+   "productId": "P-015",
+   "quantity": 2,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-033"
+  },
+  {
+   "lineId": "S-0591",
+   "orderId": "O-0387",
+   "date": "2026-09-19",
+   "productId": "P-073",
+   "quantity": 2,
+   "unitPrice": 25,
+   "status": "נמסר",
+   "customer": "לקוחה-033"
+  },
+  {
+   "lineId": "S-0592",
+   "orderId": "O-0387",
+   "date": "2026-09-19",
+   "productId": "P-045",
+   "quantity": 1,
+   "unitPrice": 219,
+   "status": "נמסר",
+   "customer": "לקוחה-033"
+  },
+  {
+   "lineId": "S-0593",
+   "orderId": "O-0388",
+   "date": "2026-09-20",
+   "productId": "P-015",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-005"
+  },
+  {
+   "lineId": "S-0594",
+   "orderId": "O-0388",
+   "date": "2026-09-20",
+   "productId": "P-041",
+   "quantity": 3,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-005"
+  },
+  {
+   "lineId": "S-0595",
+   "orderId": "O-0389",
+   "date": "2026-09-20",
+   "productId": "P-005",
+   "quantity": 2,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-132"
+  },
+  {
+   "lineId": "S-0596",
+   "orderId": "O-0390",
+   "date": "2026-09-20",
+   "productId": "P-021",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-018"
+  },
+  {
+   "lineId": "S-0597",
+   "orderId": "O-0390",
+   "date": "2026-09-20",
+   "productId": "P-045",
+   "quantity": 1,
+   "unitPrice": 219,
+   "status": "נמסר",
+   "customer": "לקוחה-018"
+  },
+  {
+   "lineId": "S-0598",
+   "orderId": "O-0391",
+   "date": "2026-09-22",
+   "productId": "P-024",
+   "quantity": 1,
+   "unitPrice": 49,
+   "status": "נשלח",
+   "customer": "לקוחה-036"
+  },
+  {
+   "lineId": "S-0599",
+   "orderId": "O-0392",
+   "date": "2026-09-22",
+   "productId": "P-010",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נשלח",
+   "customer": "לקוחה-069"
+  },
+  {
+   "lineId": "S-0600",
+   "orderId": "O-0393",
+   "date": "2026-09-22",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-091"
+  },
+  {
+   "lineId": "S-0601",
+   "orderId": "O-0393",
+   "date": "2026-09-22",
+   "productId": "P-082",
+   "quantity": 1,
+   "unitPrice": 27,
+   "status": "נמסר",
+   "customer": "לקוחה-091"
+  },
+  {
+   "lineId": "S-0602",
+   "orderId": "O-0394",
+   "date": "2026-09-22",
+   "productId": "P-071",
+   "quantity": 2,
+   "unitPrice": 43,
+   "status": "נשלח",
+   "customer": "לקוחה-004"
+  },
+  {
+   "lineId": "S-0603",
+   "orderId": "O-0395",
+   "date": "2026-09-22",
+   "productId": "P-037",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "נמסר",
+   "customer": "לקוחה-026"
+  },
+  {
+   "lineId": "S-0604",
+   "orderId": "O-0396",
+   "date": "2026-09-22",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נמסר",
+   "customer": "לקוחה-010"
+  },
+  {
+   "lineId": "S-0605",
+   "orderId": "O-0397",
+   "date": "2026-09-22",
+   "productId": "P-007",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-009"
+  },
+  {
+   "lineId": "S-0606",
+   "orderId": "O-0398",
+   "date": "2026-09-22",
+   "productId": "P-009",
+   "quantity": 3,
+   "unitPrice": 99,
+   "status": "נשלח",
+   "customer": "לקוחה-037"
+  },
+  {
+   "lineId": "S-0607",
+   "orderId": "O-0399",
+   "date": "2026-09-22",
+   "productId": "P-006",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נשלח",
+   "customer": "לקוחה-008"
+  },
+  {
+   "lineId": "S-0608",
+   "orderId": "O-0400",
+   "date": "2026-09-23",
+   "productId": "P-003",
+   "quantity": 1,
+   "unitPrice": 79,
+   "status": "נמסר",
+   "customer": "לקוחה-006"
+  },
+  {
+   "lineId": "S-0609",
+   "orderId": "O-0400",
+   "date": "2026-09-23",
+   "productId": "P-035",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "נמסר",
+   "customer": "לקוחה-006"
+  },
+  {
+   "lineId": "S-0610",
+   "orderId": "O-0400",
+   "date": "2026-09-23",
+   "productId": "P-044",
+   "quantity": 1,
+   "unitPrice": 179,
+   "status": "נמסר",
+   "customer": "לקוחה-006"
+  },
+  {
+   "lineId": "S-0611",
+   "orderId": "O-0401",
+   "date": "2026-09-24",
+   "productId": "P-003",
+   "quantity": 2,
+   "unitPrice": 79,
+   "status": "נשלח",
+   "customer": "לקוחה-107"
+  },
+  {
+   "lineId": "S-0612",
+   "orderId": "O-0402",
+   "date": "2026-09-24",
+   "productId": "P-074",
+   "quantity": 1,
+   "unitPrice": 194,
+   "status": "נשלח",
+   "customer": "לקוחה-038"
+  },
+  {
+   "lineId": "S-0613",
+   "orderId": "O-0402",
+   "date": "2026-09-24",
+   "productId": "P-041",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נשלח",
+   "customer": "לקוחה-038"
+  },
+  {
+   "lineId": "S-0614",
+   "orderId": "O-0403",
+   "date": "2026-09-25",
+   "productId": "P-005",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-005"
+  },
+  {
+   "lineId": "S-0615",
+   "orderId": "O-0403",
+   "date": "2026-09-25",
+   "productId": "P-075",
+   "quantity": 1,
+   "unitPrice": 188,
+   "status": "נמסר",
+   "customer": "לקוחה-005"
+  },
+  {
+   "lineId": "S-0616",
+   "orderId": "O-0403",
+   "date": "2026-09-25",
+   "productId": "P-007",
+   "quantity": 1,
+   "unitPrice": 39,
+   "status": "נמסר",
+   "customer": "לקוחה-005"
+  },
+  {
+   "lineId": "S-0617",
+   "orderId": "O-0404",
+   "date": "2026-09-25",
+   "productId": "P-028",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "נמסר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0618",
+   "orderId": "O-0404",
+   "date": "2026-09-25",
+   "productId": "P-067",
+   "quantity": 1,
+   "unitPrice": 209,
+   "status": "נמסר",
+   "customer": "לקוחה-002"
+  },
+  {
+   "lineId": "S-0619",
+   "orderId": "O-0405",
+   "date": "2026-09-25",
+   "productId": "P-080",
+   "quantity": 3,
+   "unitPrice": 5,
+   "status": "נמסר",
+   "customer": "לקוחה-035"
+  },
+  {
+   "lineId": "S-0620",
+   "orderId": "O-0406",
+   "date": "2026-09-26",
+   "productId": "P-071",
+   "quantity": 3,
+   "unitPrice": 43,
+   "status": "נשלח",
+   "customer": "לקוחה-041"
+  },
+  {
+   "lineId": "S-0621",
+   "orderId": "O-0406",
+   "date": "2026-09-26",
+   "productId": "P-042",
+   "quantity": 1,
+   "unitPrice": 59,
+   "status": "נשלח",
+   "customer": "לקוחה-041"
+  },
+  {
+   "lineId": "S-0622",
+   "orderId": "O-0407",
+   "date": "2026-09-27",
+   "productId": "P-064",
+   "quantity": 1,
+   "unitPrice": 219,
+   "status": "נשלח",
+   "customer": "לקוחה-010"
+  },
+  {
+   "lineId": "S-0623",
+   "orderId": "O-0408",
+   "date": "2026-09-27",
+   "productId": "P-071",
+   "quantity": 4,
+   "unitPrice": 43,
+   "status": "נמסר",
+   "customer": "לקוחה-001"
+  },
+  {
+   "lineId": "S-0624",
+   "orderId": "O-0409",
+   "date": "2026-09-29",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "ממתין",
+   "customer": "לקוחה-055"
+  },
+  {
+   "lineId": "S-0625",
+   "orderId": "O-0410",
+   "date": "2026-09-29",
+   "productId": "P-082",
+   "quantity": 2,
+   "unitPrice": 27,
+   "status": "נשלח",
+   "customer": "לקוחה-026"
+  },
+  {
+   "lineId": "S-0626",
+   "orderId": "O-0410",
+   "date": "2026-09-29",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נשלח",
+   "customer": "לקוחה-026"
+  },
+  {
+   "lineId": "S-0627",
+   "orderId": "O-0410",
+   "date": "2026-09-29",
+   "productId": "P-071",
+   "quantity": 4,
+   "unitPrice": 43,
+   "status": "נשלח",
+   "customer": "לקוחה-026"
+  },
+  {
+   "lineId": "S-0628",
+   "orderId": "O-0411",
+   "date": "2026-09-30",
+   "productId": "P-005",
+   "quantity": 1,
+   "unitPrice": 99,
+   "status": "ממתין",
+   "customer": "לקוחה-012"
+  },
+  {
+   "lineId": "S-0629",
+   "orderId": "O-0412",
+   "date": "2026-10-01",
+   "productId": "P-071",
+   "quantity": 1,
+   "unitPrice": 43,
+   "status": "ממתין",
+   "customer": "לקוחה-033"
+  },
+  {
+   "lineId": "S-0630",
+   "orderId": "O-0413",
+   "date": "2026-10-01",
+   "productId": "P-098",
+   "quantity": 3,
+   "unitPrice": 31,
+   "status": "ממתין",
+   "customer": "לקוחה-043"
+  },
+  {
+   "lineId": "S-0631",
+   "orderId": "O-0414",
+   "date": "2026-10-01",
+   "productId": "P-031",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "ממתין",
+   "customer": "לקוחה-024"
+  },
+  {
+   "lineId": "S-0632",
+   "orderId": "O-0414",
+   "date": "2026-10-01",
+   "productId": "P-044",
+   "quantity": 1,
+   "unitPrice": 179,
+   "status": "ממתין",
+   "customer": "לקוחה-024"
+  },
+  {
+   "lineId": "S-0633",
+   "orderId": "O-0415",
+   "date": "2026-10-02",
+   "productId": "P-054",
+   "quantity": 1,
+   "unitPrice": 209,
+   "status": "ממתין",
+   "customer": "לקוחה-057"
+  },
+  {
+   "lineId": "S-0634",
+   "orderId": "O-0415",
+   "date": "2026-10-02",
+   "productId": "P-077",
+   "quantity": 1,
+   "unitPrice": 13,
+   "status": "ממתין",
+   "customer": "לקוחה-057"
+  },
+  {
+   "lineId": "S-0635",
+   "orderId": "O-0415",
+   "date": "2026-10-02",
+   "productId": "P-001",
+   "quantity": 1,
+   "unitPrice": 69,
+   "status": "ממתין",
+   "customer": "לקוחה-057"
+  },
+  {
+   "lineId": "S-0636",
+   "orderId": "O-0416",
+   "date": "2026-10-02",
+   "productId": "P-001",
+   "quantity": 2,
+   "unitPrice": 69,
+   "status": "ממתין",
+   "customer": "לקוחה-120"
+  },
+  {
+   "lineId": "S-0637",
+   "orderId": "O-0416",
+   "date": "2026-10-02",
+   "productId": "P-006",
+   "quantity": 1,
+   "unitPrice": 89,
+   "status": "ממתין",
+   "customer": "לקוחה-120"
+  },
+  {
+   "lineId": "S-0638",
+   "orderId": "O-0417",
+   "date": "2026-10-02",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נשלח",
+   "customer": "לקוחה-081"
+  },
+  {
+   "lineId": "S-0639",
+   "orderId": "O-0418",
+   "date": "2026-10-02",
+   "productId": "P-002",
+   "quantity": 1,
+   "unitPrice": 29,
+   "status": "נשלח",
+   "customer": "לקוחה-050"
+  }
+ ]
+}

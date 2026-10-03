@@ -1,0 +1,864 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>דפדף ושחק | דשבורד מכירות</title>
+<meta name="description" content="דשבורד מכירות לחנות אונליין בדויה של ספרים, משחקים וציוד לבית ספר. נתוני דמה בלבד.">
+<script>
+/* מצב בהיר/כהה: מוחל לפני הציור כדי למנוע הבהוב */
+(function () {
+  try {
+    var t = localStorage.getItem('dp-theme');
+    if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+  } catch (e) {}
+})();
+</script>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #fbf4e4;            /* שמנת */
+    --surface: #fffbf2;
+    --ink: #10264a;           /* כחול עמוק */
+    --ink-2: #3d5078;
+    --muted: #5d6b86;
+    --grid: #ece3cf;
+    --axis: #cfc3a6;
+    --border: rgba(16, 38, 74, .14);
+    --rev: #10a070;           /* הכנסות: ירוק־ים, צמיחה ואופטימיות */
+    --ret: #5b3fbf;           /* החזרים: סגול, "חזרה" בלי אזעקה */
+    --blue: #2a78d6;
+    --rev-text: #0a7a52;
+    --ret-text: #5a3fbd;
+    --rev-wash: rgba(16, 160, 112, .12);
+    --ret-wash: rgba(91, 63, 191, .10);
+    --bad: #c0392b;           /* שגיאות וירידות בלבד */
+    --bad-text: #b3261e;
+    --bad-wash: rgba(179, 38, 30, .10);
+    --st-wait: #86b6ef;
+    --st-ship: #3987e5;
+    --st-done: #184f95;
+    --focus: #2a78d6;
+    --shadow: 0 1px 2px rgba(16, 38, 74, .06), 0 6px 20px rgba(16, 38, 74, .05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #0e1a2e; --surface: #14233b; --ink: #f6efdc; --ink-2: #c5cde0; --muted: #93a0ba;
+      --grid: #22324d; --axis: #33466a; --border: rgba(246, 239, 220, .14);
+      --rev: #17a374; --ret: #9085e9; --blue: #3987e5;
+      --rev-text: #4ad9a0; --ret-text: #b3a8ff;
+      --rev-wash: rgba(74, 217, 160, .14); --ret-wash: rgba(179, 168, 255, .14);
+      --bad: #e8645f; --bad-text: #ff8a85; --bad-wash: rgba(255, 138, 133, .12);
+      --st-wait: #184f95; --st-ship: #3987e5; --st-done: #86b6ef;
+      --focus: #86b6ef; --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 6px 20px rgba(0, 0, 0, .25);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #0e1a2e; --surface: #14233b; --ink: #f6efdc; --ink-2: #c5cde0; --muted: #93a0ba;
+    --grid: #22324d; --axis: #33466a; --border: rgba(246, 239, 220, .14);
+    --rev: #17a374; --ret: #9085e9; --blue: #3987e5;
+    --rev-text: #4ad9a0; --ret-text: #b3a8ff;
+    --rev-wash: rgba(74, 217, 160, .14); --ret-wash: rgba(179, 168, 255, .14);
+    --bad: #e8645f; --bad-text: #ff8a85; --bad-wash: rgba(255, 138, 133, .12);
+    --st-wait: #184f95; --st-ship: #3987e5; --st-done: #86b6ef;
+    --focus: #86b6ef; --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 6px 20px rgba(0, 0, 0, .25);
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+    font-size: 16px; line-height: 1.5;
+  }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 16px; }
+  h1, h2, p { margin: 0; }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  /* כותרת */
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 8px 0 16px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .logo { width: 44px; height: 44px; border-radius: 12px; background: var(--surface); border: 1px solid var(--border);
+          display: grid; place-items: center; font-size: 24px; box-shadow: var(--shadow); }
+  .brand h1 { font-size: 1.5rem; line-height: 1.2; }
+  .brand p { color: var(--muted); font-size: .9rem; }
+  .top-actions { display: flex; gap: 8px; align-items: center; }
+
+  .btn { background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 8px 16px;
+         min-height: 40px; display: inline-flex; align-items: center; gap: 6px; transition: background .15s; }
+  .btn:hover { background: color-mix(in srgb, var(--ink) 6%, var(--surface)); }
+  .btn.icon { width: 40px; padding: 0; justify-content: center; font-size: 18px; }
+  .btn.ghost { background: transparent; }
+  .btn[disabled] { opacity: .45; cursor: default; }
+  .spin { display: inline-block; }
+  .loading .spin { animation: spin 1s linear infinite; }
+  @keyframes spin { to { transform: rotate(-360deg); } }
+
+  /* מסננים: שורה אחת מעל התוכן */
+  .filters { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 8px; }
+  .group { display: inline-flex; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); padding: 3px; gap: 2px; flex-wrap: wrap; }
+  .seg { border: 0; background: transparent; border-radius: 999px; padding: 6px 14px; min-height: 36px; color: var(--ink-2); }
+  .seg:hover { background: color-mix(in srgb, var(--ink) 6%, transparent); }
+  .seg[aria-pressed="true"] { background: var(--ink); color: var(--bg); font-weight: 600; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; min-height: 8px; margin-bottom: 12px; }
+  .chip { background: color-mix(in srgb, var(--blue) 14%, var(--surface)); border: 1px solid var(--border); border-radius: 999px; padding: 4px 12px; font-size: .9rem; }
+
+  /* כרטיסי מדדים */
+  .content { transition: opacity .2s; }
+  .loading .content { opacity: .55; }
+  .kpis { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 12px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 16px; box-shadow: var(--shadow); min-width: 0; }
+  .kpi { position: relative; overflow: hidden; }
+  .kpi::before { content: ""; position: absolute; inset-inline-start: 0; top: 0; bottom: 0; width: 4px; background: var(--accent, var(--blue)); }
+  .kpi.hero { grid-column: 1 / -1; order: -1; --accent: var(--rev); }
+  .kpi[data-accent="green"] { --accent: var(--rev); }
+  .kpi[data-accent="red"] { --accent: var(--ret); }
+  .kpi-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; color: var(--ink-2); font-size: .95rem; }
+  .kpi-label { display: inline-flex; align-items: center; gap: 8px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent, var(--blue)); flex: none; }
+  .help { width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--border); background: transparent; color: var(--muted); font-size: .85rem; line-height: 1; }
+  .help[aria-expanded="true"] { background: var(--ink); color: var(--bg); }
+  .kpi-value { font-size: 1.7rem; font-weight: 700; line-height: 1.2; margin-top: 6px; }
+  .hero .kpi-value { font-size: clamp(2.6rem, 9vw, 3.75rem); }
+  .kpi[data-accent="green"] .kpi-value, .hero .kpi-value { color: var(--rev-text); }
+  .kpi[data-accent="red"] .kpi-value { color: var(--ret-text); }
+  .kpi-extra { font-size: .95rem; font-weight: 600; color: var(--ret-text); margin-inline-start: 8px; }
+  .delta { margin-top: 4px; font-size: .9rem; display: flex; gap: 6px; flex-wrap: wrap; align-items: baseline; }
+  .delta b { font-weight: 700; }
+  .delta.good b { color: var(--rev-text); }
+  .delta.bad b { color: var(--bad-text); }
+  .delta.flat b { color: var(--muted); }
+  .delta span { color: var(--muted); }
+  .help-text { margin-top: 8px; font-size: .88rem; color: var(--ink-2); background: color-mix(in srgb, var(--ink) 5%, transparent); border-radius: 10px; padding: 8px 10px; }
+
+  /* גרפים */
+  .grid { display: grid; gap: 12px; margin-bottom: 12px; }
+  .card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+  .card h2 { font-size: 1.05rem; }
+  .sub { color: var(--muted); font-size: .85rem; }
+  .tv-btn { background: transparent; border: 1px solid var(--border); border-radius: 999px; font-size: .82rem; padding: 4px 12px; min-height: 32px; color: var(--ink-2); }
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: .88rem; color: var(--ink-2); margin-bottom: 4px; }
+  .legend i { display: inline-block; vertical-align: middle; margin-inline-end: 6px; }
+  .key-line { width: 18px; height: 0; border-top: 2px solid var(--rev); }
+  .key-box { width: 10px; height: 10px; background: var(--ret); border-radius: 2px; }
+  .chart-box { position: relative; width: 100%; }
+  .chart-box.trend { height: 280px; }
+  .chart-box.products { height: 250px; }
+  .chart-box.status { height: 190px; }
+  .empty { display: grid; place-items: center; text-align: center; gap: 8px; min-height: 140px; color: var(--ink-2); }
+  [hidden] { display: none !important; }
+
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  th, td { text-align: start; padding: 8px 10px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+  th { color: var(--ink-2); font-weight: 600; white-space: nowrap; }
+  td.num, th.num { font-variant-numeric: tabular-nums; }
+  .th-btn { background: transparent; border: 0; padding: 0; font-weight: 600; color: var(--ink-2); display: inline-flex; gap: 4px; align-items: center; }
+  .th-btn[aria-sort] { color: var(--ink); }
+  .pill { display: inline-flex; gap: 4px; align-items: center; border-radius: 999px; padding: 2px 10px; font-size: .84rem; font-weight: 600; white-space: nowrap; }
+  .pill.s-wait { background: color-mix(in srgb, var(--st-wait) 28%, transparent); color: var(--ink); }
+  .pill.s-ship { background: color-mix(in srgb, var(--st-ship) 22%, transparent); color: var(--ink); }
+  .pill.s-done { background: var(--rev-wash); color: var(--rev-text); }
+  .pill.s-ret { background: var(--ret-wash); color: var(--ret-text); }
+  .tools { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 8px; }
+  input[type="search"] { font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--border); border-radius: 999px; padding: 8px 14px; min-height: 40px; min-width: 220px; flex: 1 1 220px; }
+  .more { margin-top: 10px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  .items-cell { max-width: 320px; }
+
+  /* שורת מצב וחיבור */
+  .statusbar { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; color: var(--muted); font-size: .85rem; padding: 12px 0 24px; }
+  .conn { width: 10px; height: 10px; border-radius: 50%; background: var(--muted); display: inline-block; margin-inline-end: 6px; }
+  .conn.ok { background: var(--rev); } .conn.err { background: var(--bad); }
+  .alert { background: var(--bad-wash); border: 1px solid var(--bad); border-radius: 12px; padding: 12px 14px; margin-bottom: 12px; color: var(--ink); }
+  .alert code { background: color-mix(in srgb, var(--ink) 8%, transparent); padding: 1px 6px; border-radius: 6px; direction: ltr; unicode-bidi: isolate; }
+  .intro { color: var(--muted); padding: 40px 0; text-align: center; }
+
+  @media (min-width: 720px) {
+    .wrap { padding: 24px; }
+    .kpis { grid-template-columns: repeat(4, 1fr); }
+    .kpi.hero { grid-column: span 2; order: 0; }
+    .kpi.wide { grid-column: span 2; }
+    .grid.two { grid-template-columns: 3fr 2fr; }
+    .chart-box.trend { height: 320px; }
+  }
+
+  /* טבלת הזמנות בטלפון: כרטיסים במקום שורות */
+  @media (max-width: 719px) {
+    table.orders thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+    table.orders, table.orders tbody, table.orders tr, table.orders td { display: block; }
+    table.orders tr { border: 1px solid var(--grid); border-radius: 12px; padding: 8px 10px; margin-bottom: 8px; }
+    table.orders td { border: 0; padding: 3px 0; display: flex; justify-content: space-between; gap: 12px; }
+    table.orders td::before { content: attr(data-label); color: var(--muted); flex: none; }
+    .items-cell { max-width: none; text-align: end; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap" id="app">
+  <header class="top">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">📚</div>
+      <div>
+        <h1>דפדף ושחק</h1>
+        <p>דשבורד מכירות · נתוני דמה בלבד</p>
+      </div>
+    </div>
+    <div class="top-actions">
+      <button class="btn" id="syncBtn" type="button" title="טוען מחדש את קובץ הנתונים ומעדכן את שעת העדכון">
+        <span class="spin" aria-hidden="true">⟳</span> סנכרון נתונים
+      </button>
+      <button class="btn icon" id="themeBtn" type="button" aria-label="החלפה בין מצב בהיר למצב כהה" title="בהיר / כהה">◐</button>
+    </div>
+  </header>
+
+  <div id="errorBox" class="alert" role="alert" hidden></div>
+
+  <section class="filters" aria-label="סינון הנתונים">
+    <div class="group" role="group" aria-label="תקופה" id="periodGroup">
+      <button class="seg" type="button" data-days="7" aria-pressed="false">7 ימים</button>
+      <button class="seg" type="button" data-days="30" aria-pressed="true">30 ימים</button>
+      <button class="seg" type="button" data-days="90" aria-pressed="false">90 ימים</button>
+    </div>
+    <div class="group" role="group" aria-label="קטגוריה" id="catGroup">
+      <button class="seg" type="button" data-cat="" aria-pressed="true">הכול</button>
+      <button class="seg" type="button" data-cat="ספרים" aria-pressed="false">ספרים</button>
+      <button class="seg" type="button" data-cat="משחקים" aria-pressed="false">משחקים</button>
+      <button class="seg" type="button" data-cat="ציוד לבית ספר" aria-pressed="false">ציוד לבית ספר</button>
+    </div>
+    <button class="btn ghost" id="clearBtn" type="button">נקי סינון</button>
+  </section>
+  <div class="chips" id="chips" aria-live="polite"></div>
+
+  <p class="intro" id="intro">טוען נתונים…</p>
+
+  <main class="content" id="content" hidden>
+    <section class="kpis" id="kpis" aria-label="מדדים עיקריים"></section>
+
+    <section class="grid">
+      <article class="card" id="card-trend">
+        <div class="card-head">
+          <div>
+            <h2>הכנסה לאחר החזרים לאורך זמן</h2>
+            <p class="sub" id="trendSub"></p>
+          </div>
+          <button class="tv-btn" type="button" data-view="trend" aria-pressed="false">תצוגת טבלה</button>
+        </div>
+        <div class="legend" aria-label="מקרא">
+          <span><i class="key-line"></i>הכנסה לאחר החזרים (קו)</span>
+          <span><i class="key-box"></i>החזרים (עמודות)</span>
+        </div>
+        <div class="chart-box trend" id="trendBox"><canvas id="trendChart" role="img" aria-label="גרף הכנסה לאחר החזרים והחזרים לאורך זמן"></canvas></div>
+        <div class="tableview" id="trendTable" hidden></div>
+      </article>
+    </section>
+
+    <section class="grid two">
+      <article class="card" id="card-products">
+        <div class="card-head">
+          <div>
+            <h2>מוצרים מובילים</h2>
+            <p class="sub">לפי הכנסה לאחר החזרים. לחיצה על עמודה מסננת את כל הדף.</p>
+          </div>
+          <button class="tv-btn" type="button" data-view="products" aria-pressed="false">תצוגת טבלה</button>
+        </div>
+        <div class="chart-box products" id="productsBox"><canvas id="productsChart" role="img" aria-label="גרף חמשת המוצרים המובילים"></canvas></div>
+        <div class="tableview" id="productsTable" hidden></div>
+      </article>
+      <article class="card" id="card-status">
+        <div class="card-head">
+          <div>
+            <h2>סטטוס פריטים</h2>
+            <p class="sub">כמות פריטים בכל שלב. לחיצה מסננת.</p>
+          </div>
+          <button class="tv-btn" type="button" data-view="status" aria-pressed="false">תצוגת טבלה</button>
+        </div>
+        <div class="chart-box status" id="statusBox"><canvas id="statusChart" role="img" aria-label="גרף פריטים לפי סטטוס"></canvas></div>
+        <div class="tableview" id="statusTable" hidden></div>
+      </article>
+    </section>
+
+    <section class="card" aria-label="הזמנות אחרונות">
+      <div class="card-head">
+        <div>
+          <h2>הזמנות</h2>
+          <p class="sub" id="ordersSub"></p>
+        </div>
+      </div>
+      <div class="tools">
+        <label class="sr-only" for="search">חיפוש הזמנה</label>
+        <input type="search" id="search" placeholder="חיפוש לפי מספר הזמנה, לקוחה או מוצר">
+      </div>
+      <div id="ordersWrap"></div>
+      <div class="more">
+        <button class="btn" id="moreBtn" type="button">הצג עוד</button>
+        <span class="sub" id="moreInfo"></span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="statusbar" id="statusbar">
+    <span><i class="conn" id="conn"></i><span id="connText">ממתין לנתונים</span></span>
+    <span id="updated"></span>
+    <span id="source"></span>
+    <span>כל הנתונים בדויים ונוצרו לצורך תרגיל.</span>
+  </footer>
+</div>
+
+<script src="vendor/chart.umd.min.js"></script>
+<script>
+(() => {
+  'use strict';
+
+  /* ---------- קבועים ---------- */
+  const CATS = ['ספרים', 'משחקים', 'ציוד לבית ספר'];
+  const STATUS_ORDER = ['ממתין', 'נשלח', 'נמסר', 'הוחזר'];
+  const STATUS_CLASS = { 'ממתין': 's-wait', 'נשלח': 's-ship', 'נמסר': 's-done', 'הוחזר': 's-ret', 'הוחזר חלקית': 's-ret' };
+  const STATUS_GLYPH = { 'ממתין': '…', 'נשלח': '›', 'נמסר': '✓', 'הוחזר': '↺', 'הוחזר חלקית': '↺' };
+  const FONT = 'system-ui, -apple-system, "Segoe UI", Arial, sans-serif';
+  const nf = new Intl.NumberFormat('he-IL', { maximumFractionDigits: 0 });
+  const nf1 = new Intl.NumberFormat('he-IL', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+  const money = (v) => `${nf.format(Math.round(v))} ₪`;
+
+  const KPIS = [
+    { id: 'net', label: 'הכנסה לאחר החזרים', accent: 'green', hero: true, upGood: true,
+      help: 'הכנסות פחות החזרים. זה הסכום שנשאר בפועל אחרי שהלקוחות החזירו מוצרים.' },
+    { id: 'gross', label: 'הכנסות', accent: 'green', upGood: true,
+      help: 'סכום כל המכירות בתקופה (כמות כפול מחיר), כולל מה שהוחזר אחר כך.' },
+    { id: 'returns', label: 'החזרים', accent: 'red', upGood: false,
+      help: 'סכום המכירות שהוחזרו. האחוז לידו הוא החזרים חלקי הכנסות. החזר נספר בתאריך המכירה המקורית.' },
+    { id: 'orders', label: 'הזמנות', accent: 'blue', wide: true, upGood: true,
+      help: 'מספר ההזמנות השונות בתקופה. הזמנה אחת יכולה לכלול כמה מוצרים.' },
+    { id: 'aov', label: 'ערך הזמנה ממוצע', accent: 'blue', wide: true, upGood: true,
+      help: 'הכנסה לאחר החזרים חלקי מספר ההזמנות.' },
+  ];
+
+  /* ---------- מצב ---------- */
+  const S = {
+    meta: null, sales: [], products: new Map(), lastDay: 0, firstDay: 0,
+    days: 30, cat: '', product: '', status: '', search: '',
+    sortKey: 'date', sortDir: -1, rows: 10,
+    views: { trend: false, products: false, status: false },
+    loadedAt: null, charts: {}, loading: false,
+  };
+
+  /* ---------- עזרים ---------- */
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  function h(tag, props = {}, ...kids) {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(props)) {
+      if (v == null || v === false) continue;
+      if (k === 'class') n.className = v;
+      else if (k === 'text') n.textContent = v;
+      else if (k.startsWith('on')) n.addEventListener(k.slice(2), v);
+      else n.setAttribute(k, v === true ? '' : v);
+    }
+    for (const kid of kids.flat()) if (kid != null) n.append(kid); /* מחרוזות נכנסות כטקסט, לא כ-HTML */
+    return n;
+  }
+  const dayNum = (s) => { const [y, m, d] = s.split('-').map(Number); return Math.round(Date.UTC(y, m - 1, d) / 864e5); };
+  const dayStr = (n) => new Date(n * 864e5).toISOString().slice(0, 10);
+  const fmtDay = (n) => { const [y, m, d] = dayStr(n).split('-'); return `${d}/${m}/${y}`; };
+  const fmtShort = (n) => { const [, m, d] = dayStr(n).split('-'); return `${+d}/${+m}`; };
+  const hexA = (hex, a) => {
+    const m = /^#?([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i.exec(hex);
+    return m ? `rgba(${parseInt(m[1], 16)},${parseInt(m[2], 16)},${parseInt(m[3], 16)},${a})` : hex;
+  };
+  const store = {
+    get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+    set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} },
+  };
+
+  /* ---------- נתונים ---------- */
+  function ingest(doc) {
+    S.meta = doc.meta;
+    S.products = new Map(doc.products.map((p) => [p.id, p]));
+    S.sales = doc.sales.map((r) => {
+      const p = S.products.get(r.productId);
+      return { ...r, day: dayNum(r.date), amount: r.quantity * r.unitPrice,
+               cat: p ? p.category : '', pname: p ? p.name : r.productId };
+    });
+    S.lastDay = dayNum(doc.meta.lastDate);
+    S.firstDay = dayNum(doc.meta.firstDate);
+  }
+
+  async function load() {
+    S.loading = true; document.body.classList.add('loading');
+    try {
+      const res = await fetch('data.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      ingest(await res.json());
+      S.loadedAt = new Date();
+      setConn(true);
+      $('#errorBox').hidden = true;
+      $('#intro').hidden = true; $('#content').hidden = false;
+      render();
+    } catch (err) {
+      setConn(false);
+      const box = $('#errorBox');
+      box.replaceChildren(
+        h('strong', { text: 'לא הצלחתי לטעון את קובץ הנתונים (data.json). ' }),
+        document.createTextNode(S.sales.length ? 'מוצגים הנתונים האחרונים שנטענו. ' : ''),
+        document.createTextNode('אם פתחת את הדף בלחיצה כפולה על הקובץ, הדפדפן חוסם קריאת קבצים. אפשר להריץ בתיקייה '),
+        h('code', { text: 'python -m http.server' }),
+        document.createTextNode(' ולפתוח את הכתובת המקומית, או לפתוח את הדף מכתובת GitHub Pages.'));
+      box.hidden = false;
+      $('#intro').textContent = S.sales.length ? '' : 'אין נתונים להצגה.';
+      renderStatusbar();
+    } finally {
+      S.loading = false; document.body.classList.remove('loading');
+    }
+  }
+
+  /* ---------- חישובים ---------- */
+  function ranges(days) {
+    const end = S.lastDay;
+    return { cur: [end - days + 1, end], prev: [end - 2 * days + 1, end - days] };
+  }
+  function slice(range, ignore) {
+    return S.sales.filter((s) =>
+      s.day >= range[0] && s.day <= range[1] &&
+      (ignore === 'cat' || !S.cat || s.cat === S.cat) &&
+      (ignore === 'product' || !S.product || s.productId === S.product) &&
+      (ignore === 'status' || !S.status || s.status === S.status));
+  }
+  function computeMetrics(rows) {
+    let gross = 0, returns = 0;
+    const orders = new Set();
+    for (const r of rows) {
+      gross += r.amount;
+      if (r.status === 'הוחזר') returns += r.amount;
+      orders.add(r.orderId);
+    }
+    const net = gross - returns;
+    return { gross, returns, net, orders: orders.size,
+             aov: orders.size ? net / orders.size : 0,
+             retPct: gross ? (100 * returns) / gross : 0 };
+  }
+  function deltaInfo(cur, prev, upGood) {
+    if (prev === 0 && cur === 0) return { cls: 'flat', arrow: '▬', text: 'ללא שינוי' };
+    if (prev === 0) return { cls: 'flat', arrow: '', text: 'אין בסיס להשוואה' };
+    const pct = ((cur - prev) / prev) * 100;
+    if (Math.abs(pct) < 0.05) return { cls: 'flat', arrow: '▬', text: 'ללא שינוי' };
+    const up = pct > 0;
+    return { cls: up === upGood ? 'good' : 'bad', arrow: up ? '▲' : '▼', text: `${nf1.format(Math.abs(pct))}%`,
+             word: up ? 'עלייה' : 'ירידה' };
+  }
+
+  /* ---------- בניית כרטיסי המדדים (פעם אחת) ---------- */
+  const kpiRefs = {};
+  function buildKpis() {
+    const wrap = $('#kpis');
+    for (const k of KPIS) {
+      const value = h('div', { class: 'kpi-value' });
+      const extra = h('span', { class: 'kpi-extra' });
+      const delta = h('div', { class: 'delta' });
+      const helpText = h('p', { class: 'help-text', id: `help-${k.id}`, hidden: true, text: k.help });
+      const helpBtn = h('button', { class: 'help', type: 'button', 'aria-expanded': 'false',
+        'aria-controls': `help-${k.id}`, 'aria-label': `איך מחשבים: ${k.label}`, text: '?' });
+      helpBtn.addEventListener('click', () => {
+        const open = helpBtn.getAttribute('aria-expanded') === 'true';
+        helpBtn.setAttribute('aria-expanded', String(!open));
+        helpText.hidden = open;
+      });
+      const card = h('article', { class: 'card kpi' + (k.hero ? ' hero' : '') + (k.wide ? ' wide' : ''), 'data-accent': k.accent },
+        h('div', { class: 'kpi-head' },
+          h('span', { class: 'kpi-label' }, h('i', { class: 'dot' }), k.label), helpBtn),
+        h('div', {}, value, extra), delta, helpText);
+      wrap.append(card);
+      kpiRefs[k.id] = { value, extra, delta };
+    }
+  }
+
+  function renderKpis() {
+    const { cur, prev } = ranges(S.days);
+    const m = computeMetrics(slice(cur)), p = computeMetrics(slice(prev));
+    S.lastMetrics = m;
+    const vals = {
+      net: money(m.net), gross: money(m.gross), returns: money(m.returns),
+      orders: nf.format(m.orders), aov: money(m.aov),
+    };
+    for (const k of KPIS) {
+      const r = kpiRefs[k.id];
+      r.value.textContent = vals[k.id];
+      r.extra.textContent = k.id === 'returns' ? `${nf1.format(m.retPct)}% מההכנסות` : '';
+      const d = deltaInfo(m[k.id], p[k.id], k.upGood);
+      r.delta.className = `delta ${d.cls}`;
+      r.delta.replaceChildren(
+        h('b', { 'aria-label': d.word ? `${d.word} של ${d.text}` : d.text, text: `${d.arrow} ${d.text}`.trim() }),
+        h('span', { text: `לעומת ${S.days} הימים הקודמים` }));
+    }
+  }
+
+  /* ---------- גרפים ---------- */
+  Chart.defaults.font.family = FONT;
+
+  const crosshair = {
+    id: 'crosshair',
+    afterDatasetsDraw(chart) {
+      const t = chart.tooltip;
+      if (!t || !t.getActiveElements().length) return;
+      const x = t.getActiveElements()[0].element.x, { top, bottom } = chart.chartArea, c = chart.ctx;
+      c.save(); c.beginPath(); c.moveTo(x, top); c.lineTo(x, bottom);
+      c.lineWidth = 1; c.strokeStyle = cssVar('--axis'); c.stroke(); c.restore();
+    },
+  };
+  const tipLabels = {
+    id: 'tipLabels',
+    afterDatasetsDraw(chart) {
+      const labels = chart.options.plugins.tipLabels && chart.options.plugins.tipLabels.labels;
+      if (!labels) return;
+      const c = chart.ctx;
+      c.save(); c.font = `600 12px ${FONT}`; c.fillStyle = cssVar('--ink'); c.textBaseline = 'middle'; c.textAlign = 'right';
+      chart.getDatasetMeta(0).data.forEach((bar, i) => c.fillText(labels[i], bar.x - 8, bar.y));
+      c.restore();
+    },
+  };
+
+  function theme() {
+    return { ink: cssVar('--ink'), ink2: cssVar('--ink-2'), muted: cssVar('--muted'), grid: cssVar('--grid'),
+      axis: cssVar('--axis'), surface: cssVar('--surface'), green: cssVar('--rev'), red: cssVar('--ret'),
+      blue: cssVar('--blue'), wait: cssVar('--st-wait'), ship: cssVar('--st-ship'), done: cssVar('--st-done') };
+  }
+  const tooltipBase = (t) => ({
+    rtl: true, textDirection: 'rtl', backgroundColor: t.surface, titleColor: t.ink, bodyColor: t.ink2,
+    borderColor: t.axis, borderWidth: 1, padding: 10, cornerRadius: 10, boxPadding: 4,
+    titleFont: { weight: '600' },
+  });
+  function destroy(id) { if (S.charts[id]) { S.charts[id].destroy(); delete S.charts[id]; } }
+
+  /* גרף מגמה: קו להכנסה לאחר החזרים, עמודות להחזרים, ציר אחד */
+  function trendData() {
+    const { cur } = ranges(S.days);
+    const rows = slice(cur);
+    const weekly = S.days > 30, size = weekly ? 7 : 1;
+    const n = Math.ceil((cur[1] - cur[0] + 1) / size);
+    const buckets = Array.from({ length: n }, (_, i) => {
+      const end = cur[1] - i * size, start = Math.max(cur[0], end - size + 1);
+      return { start, end, gross: 0, returns: 0 };
+    });
+    for (const r of rows) {
+      const b = buckets[Math.floor((cur[1] - r.day) / size)];
+      b.gross += r.amount; if (r.status === 'הוחזר') b.returns += r.amount;
+    }
+    buckets.reverse(); /* מהישן לחדש; הציר מוצג מימין לשמאל */
+    return buckets.map((b) => ({
+      label: fmtShort(b.start),
+      title: b.start === b.end ? fmtDay(b.start) : `${fmtDay(b.start)} עד ${fmtDay(b.end)}`,
+      net: b.gross - b.returns, returns: b.returns,
+    }));
+  }
+
+  function drawTrend(t) {
+    const data = trendData();
+    const empty = data.every((d) => d.net === 0 && d.returns === 0);
+    toggleEmpty('trend', empty);
+    $('#trendSub').textContent = S.days > 30 ? 'סיכום שבועי, מהישן לחדש (מימין לשמאל)' : 'סיכום יומי, מהישן לחדש (מימין לשמאל)';
+    fillTable('trendTable', 'הכנסה לאחר החזרים והחזרים לפי תקופה',
+      ['תקופה', 'הכנסה לאחר החזרים', 'החזרים'],
+      data.map((d) => [d.title, money(d.net), money(d.returns)]));
+    destroy('trend');
+    if (empty) return;
+    S.charts.trend = new Chart($('#trendChart'), {
+      plugins: [crosshair],
+      data: {
+        labels: data.map((d) => d.label),
+        datasets: [
+          { type: 'bar', label: 'החזרים', data: data.map((d) => d.returns), backgroundColor: t.red,
+            borderRadius: { topLeft: 4, topRight: 4 }, borderSkipped: 'bottom', maxBarThickness: 24, order: 2 },
+          { type: 'line', label: 'הכנסה לאחר החזרים', data: data.map((d) => d.net), borderColor: t.green,
+            backgroundColor: hexA(t.green, .10), fill: true, borderWidth: 2, cubicInterpolationMode: 'monotone',
+            pointRadius: 0, pointHoverRadius: 5, pointHoverBackgroundColor: t.green,
+            pointHoverBorderColor: t.surface, pointHoverBorderWidth: 2, order: 1 },
+        ],
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false, animation: false, locale: 'he-IL',
+        interaction: { mode: 'index', intersect: false },
+        scales: {
+          x: { reverse: true, grid: { display: false }, border: { color: t.axis },
+               ticks: { color: t.muted, maxTicksLimit: 8, autoSkip: true, maxRotation: 0 } },
+          y: { position: 'right', beginAtZero: true, border: { display: false },
+               grid: { color: t.grid }, ticks: { color: t.muted, callback: (v) => nf.format(v) } },
+        },
+        plugins: {
+          legend: { display: false },
+          tooltip: { ...tooltipBase(t), callbacks: {
+            title: (items) => data[items[0].dataIndex].title,
+            label: (c) => `${c.dataset.label}: ${money(c.parsed.y)}`,
+          } },
+        },
+      },
+    });
+  }
+
+  /* מוצרים מובילים */
+  function topProducts() {
+    const net = new Map();
+    for (const r of slice(ranges(S.days).cur, 'product')) {
+      if (r.status === 'הוחזר') continue;
+      net.set(r.productId, (net.get(r.productId) || 0) + r.amount);
+    }
+    let top = [...net.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5);
+    if (S.product && net.has(S.product) && !top.some(([id]) => id === S.product)) top.push([S.product, net.get(S.product)]);
+    return top.map(([id, v]) => ({ id, name: S.products.get(id).name, cat: S.products.get(id).category, value: v }));
+  }
+  const clip = (s, n) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
+
+  function drawProducts(t) {
+    const top = topProducts();
+    toggleEmpty('products', top.length === 0);
+    fillTable('productsTable', 'מוצרים מובילים לפי הכנסה לאחר החזרים',
+      ['מוצר', 'קטגוריה', 'הכנסה לאחר החזרים', 'סינון'],
+      top.map((p) => [p.name, p.cat, money(p.value),
+        h('button', { class: 'tv-btn', type: 'button', 'aria-pressed': String(S.product === p.id),
+          onclick: () => { setFilter('product', S.product === p.id ? '' : p.id); }, text: S.product === p.id ? 'בטל סינון' : 'סנן' })]));
+    destroy('products');
+    if (!top.length) return;
+    const colors = top.map((p) => (!S.product || p.id === S.product ? t.blue : hexA(t.blue, .35)));
+    S.charts.products = new Chart($('#productsChart'), {
+      plugins: [tipLabels],
+      type: 'bar',
+      data: { labels: top.map((p) => clip(p.name, $('#productsBox').clientWidth < 460 ? 12 : 18)),
+              datasets: [{ data: top.map((p) => p.value), backgroundColor: colors,
+                           borderRadius: { topLeft: 4, bottomLeft: 4 }, borderSkipped: 'right', maxBarThickness: 24 }] },
+      options: {
+        indexAxis: 'y', responsive: true, maintainAspectRatio: false, animation: false, locale: 'he-IL',
+        layout: { padding: { left: 84 } },
+        onClick: (e, els) => { if (els.length) setFilter('product', S.product === top[els[0].index].id ? '' : top[els[0].index].id); },
+        onHover: (e, els) => { e.native.target.style.cursor = els.length ? 'pointer' : 'default'; },
+        scales: {
+          x: { reverse: true, display: false, beginAtZero: true },
+          y: { position: 'right', grid: { display: false }, border: { color: t.axis },
+               ticks: { color: t.ink2, font: { size: 12 } } },
+        },
+        plugins: {
+          legend: { display: false }, tipLabels: { labels: top.map((p) => money(p.value)) },
+          tooltip: { ...tooltipBase(t), callbacks: {
+            title: (items) => top[items[0].dataIndex].name,
+            label: (c) => `${top[c.dataIndex].cat} · ${money(c.parsed.x)}`,
+          } },
+        },
+      },
+    });
+  }
+
+  /* סטטוס פריטים: פס אחד לכל שלב; ממתין, נשלח, נמסר כסולם של גוון אחד, והחזר באדום */
+  function drawStatus(t) {
+    const counts = Object.fromEntries(STATUS_ORDER.map((s) => [s, 0]));
+    for (const r of slice(ranges(S.days).cur, 'status')) counts[r.status] += 1;
+    const total = STATUS_ORDER.reduce((a, s) => a + counts[s], 0);
+    toggleEmpty('status', total === 0);
+    const pct = (s) => (total ? nf1.format((100 * counts[s]) / total) : '0.0');
+    fillTable('statusTable', 'פריטים לפי סטטוס', ['סטטוס', 'פריטים', 'אחוז', 'סינון'],
+      STATUS_ORDER.map((s) => [s, nf.format(counts[s]), `${pct(s)}%`,
+        h('button', { class: 'tv-btn', type: 'button', 'aria-pressed': String(S.status === s),
+          onclick: () => setFilter('status', S.status === s ? '' : s), text: S.status === s ? 'בטל סינון' : 'סנן' })]));
+    destroy('status');
+    if (!total) return;
+    const base = { 'ממתין': t.wait, 'נשלח': t.ship, 'נמסר': t.done, 'הוחזר': t.red };
+    const colors = STATUS_ORDER.map((s) => (!S.status || s === S.status ? base[s] : hexA(base[s], .35)));
+    S.charts.status = new Chart($('#statusChart'), {
+      plugins: [tipLabels],
+      type: 'bar',
+      data: { labels: STATUS_ORDER, datasets: [{ data: STATUS_ORDER.map((s) => counts[s]), backgroundColor: colors,
+              borderRadius: { topLeft: 4, bottomLeft: 4 }, borderSkipped: 'right', maxBarThickness: 24 }] },
+      options: {
+        indexAxis: 'y', responsive: true, maintainAspectRatio: false, animation: false, locale: 'he-IL',
+        layout: { padding: { left: 84 } },
+        onClick: (e, els) => { if (els.length) { const s = STATUS_ORDER[els[0].index]; setFilter('status', S.status === s ? '' : s); } },
+        onHover: (e, els) => { e.native.target.style.cursor = els.length ? 'pointer' : 'default'; },
+        scales: {
+          x: { reverse: true, display: false, beginAtZero: true },
+          y: { position: 'right', grid: { display: false }, border: { color: t.axis }, ticks: { color: t.ink2, font: { size: 12 } } },
+        },
+        plugins: {
+          legend: { display: false },
+          tipLabels: { labels: STATUS_ORDER.map((s) => `${nf.format(counts[s])} (${pct(s)}%)`) },
+          tooltip: { ...tooltipBase(t), callbacks: {
+            label: (c) => `${nf.format(c.parsed.x)} פריטים (${pct(STATUS_ORDER[c.dataIndex])}%)`,
+          } },
+        },
+      },
+    });
+  }
+
+  function toggleEmpty(id, isEmpty) {
+    const box = $(`#${id}Box`);
+    let msg = $(`.empty`, box.parentElement);
+    if (isEmpty) {
+      if (!msg) {
+        msg = h('div', { class: 'empty' }, h('p', { text: 'אין נתונים בסינון הזה.' }),
+          h('button', { class: 'btn', type: 'button', onclick: clearFilters, text: 'נקי סינון' }));
+        box.after(msg);
+      }
+      box.hidden = true;
+    } else {
+      if (msg) msg.remove();
+      box.hidden = S.views[id];
+    }
+  }
+
+  function fillTable(id, caption, headers, rows) {
+    const wrap = $(`#${id}`);
+    const tbl = h('table', {},
+      h('caption', { class: 'sr-only', text: caption }),
+      h('thead', {}, h('tr', {}, headers.map((x) => h('th', { scope: 'col', text: x })))),
+      h('tbody', {}, rows.map((r) => h('tr', {}, r.map((c) => h('td', {}, c))))));
+    wrap.replaceChildren(tbl);
+    wrap.hidden = !S.views[id.replace('Table', '')];
+  }
+
+  /* ---------- טבלת הזמנות ---------- */
+  function ordersList() {
+    const map = new Map();
+    for (const r of slice(ranges(S.days).cur)) {
+      let o = map.get(r.orderId);
+      if (!o) { o = { orderId: r.orderId, day: r.day, customer: r.customer, items: [], net: 0, st: new Set() }; map.set(r.orderId, o); }
+      o.items.push(`${r.pname}${r.quantity > 1 ? ` ×${r.quantity}` : ''}`);
+      if (r.status !== 'הוחזר') o.net += r.amount;
+      o.st.add(r.status);
+    }
+    let list = [...map.values()].map((o) => ({
+      ...o,
+      status: o.st.size === 1 ? [...o.st][0] : (o.st.has('הוחזר') ? 'הוחזר חלקית' : [...o.st][0]),
+    }));
+    const q = S.search.trim();
+    if (q) list = list.filter((o) => o.orderId.includes(q) || o.customer.includes(q) || o.items.some((i) => i.includes(q)));
+    const key = S.sortKey, dir = S.sortDir;
+    const val = { order: (o) => o.orderId, date: (o) => o.day * 1e6 + Number(o.orderId.slice(2)), amount: (o) => o.net, status: (o) => o.status };
+    list.sort((a, b) => { const x = val[key](a), y = val[key](b); return (x < y ? -1 : x > y ? 1 : 0) * dir; });
+    return list;
+  }
+
+  function renderOrders() {
+    const list = ordersList();
+    const shown = list.slice(0, S.rows);
+    $('#ordersSub').textContent = `${nf.format(list.length)} הזמנות בתקופה ובסינון הנוכחיים. הסכום הוא לאחר החזרים.`;
+    const cols = [['order', 'הזמנה'], ['date', 'תאריך'], [null, 'לקוחה'], [null, 'פריטים'], ['amount', 'סכום'], ['status', 'סטטוס']];
+    const head = h('tr', {}, cols.map(([k, label]) => {
+      if (!k) return h('th', { scope: 'col', text: label });
+      const active = S.sortKey === k;
+      const btn = h('button', { class: 'th-btn', type: 'button', onclick: () => {
+        if (S.sortKey === k) S.sortDir *= -1; else { S.sortKey = k; S.sortDir = k === 'order' || k === 'status' ? 1 : -1; }
+        renderOrders();
+      } }, label, active ? (S.sortDir === 1 ? ' ▲' : ' ▼') : '');
+      return h('th', { scope: 'col', class: k === 'amount' ? 'num' : null,
+        'aria-sort': active ? (S.sortDir === 1 ? 'ascending' : 'descending') : 'none' }, btn);
+    }));
+    const body = shown.map((o) => h('tr', {},
+      h('td', { 'data-label': 'הזמנה', text: o.orderId }),
+      h('td', { 'data-label': 'תאריך', text: fmtDay(o.day) }),
+      h('td', { 'data-label': 'לקוחה', text: o.customer }),
+      h('td', { 'data-label': 'פריטים', class: 'items-cell', title: o.items.join(', '), text: clip(o.items.join(', '), 70) }),
+      h('td', { 'data-label': 'סכום', class: 'num', text: money(o.net) }),
+      h('td', { 'data-label': 'סטטוס' }, h('span', { class: `pill ${STATUS_CLASS[o.status]}` }, STATUS_GLYPH[o.status] + ' ', o.status))));
+    const wrap = $('#ordersWrap');
+    if (!list.length) {
+      wrap.replaceChildren(h('div', { class: 'empty' }, h('p', { text: 'אין הזמנות בסינון הזה.' }),
+        h('button', { class: 'btn', type: 'button', onclick: clearFilters, text: 'נקי סינון' })));
+    } else {
+      wrap.replaceChildren(h('table', { class: 'orders' },
+        h('caption', { class: 'sr-only', text: 'הזמנות' }), h('thead', {}, head), h('tbody', {}, body)));
+    }
+    $('#moreBtn').hidden = list.length <= S.rows;
+    $('#moreInfo').textContent = list.length ? `מוצגות ${Math.min(S.rows, list.length)} מתוך ${list.length}` : '';
+  }
+
+  /* ---------- סינון ומסננים ---------- */
+  function setFilter(k, v) { S[k] = v; S.rows = 10; savePrefs(); render(); }
+  function clearFilters() { S.cat = ''; S.product = ''; S.status = ''; S.search = ''; $('#search').value = ''; S.rows = 10; savePrefs(); render(); }
+  function savePrefs() { store.set('dp-prefs', JSON.stringify({ days: S.days, cat: S.cat })); }
+  function loadPrefs() {
+    try {
+      const p = JSON.parse(store.get('dp-prefs') || '{}');
+      if ([7, 30, 90].includes(p.days)) S.days = p.days;
+      if (CATS.includes(p.cat)) S.cat = p.cat;
+    } catch (e) {}
+  }
+
+  function renderControls() {
+    $$('#periodGroup .seg').forEach((b) => b.setAttribute('aria-pressed', String(+b.dataset.days === S.days)));
+    $$('#catGroup .seg').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.cat === S.cat)));
+    const chips = $('#chips'); chips.replaceChildren();
+    const mk = (label, key) => chips.append(h('button', { class: 'chip', type: 'button', 'aria-label': `הסרת סינון ${label}`,
+      onclick: () => setFilter(key, '') }, `${label}  ✕`));
+    if (S.product) mk(`מוצר: ${S.products.get(S.product).name}`, 'product');
+    if (S.status) mk(`סטטוס: ${S.status}`, 'status');
+    $('#clearBtn').disabled = !(S.cat || S.product || S.status || S.search);
+  }
+
+  /* ---------- שורת מצב ---------- */
+  function setConn(ok) {
+    const c = $('#conn');
+    c.className = 'conn ' + (ok ? 'ok' : 'err');
+    $('#connText').textContent = ok ? 'הנתונים נטענו' : 'שגיאת טעינה';
+  }
+  function renderStatusbar() {
+    if (S.meta) {
+      const d = new Date(S.meta.generatedAt);
+      $('#updated').textContent = `הנתונים נוצרו: ${d.toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' })}` +
+        (S.loadedAt ? ` · נטענו בדפדפן: ${S.loadedAt.toLocaleTimeString('he-IL', { timeStyle: 'short' })}` : '');
+      const srcName = { csv: 'קובץ CSV', airtable: 'Airtable' }[S.meta.source] || S.meta.source;
+      $('#source').textContent = `מקור: ${srcName} · התקופה בנתונים: ${fmtDay(S.firstDay)} עד ${fmtDay(S.lastDay)}`;
+    }
+  }
+
+  /* ---------- ציור כללי ---------- */
+  function render() {
+    if (!S.sales.length) return;
+    renderControls();
+    renderKpis();
+    const t = theme();
+    drawTrend(t); drawProducts(t); drawStatus(t);
+    renderOrders();
+    renderStatusbar();
+  }
+
+  /* ---------- אירועים ---------- */
+  function wire() {
+    $('#periodGroup').addEventListener('click', (e) => {
+      const b = e.target.closest('[data-days]'); if (b) { S.days = +b.dataset.days; S.rows = 10; savePrefs(); render(); }
+    });
+    $('#catGroup').addEventListener('click', (e) => {
+      const b = e.target.closest('[data-cat]'); if (b) setFilter('cat', b.dataset.cat);
+    });
+    $('#clearBtn').addEventListener('click', clearFilters);
+    $('#syncBtn').addEventListener('click', load);
+    $('#moreBtn').addEventListener('click', () => { S.rows += 10; renderOrders(); });
+    $('#search').addEventListener('input', (e) => { S.search = e.target.value; S.rows = 10; renderControls(); renderOrders(); });
+    $$('.tv-btn[data-view]').forEach((b) => b.addEventListener('click', () => {
+      const id = b.dataset.view;
+      S.views[id] = !S.views[id];
+      b.setAttribute('aria-pressed', String(S.views[id]));
+      b.textContent = S.views[id] ? 'תצוגת גרף' : 'תצוגת טבלה';
+      $(`#${id}Table`).hidden = !S.views[id];
+      if (!$(`#card-${id} .empty`)) $(`#${id}Box`).hidden = S.views[id];
+    }));
+    $('#themeBtn').addEventListener('click', () => {
+      const dark = document.documentElement.getAttribute('data-theme') === 'dark' ||
+        (!document.documentElement.hasAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches);
+      const next = dark ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      store.set('dp-theme', next);
+      render();
+    });
+    matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => render());
+  }
+
+  buildKpis();
+  loadPrefs();
+  wire();
+  load();
+
+  /* חשיפה לבדיקות (השוואה ל-expected_metrics.json) */
+  window.dashboard = { state: S, computeMetrics, slice, ranges };
+})();
+</script>
+</body>
+</html>
