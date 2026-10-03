@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generatedAt": "2026-10-03T10:30:31+03:00",
-  "source": "csv",
+  "generatedAt": "2026-10-03T11:49:04+03:00",
+  "source": "airtable",
   "currency": "₪",
   "firstDate": "2026-04-03",
   "lastDate": "2026-10-02"
