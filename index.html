@@ -10,8 +10,8 @@
 (function () {
   try {
     var t = localStorage.getItem('dp-theme');
-    if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
-  } catch (e) {}
+    document.documentElement.setAttribute('data-theme', t === 'light' ? 'light' : 'dark'); /* ברירת מחדל: כהה */
+  } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
 })();
 </script>
 <style>
