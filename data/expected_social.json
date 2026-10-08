@@ -1,0 +1,47 @@
+{
+ "posts": 89,
+ "authors": 73,
+ "distinctHashtags": 496,
+ "topHashtags": [
+  [
+   "boardgames",
+   25
+  ],
+  [
+   "backtoschool",
+   19
+  ],
+  [
+   "kidsbooks",
+   18
+  ],
+  [
+   "משחקיקופסה",
+   17
+  ],
+  [
+   "חזרהללימודים",
+   12
+  ],
+  [
+   "קינדרטויס",
+   7
+  ],
+  [
+   "kindertoys",
+   7
+  ],
+  [
+   "ילדים",
+   6
+  ],
+  [
+   "הורים",
+   6
+  ],
+  [
+   "childrensbooks",
+   6
+  ]
+ ]
+}

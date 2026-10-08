@@ -17,14 +17,14 @@
 <style>
   :root {
     color-scheme: light;
-    --bg: #f4f0e7;            /* שנהב חם */
-    --surface: #fdfbf6;
+    --bg: #e8ebf0;            /* אפור־פחם בהיר */
+    --surface: #ffffff;
     --ink: #121c33;           /* כחול לילה */
-    --ink-2: #3a4560;
-    --muted: #5b6477;
-    --grid: #e6e0d1;
-    --axis: #c9c0aa;
-    --border: rgba(18, 28, 51, .13);
+    --ink-2: #38435b;
+    --muted: #566075;
+    --grid: #dde1e8;
+    --axis: #b9c0cd;
+    --border: rgba(18, 28, 51, .12);
     --gold: #9c7a3c;          /* פליז: קישוט בלבד, לא נתונים */
     --gold-text: #7a5c1e;
     --rev: #1b8f6f;           /* הכנסות */
@@ -48,7 +48,7 @@
     --hero-gold: #e3c887;
     --hero-good: #6fd1ac;
     --hero-bad: #ff8f88;
-    --shadow: 0 1px 0 rgba(18, 28, 51, .04), 0 12px 32px -18px rgba(18, 28, 51, .22);
+    --shadow: 0 1px 2px rgba(18, 28, 51, .06), 0 14px 30px -18px rgba(18, 28, 51, .28);
     --serif: "Frank Ruhl Libre", "David Libre", "Times New Roman", Times, serif;
     --sans: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
   }
@@ -231,6 +231,28 @@
     .items-cell { max-width: none; text-align: end; }
   }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+  /* ---------- לשוניות ומסך "מחקר שוק" ---------- */
+  .tabs { display: flex; gap: 6px; margin: 0 0 16px; border-bottom: 1px solid var(--grid); }
+  .tab { border: 0; background: transparent; color: var(--ink-2); padding: 10px 18px; min-height: 40px; font: inherit; cursor: pointer;
+    border-bottom: 2px solid transparent; margin-bottom: -1px; }
+  .tab:hover { color: var(--ink); }
+  .tab[aria-selected="true"] { color: var(--ink); font-weight: 600; border-bottom-color: var(--gold); }
+  .tab:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  body[data-view="social"] .filters, body[data-view="social"] #chips, body[data-view="social"] #intro,
+  body[data-view="social"] #content, body[data-view="social"] #errorBox { display: none !important; }
+  #socialView[hidden] { display: none; }
+  #socialView .filters { display: flex; }
+  .words { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+  .word { border: 1px solid var(--border); border-radius: 4px; padding: 4px 10px; background: var(--surface); color: var(--ink); font-size: .9rem; }
+  .word b { color: var(--muted); font-weight: 600; margin-inline-start: 6px; }
+  .legend-s { display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: .84rem; margin: 4px 0 8px; }
+  .legend-s i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-inline-end: 6px; }
+  .top-posts { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+  .top-post { border: 1px solid var(--grid); border-radius: 4px; padding: 12px 14px; }
+  .top-post p { margin: 0 0 6px; }
+  .top-post .meta { color: var(--muted); font-size: .84rem; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .top-post a, td a.plink { color: var(--blue); text-underline-offset: 3px; }
+  .chart-box.tags { height: 330px; }
 </style>
 </head>
 <body>
@@ -250,6 +272,12 @@
       <button class="btn icon" id="themeBtn" type="button" aria-label="החלפה בין מצב בהיר למצב כהה" title="בהיר / כהה">◐</button>
     </div>
   </header>
+
+  <nav class="tabs" role="tablist" aria-label="מסכי הדאשבורד">
+    <button class="tab" id="tabSales" type="button" role="tab" aria-selected="true" aria-controls="content">מכירות</button>
+    <button class="tab" id="tabSocial" type="button" role="tab" aria-selected="false" aria-controls="socialView">מחקר שוק (אינסטגרם)</button>
+  </nav>
+
 
   <div id="errorBox" class="alert" role="alert" hidden></div>
 
@@ -335,6 +363,76 @@
       </div>
     </section>
   </main>
+
+  <section id="socialView" hidden aria-label="מחקר שוק מאינסטגרם">
+    <div class="filters">
+      <div class="group" role="group" aria-label="שפה" id="langGroup">
+        <button class="seg" type="button" data-lang="" aria-pressed="true">כל השפות</button>
+        <button class="seg" type="button" data-lang="he" aria-pressed="false">עברית</button>
+        <button class="seg" type="button" data-lang="en" aria-pressed="false">אנגלית</button>
+      </div>
+    </div>
+    <p class="intro" id="socialIntro">טוען נתונים…</p>
+    <div id="socialError" class="alert" role="alert" hidden></div>
+    <div id="socialContent" hidden>
+      <section class="kpis" id="socialKpis" aria-label="מדדים עיקריים"></section>
+
+      <section class="grid two">
+        <article class="card" id="card-tags">
+          <div class="card-head">
+            <div>
+              <h2>ההאשטאגים הנפוצים</h2>
+              <p class="sub" id="tagsSub"></p>
+            </div>
+            <button class="tv-btn" type="button" id="tagsViewBtn" aria-pressed="false">תצוגת טבלה</button>
+          </div>
+          <div class="legend-s" aria-label="מקרא">
+            <span><i id="keySearch"></i>האשטאג שחיפשנו</span>
+            <span><i id="keyOther"></i>האשטאג שהופיע בפוסטים</span>
+          </div>
+          <div class="chart-box tags" id="tagsBox"><canvas id="tagsChart" role="img" aria-label="גרף עשרת ההאשטאגים הנפוצים"></canvas></div>
+          <div class="tableview" id="tagsTable" hidden></div>
+        </article>
+        <article class="card" id="card-words">
+          <div class="card-head">
+            <div>
+              <h2>מילים נפוצות בכיתובים</h2>
+              <p class="sub">מילים שחוזרות בכמה פוסטים שונים, בלי מילות קישור.</p>
+            </div>
+          </div>
+          <div class="words" id="wordsBox"></div>
+        </article>
+      </section>
+
+      <section class="card" aria-label="פוסטים בולטים">
+        <div class="card-head">
+          <div>
+            <h2>פוסטים בולטים</h2>
+            <p class="sub" id="topSub"></p>
+          </div>
+        </div>
+        <ul class="top-posts" id="topPosts"></ul>
+      </section>
+
+      <section class="card" aria-label="כל הפוסטים" style="margin-top:14px">
+        <div class="card-head">
+          <div>
+            <h2>כל הפוסטים</h2>
+            <p class="sub" id="postsSub"></p>
+          </div>
+        </div>
+        <div class="tools">
+          <label class="sr-only" for="socialSearch">חיפוש פוסט</label>
+          <input type="search" id="socialSearch" placeholder="חיפוש לפי כיתוב, כותב או האשטאג">
+        </div>
+        <div id="postsWrap"></div>
+        <div class="more">
+          <button class="btn" id="postsMore" type="button">הצג עוד</button>
+          <span class="sub" id="postsInfo"></span>
+        </div>
+      </section>
+    </div>
+  </section>
 
   <footer class="statusbar" id="statusbar">
     <span><i class="conn" id="conn"></i><span id="connText">ממתין לנתונים</span></span>
@@ -894,6 +992,216 @@
 
   /* חשיפה לבדיקות (השוואה ל-expected_metrics.json) */
   window.dashboard = { state: S, computeMetrics, slice, ranges };
+})();
+</script>
+<script>
+/* מסך "מחקר שוק": נתונים מ-Apify (social.json). עצמאי, ולא נוגע בקוד של מסך המכירות. */
+(() => {
+  'use strict';
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const nf = new Intl.NumberFormat('he-IL', { maximumFractionDigits: 0 });
+  const FONT = 'system-ui, -apple-system, "Segoe UI", Arial, sans-serif';
+  function h(tag, props = {}, ...kids) {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(props)) {
+      if (v == null || v === false) continue;
+      if (k === 'class') n.className = v;
+      else if (k === 'text') n.textContent = v;
+      else if (k.startsWith('on')) n.addEventListener(k.slice(2), v);
+      else n.setAttribute(k, v === true ? '' : v);
+    }
+    for (const kid of kids.flat()) if (kid != null) n.append(kid);
+    return n;
+  }
+  const clip = (s, n) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
+  const isHe = (s) => /[֐-׿]/.test(s);
+  const safeUrl = (u) => (/^https:\/\/www\.instagram\.com\//.test(u) ? u : '');
+  const fmtDate = (iso) => { const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleDateString('he-IL'); };
+
+  const STOP = new Set(('the and for with you your our are this that from have has not but all can will out get its they their more new now just one any bio link what who before made when how into over also about '
+    + 'את של על עם זה זאת הוא היא הם הן אני אנחנו לא גם או אבל כל כי אם יש אין מה מי איך לכם לנו לך שלנו שלכם עוד כמו רק מאוד בין אל אלא אחד בביו באתר בקישור').split(/\s+/).filter(Boolean));
+
+  const S = { doc: null, posts: [], lang: '', q: '', rows: 10, tagsTable: false, loaded: false, saved: null, chart: null };
+  const kpiRefs = {};
+
+  function filtered() {
+    return S.posts.filter((p) => !S.lang || (S.lang === 'he') === p.he);
+  }
+  function tagCounts(list) {
+    const c = new Map();
+    for (const p of list) for (const t of new Set(p.hashtags)) c.set(t, (c.get(t) || 0) + 1);
+    return [...c.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  }
+  function wordCounts(list) {
+    const c = new Map();
+    for (const p of list) {
+      const txt = p.caption.replace(/https?:\/\/\S+/g, ' ').replace(/[#@]\S+/g, ' ').toLowerCase();
+      const words = new Set(txt.split(/[^\p{L}\p{N}]+/u).filter((w) => w.length >= 3 && !/^\d+$/.test(w) && !STOP.has(w)));
+      for (const w of words) c.set(w, (c.get(w) || 0) + 1);
+    }
+    return [...c.entries()].filter(([, n]) => n >= 3).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  }
+
+  function buildKpis() {
+    const defs = [['posts', 'פוסטים', 'blue'], ['authors', 'כותבים שונים', 'blue'], ['tags', 'האשטאגים שונים', 'green']];
+    const wrap = $('#socialKpis');
+    wrap.replaceChildren();
+    for (const [id, label, accent] of defs) {
+      const value = h('div', { class: 'kpi-value' });
+      wrap.append(h('article', { class: 'card kpi wide', 'data-accent': accent },
+        h('div', { class: 'kpi-head' }, h('span', { class: 'kpi-label' }, h('i', { class: 'dot' }), label)),
+        h('div', {}, value)));
+      kpiRefs[id] = value;
+    }
+  }
+
+  function render() {
+    if (!S.loaded) return;
+    const list = filtered();
+    kpiRefs.posts.textContent = nf.format(list.length);
+    kpiRefs.authors.textContent = nf.format(new Set(list.map((p) => p.username)).size);
+    const tags = tagCounts(list);
+    kpiRefs.tags.textContent = nf.format(tags.length);
+    drawTags(tags, list.length);
+    drawWords(list);
+    drawTop(list);
+    drawPosts(list);
+  }
+
+  function drawTags(tags, total) {
+    const search = new Set(S.doc.meta.searchTags.map((t) => t.toLowerCase()));
+    const top = tags.slice(0, 10);
+    $('#tagsSub').textContent = `עשרת ההאשטאגים שהופיעו בהכי הרבה פוסטים, מתוך ${nf.format(total)} פוסטים.`;
+    const cSearch = cssVar('--st-ship'), cOther = cssVar('--rev');
+    $('#keySearch').style.background = cSearch; $('#keyOther').style.background = cOther;
+    if (S.chart) S.chart.destroy();
+    S.chart = new Chart($('#tagsChart'), {
+      type: 'bar',
+      data: { labels: top.map(([t]) => '#' + t), datasets: [{ data: top.map(([, n]) => n),
+        backgroundColor: top.map(([t]) => (search.has(t) ? cSearch : cOther)), borderRadius: 2 }] },
+      options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, animation: false,
+        plugins: { legend: { display: false }, tooltip: { rtl: true, callbacks: { label: (c) => `${c.raw} פוסטים` } } },
+        scales: { x: { beginAtZero: true, ticks: { precision: 0, color: cssVar('--muted'), font: { family: FONT } }, grid: { color: cssVar('--grid') } },
+          y: { ticks: { color: cssVar('--ink'), font: { family: FONT } }, grid: { display: false } } } },
+    });
+    const tbl = h('table', { class: 'orders' }, h('caption', { class: 'sr-only', text: 'האשטאגים נפוצים' }),
+      h('thead', {}, h('tr', {}, h('th', { scope: 'col', text: 'האשטאג' }), h('th', { scope: 'col', class: 'num', text: 'פוסטים' }), h('th', { scope: 'col', text: 'סוג' }))),
+      h('tbody', {}, top.map(([t, n]) => h('tr', {},
+        h('td', { 'data-label': 'האשטאג', text: '#' + t }), h('td', { 'data-label': 'פוסטים', class: 'num', text: nf.format(n) }),
+        h('td', { 'data-label': 'סוג', text: search.has(t) ? 'האשטאג שחיפשנו' : 'הופיע בפוסטים' })))));
+    $('#tagsTable').replaceChildren(tbl);
+    applyTagsView();
+  }
+  function applyTagsView() {
+    $('#tagsTable').hidden = !S.tagsTable; $('#tagsBox').hidden = S.tagsTable;
+    const b = $('#tagsViewBtn'); b.setAttribute('aria-pressed', String(S.tagsTable)); b.textContent = S.tagsTable ? 'תצוגת גרף' : 'תצוגת טבלה';
+  }
+
+  function drawWords(list) {
+    const words = wordCounts(list).slice(0, 16);
+    $('#wordsBox').replaceChildren(...(words.length
+      ? words.map(([w, n]) => h('span', { class: 'word' }, w, h('b', { text: String(n) })))
+      : [h('p', { class: 'sub', text: 'אין מספיק פוסטים כדי לזהות מילים נפוצות.' })]));
+  }
+
+  const score = (p) => p.likes + p.comments;
+  function drawTop(list) {
+    const top = [...list].sort((a, b) => score(b) - score(a)).slice(0, 5);
+    $('#topSub').textContent = 'לפי לייקים ועוד תגובות. לרוב הפוסטים יש מעט לייקים, ולכן זה רמז בלבד.';
+    $('#topPosts').replaceChildren(...top.map((p) => {
+      const u = safeUrl(p.url);
+      return h('li', { class: 'top-post' },
+        h('p', { text: clip(p.caption || '(בלי כיתוב)', 200) }),
+        h('div', { class: 'meta' },
+          h('span', { text: p.author || p.username }),
+          h('span', { text: `${nf.format(p.likes)} לייקים` }),
+          h('span', { text: `${nf.format(p.comments)} תגובות` }),
+          h('span', { text: fmtDate(p.timestamp) }),
+          u ? h('a', { href: u, target: '_blank', rel: 'noopener noreferrer', text: 'לפוסט באינסטגרם' }) : null));
+    }));
+  }
+
+  function drawPosts(list) {
+    const q = S.q.trim().toLowerCase();
+    const rows = (q ? list.filter((p) => (p.caption + ' ' + p.author + ' ' + p.username + ' ' + p.hashtags.join(' ')).toLowerCase().includes(q)) : list)
+      .slice().sort((a, b) => (b.timestamp > a.timestamp ? 1 : -1));
+    $('#postsSub').textContent = `${nf.format(rows.length)} פוסטים בסינון הנוכחי, מהחדש לישן.`;
+    const wrap = $('#postsWrap');
+    if (!rows.length) {
+      wrap.replaceChildren(h('div', { class: 'empty' }, h('p', { text: 'אין פוסטים בסינון הזה.' })));
+    } else {
+      const head = h('tr', {}, ['תאריך', 'כותב', 'כיתוב', 'לייקים', 'תגובות', 'קישור'].map((t, i) =>
+        h('th', { scope: 'col', class: i === 3 || i === 4 ? 'num' : null, text: t })));
+      const body = rows.slice(0, S.rows).map((p) => {
+        const u = safeUrl(p.url);
+        return h('tr', {},
+          h('td', { 'data-label': 'תאריך', text: fmtDate(p.timestamp) }),
+          h('td', { 'data-label': 'כותב', text: clip(p.author || p.username, 30) }),
+          h('td', { 'data-label': 'כיתוב', class: 'items-cell', title: p.caption, text: clip(p.caption, 90) }),
+          h('td', { 'data-label': 'לייקים', class: 'num', text: nf.format(p.likes) }),
+          h('td', { 'data-label': 'תגובות', class: 'num', text: nf.format(p.comments) }),
+          h('td', { 'data-label': 'קישור' }, u ? h('a', { class: 'plink', href: u, target: '_blank', rel: 'noopener noreferrer', text: 'פתיחה' }) : ''));
+      });
+      wrap.replaceChildren(h('table', { class: 'orders' }, h('caption', { class: 'sr-only', text: 'פוסטים מאינסטגרם' }),
+        h('thead', {}, head), h('tbody', {}, body)));
+    }
+    $('#postsMore').hidden = rows.length <= S.rows;
+    $('#postsInfo').textContent = rows.length ? `מוצגים ${Math.min(S.rows, rows.length)} מתוך ${rows.length}` : '';
+  }
+
+  async function load() {
+    try {
+      const res = await fetch('social.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      S.doc = await res.json();
+      S.posts = S.doc.posts.map((p) => ({ ...p, he: isHe(p.caption) }));
+      S.loaded = true;
+      $('#socialError').hidden = true; $('#socialIntro').hidden = true; $('#socialContent').hidden = false;
+      buildKpis(); render(); status();
+    } catch (err) {
+      $('#socialIntro').hidden = true;
+      const box = $('#socialError');
+      box.replaceChildren(h('strong', { text: 'לא הצלחתי לטעון את social.json. ' }),
+        document.createTextNode('צריך להריץ קודם '), h('code', { text: 'python scripts/sync_apify.py' }),
+        document.createTextNode(' ולפתוח את הדף משרת מקומי.'));
+      box.hidden = false;
+    }
+  }
+
+  function status() {
+    if (!S.doc || document.body.dataset.view !== 'social') return;
+    const m = S.doc.meta;
+    $('#updated').textContent = `הנתונים נמשכו: ${new Date(m.generatedAt).toLocaleString('he-IL', { dateStyle: 'short', timeStyle: 'short' })}`;
+    $('#source').textContent = `מקור: Apify (${m.actor}) · האשטאגי חיפוש: ${m.searchTags.join(', ')}`;
+  }
+
+  function show(view) {
+    const social = view === 'social';
+    if (social && !S.saved) S.saved = { u: $('#updated').textContent, s: $('#source').textContent };
+    document.body.dataset.view = social ? 'social' : 'sales';
+    $('#socialView').hidden = !social;
+    $('#tabSales').setAttribute('aria-selected', String(!social));
+    $('#tabSocial').setAttribute('aria-selected', String(social));
+    if (social) { if (!S.loaded) load(); else { render(); status(); } }
+    else if (S.saved) { $('#updated').textContent = S.saved.u; $('#source').textContent = S.saved.s; S.saved = null; }
+  }
+
+  $('#tabSales').addEventListener('click', () => show('sales'));
+  $('#tabSocial').addEventListener('click', () => show('social'));
+  $('#langGroup').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-lang]'); if (!b) return;
+    S.lang = b.dataset.lang; S.rows = 10;
+    $$('#langGroup .seg').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    render();
+  });
+  $('#tagsViewBtn').addEventListener('click', () => { S.tagsTable = !S.tagsTable; applyTagsView(); });
+  $('#socialSearch').addEventListener('input', (e) => { S.q = e.target.value; S.rows = 10; if (S.loaded) drawPosts(filtered()); });
+  $('#postsMore').addEventListener('click', () => { S.rows += 10; drawPosts(filtered()); });
+  $('#themeBtn').addEventListener('click', () => { if (document.body.dataset.view === 'social') render(); });
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { if (document.body.dataset.view === 'social') render(); });
+  $('#syncBtn').addEventListener('click', () => { if (document.body.dataset.view === 'social') { S.loaded = false; load(); } });
 })();
 </script>
 </body>
